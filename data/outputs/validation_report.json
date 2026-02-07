@@ -1,0 +1,21 @@
+{
+  "items": {
+    "assumed_rate": 0.03820816864295125,
+    "usda_missing_rate": 0.8642951251646904
+  },
+  "meals": {
+    "meals": 205,
+    "avg_items_per_meal": 3.702439024390244
+  },
+  "model": {
+    "model_rows": 205
+  },
+  "meal_type": {
+    "meal_type_values": [
+      "dinner",
+      "fasting",
+      "lunch",
+      "snack"
+    ]
+  }
+}

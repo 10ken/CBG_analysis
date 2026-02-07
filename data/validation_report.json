@@ -1,0 +1,13 @@
+{
+  "items": {
+    "assumed_rate": 0.8555900621118012,
+    "usda_missing_rate": 1.0
+  },
+  "meals": {
+    "meals": 205,
+    "avg_items_per_meal": 3.1414634146341465
+  },
+  "model": {
+    "model_rows": 205
+  }
+}

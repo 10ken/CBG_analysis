@@ -1,0 +1,292 @@
+food_name_std,fdcId,usda_description,calories_kcal_100g,carbs_g_100g,protein_g_100g,fat_g_100g,match_source,usda_similarity_pct,dataType,query_used
+0 5 cup blanched choy sum,170568,"Nuts, almonds, blanched",590.0,18.7,21.4,52.5,api_hit,,,
+0 5 cup blueberries,747444,"Beans, Dry, Black (0% moisture)",,,24.4,1.45,api_hit,,,
+0 5 oz cheese,747444,"Beans, Dry, Black (0% moisture)",,,24.4,1.45,api_hit,,,
+1 2 avocado,174655,"Cereals, CREAM OF WHEAT, 2 1/2 minute cook time, dry",355.0,71.8,11.6,1.41,api_hit,,,
+1 2 cup blueberries,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 2 cup brocoli,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 2 cup chicken rice,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 2 cup egg noodles,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 2 cup gai lan,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 2 cup of quinoa,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 2 cup okra,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 2 cup pasta,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 2 cup quinoa,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 2 cup yogurt,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 2 garlic mushrooms,174655,"Cereals, CREAM OF WHEAT, 2 1/2 minute cook time, dry",355.0,71.8,11.6,1.41,api_hit,,,
+1 2 green beans,174655,"Cereals, CREAM OF WHEAT, 2 1/2 minute cook time, dry",355.0,71.8,11.6,1.41,api_hit,,,
+1 2 slice bread,174655,"Cereals, CREAM OF WHEAT, 2 1/2 minute cook time, dry",355.0,71.8,11.6,1.41,api_hit,,,
+1 2 sliced beef,174655,"Cereals, CREAM OF WHEAT, 2 1/2 minute cook time, dry",355.0,71.8,11.6,1.41,api_hit,,,
+1 3 apple,173172,"Beverages, UNILEVER, SLIMFAST Shake Mix, powder, 3-2-1 Plan",448.0,73.9,8.13,13.3,api_hit,,,
+1 3 slice of bread,173172,"Beverages, UNILEVER, SLIMFAST Shake Mix, powder, 3-2-1 Plan",448.0,73.9,8.13,13.3,api_hit,,,
+1 4 cup cashew nuts,2515374,"Nuts, cashew nuts, raw",,36.3,17.4,38.9,api_hit,,,
+1 4 cup mixed nuts,170772,"WENDY'S, DAVE'S Hot 'N Juicy 1/4 LB, single",268.0,17.7,13.7,15.8,api_hit,,,
+1 4 cup rice noodles,168914,"Rice noodles, cooked",454.0,24.0,1.79,0.2,api_hit,,,
+1 4 fried rice,167668,"Restaurant, Chinese, fried rice, without meat",728.0,32.8,4.05,2.96,api_hit,,,
+1 4 green onion pancake,170006,"Onions, young green, tops only",27.0,5.74,0.97,0.47,api_hit,,,
+1 4 slice of bread,170772,"WENDY'S, DAVE'S Hot 'N Juicy 1/4 LB, single",268.0,17.7,13.7,15.8,api_hit,,,
+1 4 wonton noodles,171821,"Soup, wonton, Chinese restaurant",32.0,5.25,2.08,0.26,api_hit,,,
+1 5 cooked mixed greens,169391,"Cauliflower, green, cooked, with salt",136.0,6.28,3.04,0.31,api_hit,,,
+1 5 cup veggies,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 5 cup wood fungus,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 5 cups bak choy,2685572,"Cabbage, bok choy, raw",,3.51,1.02,0.234,api_hit,,,
+1 5 cups bok choy,2685572,"Cabbage, bok choy, raw",,3.51,1.02,0.234,api_hit,,,
+1 5 cups choy sum,2685572,"Cabbage, bok choy, raw",,3.51,1.02,0.234,api_hit,,,
+1 5 cups nappa cabbage,170392,"Cabbage, kimchi",65.0,2.4,1.1,0.5,api_hit,,,
+1 5 cups veggies,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 5 mixed greens,173172,"Beverages, UNILEVER, SLIMFAST Shake Mix, powder, 3-2-1 Plan",448.0,73.9,8.13,13.3,api_hit,,,
+1 5 oz beef,171790,"Beef, ground, 95% lean meat / 5% fat, raw",137.0,0.0,21.4,5.0,api_hit,,,
+1 5 oz of beef,171790,"Beef, ground, 95% lean meat / 5% fat, raw",137.0,0.0,21.4,5.0,api_hit,,,
+1 5 oz sliced beef,174575,"Pepperoni, beef and pork, sliced",504.0,1.18,19.2,46.3,api_hit,,,
+1 5 piece pork chop,2727575,"Pork, chop, center cut, raw",,-0.562,22.8,5.48,api_hit,,,
+1 bread roll,174078,"Bread, roll, Mexican, bollilo",1330.0,55.8,10.6,5.8,api_hit,,,
+1 cup black fungus,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 cup blueberries,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 cup brocoli,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 cup chinese veggies,169392,"Broccoli, chinese, cooked",22.0,3.81,1.14,0.72,api_hit,,,
+1 cup cooked mixed greens,169391,"Cauliflower, green, cooked, with salt",136.0,6.28,3.04,0.31,api_hit,,,
+1 cup gai lan,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 cup green beans,169965,"Beans, snap, green, microwaved",33.0,6.41,2.31,0.5,api_hit,,,
+1 cup ground pork,2514745,"Pork, ground, raw",,0.0,17.8,17.5,api_hit,,,
+1 cup melons,167791,Horned melon (Kiwano),44.0,7.56,1.78,1.26,api_hit,,,
+1 cup of brocoli,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 cup of chinese veggies,169392,"Broccoli, chinese, cooked",22.0,3.81,1.14,0.72,api_hit,,,
+1 cup of garlic green beans,169965,"Beans, snap, green, microwaved",33.0,6.41,2.31,0.5,api_hit,,,
+1 cup of sheep milk,170882,"Milk, sheep, fluid",108.0,5.36,5.98,7.0,api_hit,,,
+1 cup of walnut milk,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 cup quinoa,168917,"Quinoa, cooked",120.0,21.3,4.4,1.92,api_hit,,,
+1 cup stir fry green beans,172333,"Shortening frying (heavy duty), soybean (hydrogenated), linoleic (less than 1%)",884.0,0.0,0.0,100.0,api_hit,,,
+1 cup stirfry noodles,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 cup veggies,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 cup walnut milk,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+1 egg,747997,"Eggs, Grade A, Large, egg white",55.0,2.36,10.7,0.0,api_hit,,,
+1 kiwi,174111,"Beverages, Kiwi Strawberry Juice Drink",47.0,12.3,0.0,0.0,api_hit,,,
+1 oz cheese,173417,"Cheese, cottage, lowfat, 1% milkfat",303.0,2.72,12.4,1.02,api_hit,,,
+1 oz marble cheese,173417,"Cheese, cottage, lowfat, 1% milkfat",303.0,2.72,12.4,1.02,api_hit,,,
+1 oz of sliced pork,174575,"Pepperoni, beef and pork, sliced",504.0,1.18,19.2,46.3,api_hit,,,
+1 oz pork,169157,"Pork, pickled pork hocks",171.0,0.0,19.1,10.5,api_hit,,,
+1 oz sliced pork,174575,"Pepperoni, beef and pork, sliced",504.0,1.18,19.2,46.3,api_hit,,,
+1 petzel,173417,"Cheese, cottage, lowfat, 1% milkfat",303.0,2.72,12.4,1.02,api_hit,,,
+1 tsp flax seed,170145,"Seeds, breadfruit seeds, boiled",168.0,32.0,5.3,2.3,api_hit,,,
+1 tsp hemp seeds,170148,"Seeds, hemp seed, hulled",553.0,8.67,31.6,48.8,api_hit,,,
+2 5 oz salmon,172343,"Fish oil, salmon",902.0,0.0,0.0,100.0,api_hit,,,
+2 cup brocoli,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+2 cup chinese broccoli,169392,"Broccoli, chinese, cooked",22.0,3.81,1.14,0.72,api_hit,,,
+2 cup chinese veggies,169392,"Broccoli, chinese, cooked",22.0,3.81,1.14,0.72,api_hit,,,
+2 cup choy sum,2685572,"Cabbage, bok choy, raw",,3.51,1.02,0.234,api_hit,,,
+2 cup nappa,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+2 cup of mixed veggies,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+2 cup pea shoots,169210,"Bamboo shoots, raw",115.0,5.2,2.6,0.3,api_hit,,,
+2 cups broccoli,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+2 cups chicken soup,172899,"Soup, HEALTHY CHOICE Chicken and Rice Soup, canned",37.0,5.71,2.53,0.55,api_hit,,,
+2 cups chinese veggies,169392,"Broccoli, chinese, cooked",22.0,3.81,1.14,0.72,api_hit,,,
+2 cups choy sum,2685572,"Cabbage, bok choy, raw",,3.51,1.02,0.234,api_hit,,,
+2 cups melons,167791,Horned melon (Kiwano),44.0,7.56,1.78,1.26,api_hit,,,
+2 cups mixed veggies,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+2 cups of bok choy,2685572,"Cabbage, bok choy, raw",,3.51,1.02,0.234,api_hit,,,
+2 cups of brocoli,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+2 cups of chinese veggies,169392,"Broccoli, chinese, cooked",22.0,3.81,1.14,0.72,api_hit,,,
+2 cups of rapini,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+2 cups of veggies,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+2 cups pea shoots,169210,"Bamboo shoots, raw",115.0,5.2,2.6,0.3,api_hit,,,
+2 cups stirfry green beans,169965,"Beans, snap, green, microwaved",33.0,6.41,2.31,0.5,api_hit,,,
+2 cups stirfry noodles,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+2 cups veggies,170866,"Dessert topping, powdered, 1.5 ounce prepared with 1/2 cup milk",194.0,17.1,3.61,12.7,api_hit,,,
+2 eggs,168787,"Egg custards, dry mix, prepared with 2% milk",112.0,17.6,4.13,2.83,api_hit,,,
+2 oz bbq pork,169157,"Pork, pickled pork hocks",171.0,0.0,19.1,10.5,api_hit,,,
+2 oz beef,174655,"Cereals, CREAM OF WHEAT, 2 1/2 minute cook time, dry",355.0,71.8,11.6,1.41,api_hit,,,
+2 oz duck,174467,"Duck, domesticated, liver, raw",136.0,3.53,18.7,4.64,api_hit,,,
+2 oz fried tofu,172451,"Tofu, fried",1130.0,8.86,18.8,20.2,api_hit,,,
+2 packs of crackers,167529,"Crackers, snack, Goya Crackers",433.0,64.4,14.2,13.4,api_hit,,,
+2 pieces of duck,174467,"Duck, domesticated, liver, raw",136.0,3.53,18.7,4.64,api_hit,,,
+2 pretzels,171370,"Babyfood, pretzels",397.0,82.2,10.8,2.0,api_hit,,,
+2 slices of pizza,174655,"Cereals, CREAM OF WHEAT, 2 1/2 minute cook time, dry",355.0,71.8,11.6,1.41,api_hit,,,
+2 spring rolls,172810,"Rolls, dinner, plain, prepared from recipe, made with low fat (2%) milk",316.0,53.4,8.5,7.3,api_hit,,,
+20 00 hrs for bday,2003586,"Flour, 00",,74.4,11.4,1.52,api_hit,,,
+3 4 cup linguine,172471,"Peanut butter with omega-3, creamy",608.0,17.0,24.5,54.2,api_hit,,,
+3 4 cup milk pudding,169611,"Puddings, rice, dry mix, prepared with 2% milk",465.0,20.8,3.29,1.63,api_hit,,,
+3 4 cup quinoa,168917,"Quinoa, cooked",120.0,21.3,4.4,1.92,api_hit,,,
+3 blackberries,173946,"Blackberries, raw",181.0,9.61,1.39,0.49,api_hit,,,
+3 crackers,167529,"Crackers, snack, Goya Crackers",433.0,64.4,14.2,13.4,api_hit,,,
+3 cup chicken soup,172899,"Soup, HEALTHY CHOICE Chicken and Rice Soup, canned",37.0,5.71,2.53,0.55,api_hit,,,
+3 cup mixed chinese veggies,169392,"Broccoli, chinese, cooked",22.0,3.81,1.14,0.72,api_hit,,,
+3 olives,172471,"Peanut butter with omega-3, creamy",608.0,17.0,24.5,54.2,api_hit,,,
+3 oz duck,174467,"Duck, domesticated, liver, raw",136.0,3.53,18.7,4.64,api_hit,,,
+3 oz pork chop,2727575,"Pork, chop, center cut, raw",,-0.562,22.8,5.48,api_hit,,,
+3 pecans,170182,"Nuts, pecans",691.0,13.9,9.17,72.0,api_hit,,,
+3 pretzels,171370,"Babyfood, pretzels",397.0,82.2,10.8,2.0,api_hit,,,
+3 slice of beef,174575,"Pepperoni, beef and pork, sliced",504.0,1.18,19.2,46.3,api_hit,,,
+3 slices of bacon,168382,"Bacon, pre-sliced, reduced/low sodium, unprepared",407.0,0.83,12.5,39.3,api_hit,,,
+3 veggie spring rolls,168889,"Wheat, hard red spring",329.0,68.0,15.4,1.92,api_hit,,,
+4 oz of beef stir fry,173567,"Shortening frying (heavy duty), beef tallow and cottonseed",900.0,0.0,0.0,100.0,api_hit,,,
+5 4 oz sheep milk,170882,"Milk, sheep, fluid",108.0,5.36,5.98,7.0,api_hit,,,
+5 cups miso soup with tofu,172442,Miso,198.0,25.4,12.8,6.01,api_hit,,,
+5 oz cod fish,173577,"Fish oil, cod liver",902.0,0.0,0.0,100.0,api_hit,,,
+5 oz ground pork,2514745,"Pork, ground, raw",,0.0,17.8,17.5,api_hit,,,
+5 oz milk,171790,"Beef, ground, 95% lean meat / 5% fat, raw",137.0,0.0,21.4,5.0,api_hit,,,
+5 oz pork chop,2727575,"Pork, chop, center cut, raw",,-0.562,22.8,5.48,api_hit,,,
+5 oz pork chops,2727575,"Pork, chop, center cut, raw",,-0.562,22.8,5.48,api_hit,,,
+5 oz roast pork,167871,"Pork, cured, ham, boneless, extra lean (approximately 5% fat), roasted",145.0,1.5,20.9,5.53,api_hit,,,
+5 oz salmon,172343,"Fish oil, salmon",902.0,0.0,0.0,100.0,api_hit,,,
+5 oz steamed cod,173577,"Fish oil, cod liver",902.0,0.0,0.0,100.0,api_hit,,,
+5 oz tofu,167722,Tofu yogurt,394.0,16.0,3.5,1.8,api_hit,,,
+5 pretzels,171370,"Babyfood, pretzels",397.0,82.2,10.8,2.0,api_hit,,,
+5 wings,170478,"Winged bean leaves, raw",74.0,14.1,5.85,1.1,api_hit,,,
+6 olives,172926,"Olive loaf, pork",983.0,9.2,11.8,16.5,api_hit,,,
+6 oz pork chops,2727575,"Pork, chop, center cut, raw",,-0.562,22.8,5.48,api_hit,,,
+6 oz salmon,172343,"Fish oil, salmon",902.0,0.0,0.0,100.0,api_hit,,,
+6 oz trout,175153,"Fish, trout, mixed species, raw",148.0,0.0,20.8,6.61,api_hit,,,
+8 pieces fried tofu with sauce,172451,"Tofu, fried",1130.0,8.86,18.8,20.2,api_hit,,,
+8 pork wontons,169773,"Potsticker or wonton, pork and vegetable, frozen, unprepared",136.0,13.3,8.28,5.52,api_hit,,,
+9 olives,169831,"APPLEBEE'S, 9 oz house sirloin steak",189.0,0.0,26.8,9.08,api_hit,,,
+avocado oil for cooking,173573,"Oil, avocado",884.0,0.0,0.0,100.0,api_hit,,,
+bbq pork,169157,"Pork, pickled pork hocks",171.0,0.0,19.1,10.5,api_hit,,,
+beef brisket tendon,170200,"Beef, cured, corned beef, brisket, cooked",251.0,0.47,18.2,19.0,api_hit,,,
+beef pork,172961,"Beerwurst, pork and beef",1150.0,4.27,14.0,22.5,api_hit,,,
+beef tendon brisket,170200,"Beef, cured, corned beef, brisket, cooked",251.0,0.47,18.2,19.0,api_hit,,,
+bluberries flax hemp chia grn apple,170148,"Seeds, hemp seed, hulled",553.0,8.67,31.6,48.8,api_hit,,,
+bluberries flax hemp kiwi,170148,"Seeds, hemp seed, hulled",553.0,8.67,31.6,48.8,api_hit,,,
+blueberries 1 2 kiwi,174655,"Cereals, CREAM OF WHEAT, 2 1/2 minute cook time, dry",355.0,71.8,11.6,1.41,api_hit,,,
+blueberries flax hemp chia,170148,"Seeds, hemp seed, hulled",553.0,8.67,31.6,48.8,api_hit,,,
+butter,171314,"Butter, Clarified butter (ghee)",900.0,0.0,0.0,100.0,api_hit,,,
+cake,174943,"Cake, snack cakes, creme-filled, sponge",1560.0,64.0,3.47,11.5,api_hit,,,
+chia hemp flax bluebeery,170148,"Seeds, hemp seed, hulled",553.0,8.67,31.6,48.8,api_hit,,,
+chickn soup,172899,"Soup, HEALTHY CHOICE Chicken and Rice Soup, canned",37.0,5.71,2.53,0.55,api_hit,,,
+chinese food,169392,"Broccoli, chinese, cooked",22.0,3.81,1.14,0.72,api_hit,,,
+chinese meal,169392,"Broccoli, chinese, cooked",22.0,3.81,1.14,0.72,api_hit,,,
+congee queen,171969,"Crustaceans, crab, queen, raw",90.0,0.0,18.5,1.18,api_hit,,,
+congee queen chinese food,169392,"Broccoli, chinese, cooked",22.0,3.81,1.14,0.72,api_hit,,,
+costco fries,172451,"Tofu, fried",1130.0,8.86,18.8,20.2,api_hit,,,
+crackers pretzel,167529,"Crackers, snack, Goya Crackers",433.0,64.4,14.2,13.4,api_hit,,,
+cup of apple cider vinegar,173469,"Vinegar, cider",90.0,0.93,0.0,0.0,api_hit,,,
+egg,747997,"Eggs, Grade A, Large, egg white",55.0,2.36,10.7,0.0,api_hit,,,
+fish and tofu,167722,Tofu yogurt,394.0,16.0,3.5,1.8,api_hit,,,
+flax hemp chia 1 4 green apple,170772,"WENDY'S, DAVE'S Hot 'N Juicy 1/4 LB, single",268.0,17.7,13.7,15.8,api_hit,,,
+flax hemp chia kiwi,170148,"Seeds, hemp seed, hulled",553.0,8.67,31.6,48.8,api_hit,,,
+green beans,169965,"Beans, snap, green, microwaved",33.0,6.41,2.31,0.5,api_hit,,,
+in soup,172899,"Soup, HEALTHY CHOICE Chicken and Rice Soup, canned",37.0,5.71,2.53,0.55,api_hit,,,
+leftovers from lunch,170794,"School Lunch, chicken patty, whole grain breaded",1030.0,12.5,17.6,13.9,api_hit,,,
+mixed nuts,168599,"Nuts, mixed nuts, dry roasted, with peanuts, with salt added",594.0,25.4,17.3,51.4,api_hit,,,
+noodles,168914,"Rice noodles, cooked",454.0,24.0,1.79,0.2,api_hit,,,
+pizza slice,172041,"PIZZA HUT 12"" Cheese Pizza, Pan Crust",1170.0,29.9,11.7,12.6,api_hit,,,
+plantain chips,173142,"Snacks, plantain chips, salted",2220.0,63.8,2.28,29.6,api_hit,,,
+pretzel,171370,"Babyfood, pretzels",397.0,82.2,10.8,2.0,api_hit,,,
+pretzels,171370,"Babyfood, pretzels",397.0,82.2,10.8,2.0,api_hit,,,
+seaweed,170090,"Seaweed, agar, dried",306.0,80.9,6.21,0.3,api_hit,,,
+sheep milk fat,170882,"Milk, sheep, fluid",108.0,5.36,5.98,7.0,api_hit,,,
+soup wonton noodles,171821,"Soup, wonton, Chinese restaurant",32.0,5.25,2.08,0.26,api_hit,,,
+soy beans,174278,Soy sauce made from soy (tamari),251.0,5.57,10.5,0.1,api_hit,,,
+soybean,748366,"Oil, soybean",,,,,api_hit,,,
+tofu,167722,Tofu yogurt,394.0,16.0,3.5,1.8,api_hit,,,
+tofu fried fish,172451,"Tofu, fried",1130.0,8.86,18.8,20.2,api_hit,,,
+tofu pork patty,172934,"Pork sausage, link/patty, unprepared",1210.0,0.93,15.4,24.8,api_hit,,,
+veggies,174287,"Veggie burgers or soyburgers, unprepared",739.0,14.3,15.7,6.3,api_hit,,,
+wonton wrappers,172802,Wonton wrappers (includes egg roll wrappers),291.0,57.9,9.8,1.5,api_hit,,,
+broccoli,747447,"Broccoli, raw",31.0,6.27,2.57,0.34,api_hit,76.19047619047619,Foundation,broccoli
+kale broccoli,747447,"Broccoli, raw",31.0,6.27,2.57,0.34,api_hit,61.53846153846154,Foundation,kale broccoli
+quinoa,2512372,"Flour, quinoa",,,,,api_hit,63.1578947368421,Foundation,quinoa
+chicken soup,173496,"Babyfood, dinner, chicken soup, strained",,,,,api_hit,46.15384615384615,SR Legacy,chicken soup
+pork chop,2727575,"Pork, chop, center cut, raw",,,,,api_hit,50.0,Foundation,pork chop
+stir fry green beans,2346400,"Beans, snap, green, raw",,,,,api_hit,46.51162790697674,Foundation,stir fry green beans
+blanched choy sum,2685572,"Cabbage, bok choy, raw",,,,,api_hit,46.15384615384615,Foundation,blanched choy sum
+flax seed seed,170554,"Seeds, chia seeds, dried",,,,,api_hit,41.86046511627907,SR Legacy,flax seed seed seed
+hempseed seeds,170554,"Seeds, chia seeds, dried",,,,,api_hit,52.63157894736842,SR Legacy,hempseed seeds
+yogurt,167722,Tofu yogurt,,,,,api_hit,70.58823529411765,SR Legacy,yogurt
+blueberries,2346411,"Blueberries, raw",,,,,api_hit,81.48148148148148,Foundation,blueberries
+wrappers,172802,Wonton wrappers (includes egg roll wrappers),,,,,api_hit,30.76923076923077,SR Legacy,wrappers
+pork,173856,"Bologna, pork",,,,,api_hit,47.05882352941176,SR Legacy,pork
+choy sum,2685572,"Cabbage, bok choy, raw",,,,,api_hit,33.33333333333333,Foundation,choy sum
+ground pork,2514745,"Pork, ground, raw",,,,,api_hit,57.14285714285714,Foundation,ground pork
+ground tofu,167695,"Mayonnaise, made with tofu",,,,,api_hit,43.24324324324324,SR Legacy,ground tofu
+ground soy beans,1104705,"Flour, soy, defatted",,,,,api_hit,50.0,Foundation,ground soy beans
+pea shoots,168489,"Taro shoots, raw",,,,,api_hit,61.53846153846154,SR Legacy,pea shoots
+olives,172926,"Olive loaf, pork",,,,,api_hit,45.45454545454545,SR Legacy,olives
+sliced beef,170602,"Beef, cured, corned beef, canned",,,,,api_hit,37.2093023255814,SR Legacy,sliced beef
+oz. cod fish,173577,"Fish oil, cod liver",,,,,api_hit,45.16129032258064,SR Legacy,oz. cod fish
+. ground pork,2514745,"Pork, ground, raw",,,,,api_hit,60.0,Foundation,. ground pork
+. soybean,748366,"Oil, soybean",,,,,api_hit,76.19047619047619,Foundation,. soybean
+okra,169260,"Okra, raw",,,,,api_hit,61.53846153846154,SR Legacy,okra
+spring,168889,"Wheat, hard red spring",,,,,api_hit,42.857142857142854,SR Legacy,spring
+cheese,172175,"Cheese, blue",,,,,api_hit,66.66666666666666,SR Legacy,cheese
+cashew milk,174980,"Crackers, milk",,,,,api_hit,64.0,SR Legacy,cashew milk
+french fries @ hrs for bday,167672,"DENNY'S, french fries",,,,,api_hit,50.0,SR Legacy,french fries @ hrs for bday
+oz. pork chops,2727575,"Pork, chop, center cut, raw",,,,,api_hit,43.90243902439025,Foundation,oz. pork chops
+stir fried noodles,169253,"Mushrooms, white, stir-fried",,,,,api_hit,39.130434782608695,SR Legacy,stir fried noodles
+chicken rice,169054,"Babyfood, dinner, chicken and rice",,,,,api_hit,52.17391304347826,SR Legacy,chicken rice
+melons,169912,"Melon balls, frozen",,,,,api_hit,48.0,SR Legacy,melons
+duck,171823,"Sauce, duck, ready-to-serve",,,,,api_hit,25.806451612903224,SR Legacy,duck
+barbeque pork,171630,"Headcheese, pork",,,,,api_hit,55.172413793103445,SR Legacy,barbeque pork
+mixed chinese vegetables,168072,"Restaurant, Chinese, beef and vegetables",,,,,api_hit,62.5,SR Legacy,mixed chinese vegetables
+veggie spring,168889,"Wheat, hard red spring",,,,,api_hit,51.42857142857142,SR Legacy,veggie spring
+roast barbeque pork,168248,"Pork, fresh, loin, sirloin (roasts), bone-in, separable lean only, cooked, roasted",,,,,api_hit,27.722772277227726,SR Legacy,roast barbeque pork
+fried tofu,172451,"Tofu, fried",,,,,api_hit,47.61904761904761,SR Legacy,fried tofu
+chicken,173564,"Fat, chicken",,,,,api_hit,73.68421052631578,SR Legacy,chicken
+stirfy pork,172964,"Frankfurter, pork",,,,,api_hit,50.0,SR Legacy,stirfy pork
+stirfy green beans,172273,"Babyfood, green beans, dices, toddler",,,,,api_hit,47.27272727272727,SR Legacy,stirfy green beans
+bread,172673,"Bread, egg",,,,,api_hit,66.66666666666666,SR Legacy,bread
+beef steak,2727573,"Beef, tenderloin steak, raw",,,,,api_hit,54.054054054054056,Foundation,beef steak
+vegetables,170972,"Babyfood, crackers, vegetable",,,,,api_hit,46.15384615384615,SR Legacy,vegetables
+salmon,172343,"Fish oil, salmon",,,,,api_hit,54.54545454545454,SR Legacy,salmon
+chinese vegetables,168072,"Restaurant, Chinese, beef and vegetables",,,,,api_hit,62.06896551724138,SR Legacy,chinese vegetables
+avocado,173573,"Oil, avocado",,,,,api_hit,73.68421052631578,SR Legacy,avocado
+miso soup with tofu,167695,"Mayonnaise, made with tofu",,,,,api_hit,62.22222222222222,SR Legacy,miso soup with tofu
+. tofu,167722,Tofu yogurt,,,,,api_hit,47.05882352941176,SR Legacy,. tofu
+packs crackers,167529,"Crackers, snack, Goya Crackers",,,,,api_hit,59.09090909090909,SR Legacy,packs crackers
+soup noodles,171571,"Soup, chicken noodle, dry, mix",,,,,api_hit,52.38095238095239,SR Legacy,soup noodles
+fried tofu with sauce,174304,"Tofu, fried, prepared with calcium sulfate",,,,,api_hit,47.61904761904761,SR Legacy,fried tofu with sauce
+cashew nuts,2515374,"Nuts, cashew nuts, raw",,,,,api_hit,66.66666666666666,Foundation,cashew nuts
+crackers,173161,Rice crackers,,,,,api_hit,76.19047619047619,SR Legacy,crackers
+wings,170478,"Winged bean leaves, raw",,,,,api_hit,35.714285714285715,SR Legacy,wings
+green onion pancake,170092,Potato pancakes,,,,,api_hit,58.82352941176471,SR Legacy,green onion pancake
+mixed vegetables,173514,"Babyfood, dinner, mixed vegetable, strained",,,,,api_hit,54.23728813559322,SR Legacy,mixed vegetables
+wood ear mushroom mushroom,1999627,"Mushroom, oyster",,,,,api_hit,43.13725490196079,Foundation,wood ear mushroom mushroom mushroom
+pork chops,2727575,"Pork, chop, center cut, raw",,,,,api_hit,48.64864864864865,Foundation,pork chops
+blackberries,173946,"Blackberries, raw",,,,,api_hit,82.75862068965517,SR Legacy,blackberries
+rice noodles,169742,"Rice noodles, dry",,,,,api_hit,82.75862068965517,SR Legacy,rice noodles
+beef,172012,"Bologna, beef",,,,,api_hit,47.05882352941176,SR Legacy,beef
+yogurt and nuts,2515374,"Nuts, cashew nuts, raw",,,,,api_hit,48.64864864864865,Foundation,yogurt and nuts
+chia seeds,2710819,"Chia seeds, dry, raw",,,,,api_hit,66.66666666666666,Foundation,chia seeds seeds
+flax seed,170554,"Seeds, chia seeds, dried",,,,,api_hit,47.368421052631575,SR Legacy,flax seed seed
+eggs,172673,"Bread, egg",,,,,api_hit,42.857142857142854,SR Legacy,eggs
+fried rice,172451,"Tofu, fried",,,,,api_hit,47.61904761904761,SR Legacy,fried rice
+ground mushroom,2003603,"Mushroom, beech",,,,,api_hit,53.333333333333336,Foundation,ground mushroom
+trout,175153,"Fish, trout, mixed species, raw",,,,,api_hit,27.77777777777778,SR Legacy,trout
+bacon,172439,"Bacon, meatless",,,,,api_hit,50.0,SR Legacy,bacon
+tofu ground pork,2514745,"Pork, ground, raw",,,,,api_hit,60.60606060606061,Foundation,tofu ground pork
+beef brisket,170199,"Beef, cured, corned beef, brisket, raw",,,,,api_hit,48.0,SR Legacy,beef brisket
+sliced pork,168322,"Pork, cured, bacon, pre-sliced, cooked, pan-fried",,,,,api_hit,30.0,SR Legacy,sliced pork
+sheep milk,170882,"Milk, sheep, fluid",,,,,api_hit,50.0,SR Legacy,sheep milk
+bak choy,2685572,"Cabbage, bok choy, raw",,,,,api_hit,53.333333333333336,Foundation,bak choy
+kale,168421,"Kale, raw",,,,,api_hit,61.53846153846154,SR Legacy,kale
+skyr yogurt,168104,"Frozen yogurts, chocolate",,,,,api_hit,51.162790697674424,SR Legacy,skyr yogurt yogurt
+walnut milk,171030,"Oil, walnut",,,,,api_hit,54.54545454545454,SR Legacy,walnut milk
+garlic green beans,172273,"Babyfood, green beans, dices, toddler",,,,,api_hit,47.27272727272727,SR Legacy,garlic green beans
+apple cider vinegar,173469,"Vinegar, cider",,,,,api_hit,42.42424242424242,SR Legacy,apple cider vinegar
+beef stir fry,169253,"Mushrooms, white, stir-fried",,,,,api_hit,39.02439024390244,SR Legacy,beef stir fry
+bok choy,2685572,"Cabbage, bok choy, raw",,,,,api_hit,53.333333333333336,Foundation,bok choy
+egg noodles,169731,"Noodles, egg, dry, enriched",,,,,api_hit,36.84210526315789,SR Legacy,egg noodles
+beef tendon,170602,"Beef, cured, corned beef, canned",,,,,api_hit,41.86046511627907,SR Legacy,beef tendon
+stir fried green beans,169253,"Mushrooms, white, stir-fried",,,,,api_hit,36.0,SR Legacy,stir fried green beans
+sweet peas,2644284,"Blackeye pea, dry",,,,,api_hit,44.44444444444444,Foundation,sweet peas
+cooked mixed greens,169391,"Cauliflower, green, cooked, with salt",,,,,api_hit,35.714285714285715,SR Legacy,cooked mixed greens
+green apple,175032,"Strudel, apple",,,,,api_hit,64.0,SR Legacy,green apple
+chinese broccoli,168905,"Noodles, chinese, chow mein",,,,,api_hit,46.51162790697674,SR Legacy,chinese broccoli
+garlic mushrooms,1999627,"Mushroom, oyster",,,,,api_hit,56.25,Foundation,garlic mushrooms
+mixed greens,2747653,"Beet greens, raw",,,,,api_hit,57.14285714285714,Foundation,mixed greens
+milk,174980,"Crackers, milk",,,,,api_hit,44.44444444444444,SR Legacy,milk
+pecans,170182,"Nuts, pecans",,,,,api_hit,66.66666666666666,SR Legacy,pecans
+nappa cabbage,169975,"Cabbage, raw",,,,,api_hit,56.00000000000001,SR Legacy,nappa cabbage
+pasta,169736,"Pasta, dry, enriched",,,,,api_hit,40.0,SR Legacy,pasta
+steamed cod,167637,"Stew, steamed corn (Navajo)",,,,,api_hit,52.63157894736842,SR Legacy,steamed cod
+miso seaweed,172442,Miso,,,,,api_hit,50.0,SR Legacy,miso seaweed
+pork patty,172934,"Pork sausage, link/patty, unprepared",,,,,api_hit,43.47826086956522,SR Legacy,pork patty
+apple,175032,"Strudel, apple",,,,,api_hit,52.63157894736842,SR Legacy,apple
+mushroom,2003603,"Mushroom, beech",,,,,api_hit,69.56521739130434,Foundation,mushroom
+mushroom vegetables,2003602,"Mushroom, maitake",,,,,api_hit,66.66666666666666,Foundation,mushroom vegetables
+beef tendon/brisket,170602|170199,"Composite: Beef, cured, corned beef, canned | Beef, cured, corned beef, brisket, raw",,,,,api_hit_composite,31.11111111111111,composite,beef tendon/brisket
+yogurt/blueberries/flax seed/hempseed/chia seeds,167722|2346411|170554|2710819,"Composite: Tofu yogurt | Blueberries, raw | Seeds, chia seeds, dried | Chia seeds, dry, raw",,,,,api_hit_composite,47.368421052631575,composite,yogurt/blueberries/flax seed seed/hempseed/chia seeds seeds
+yogurt/blueberries,167722|2346411,"Composite: Tofu yogurt | Blueberries, raw",,,,,api_hit_composite,70.58823529411765,composite,yogurt/blueberries
+yogurt blueberries/flax seed/hempseed/chia seeds/kiwi,2346411|170554|2710819,"Composite: Blueberries, raw | Seeds, chia seeds, dried | Chia seeds, dry, raw",,,,,api_hit_composite,47.368421052631575,composite,yogurt blueberries/flax seed seed/hempseed/chia seeds seeds/kiwi
+skyr yogurt blueberries/flax seed/hempseed/chia seeds/kiwi,170914|170554|2710819,"Composite: Yogurt, Greek, Blueberry, CHOBANI | Seeds, chia seeds, dried | Chia seeds, dry, raw",343.0,12.8,7.23,0.24,api_hit_composite,47.368421052631575,composite,skyr yogurt yogurt blueberries/flax seed seed/hempseed/chia seeds seeds/kiwi
+skyr yogurt blueberries/flax seed/hempseed/chia seeds/1/4 green apple,170914|170554|2710819|175032,"Composite: Yogurt, Greek, Blueberry, CHOBANI | Seeds, chia seeds, dried | Chia seeds, dry, raw | Strudel, apple",343.0,12.8,7.23,0.24,api_hit_composite,47.368421052631575,composite,skyr yogurt yogurt blueberries/flax seed seed/hempseed/chia seeds seeds/1/4 green apple
+blueberries/1/2 kiwi,2346411,"Composite: Blueberries, raw",,,,,api_hit_composite,81.48148148148148,composite,blueberries/1/2 kiwi

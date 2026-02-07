@@ -1,0 +1,46 @@
+global_default:
+  default_qty: 100
+  default_unit: g
+  default_grams_override: null
+  reason: default_missing_qty_unit_100g
+
+rules:
+  - name: flaxseed
+    match_type: exact
+    pattern: flaxseed
+    default_qty: 3
+    default_unit: tsp
+    default_grams_override: 9
+    reason: default_flaxseed_3tsp
+
+  - name: hempseed
+    match_type: exact
+    pattern: hempseed
+    default_qty: 3
+    default_unit: tsp
+    default_grams_override: 9
+    reason: default_hempseed_3tsp
+
+  - name: chia seeds
+    match_type: regex
+    pattern: "chia"
+    default_qty: 3
+    default_unit: tsp
+    default_grams_override: 9
+    reason: default_chia_3tsp
+
+  - name: skyr yogurt
+    match_type: regex
+    pattern: "skyr"
+    default_qty: 0.24
+    default_unit: cup
+    default_grams_override: null
+    reason: default_skyr_quarter_cup
+
+  - name: blueberries
+    match_type: regex
+    pattern: "blueberr"
+    default_qty: null
+    default_unit: g
+    default_grams_override: 100
+    reason: default_missing_qty_unit_100g

@@ -1,0 +1,18 @@
+grams_per_count:
+  egg: 50
+  kiwi: 75
+  bread: 28
+  pizza: 125
+  wonton: 20
+  dumpling: 25
+  roll: 40
+
+grams_per_cup:
+  vegetables: 150
+  mixed nuts: 150
+  flax seed: 135
+  hempseed: 130
+  blueberries: 148
+  chia seeds: 170
+  skyr yogurt: 245
+  apple: 109
