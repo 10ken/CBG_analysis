@@ -184,6 +184,11 @@ veggies,174287,"Veggie burgers or soyburgers, unprepared",739.0,14.3,15.7,6.3,ap
 wonton wrappers,172802,Wonton wrappers (includes egg roll wrappers),291.0,57.9,9.8,1.5,api_hit,,,
 broccoli,747447,"Broccoli, raw",31.0,6.27,2.57,0.34,api_hit,76.19047619047619,Foundation,broccoli
 kale broccoli,747447,"Broccoli, raw",31.0,6.27,2.57,0.34,api_hit,61.53846153846154,Foundation,kale broccoli
+green apple,175032,"Strudel, apple",,,,,api_hit,64.0,SR Legacy,green apple
+yogurt/blueberries/flax seed/hempseed/chia seeds,167722|2346411|170554|2710819,"Composite: Tofu yogurt | Blueberries, raw | Seeds, chia seeds, dried | Chia seeds, dry, raw",,,,,api_hit_composite,47.368421052631575,composite,yogurt/blueberries/flax seed seed/hempseed/chia seeds seeds
+yogurt/blueberries,167722|2346411,"Composite: Tofu yogurt | Blueberries, raw",,,,,api_hit_composite,70.58823529411765,composite,yogurt/blueberries
+skyr yogurt blueberries/flax seed/hempseed/chia seeds/kiwi,170914|170554|2710819,"Composite: Yogurt, Greek, Blueberry, CHOBANI | Seeds, chia seeds, dried | Chia seeds, dry, raw",343.0,12.8,7.23,0.24,api_hit_composite,47.368421052631575,composite,skyr yogurt yogurt blueberries/flax seed seed/hempseed/chia seeds seeds/kiwi
+skyr yogurt blueberries/flax seed/hempseed/chia seeds/1/4 green apple,170914|170554|2710819|175032,"Composite: Yogurt, Greek, Blueberry, CHOBANI | Seeds, chia seeds, dried | Chia seeds, dry, raw | Strudel, apple",343.0,12.8,7.23,0.24,api_hit_composite,47.368421052631575,composite,skyr yogurt yogurt blueberries/flax seed seed/hempseed/chia seeds seeds/1/4 green apple
 quinoa,2512372,"Flour, quinoa",,,,,api_hit,63.1578947368421,Foundation,quinoa
 chicken soup,173496,"Babyfood, dinner, chicken soup, strained",,,,,api_hit,46.15384615384615,SR Legacy,chicken soup
 pork chop,2727575,"Pork, chop, center cut, raw",,,,,api_hit,50.0,Foundation,pork chop
@@ -257,6 +262,8 @@ beef brisket,170199,"Beef, cured, corned beef, brisket, raw",,,,,api_hit,48.0,SR
 sliced pork,168322,"Pork, cured, bacon, pre-sliced, cooked, pan-fried",,,,,api_hit,30.0,SR Legacy,sliced pork
 sheep milk,170882,"Milk, sheep, fluid",,,,,api_hit,50.0,SR Legacy,sheep milk
 bak choy,2685572,"Cabbage, bok choy, raw",,,,,api_hit,53.333333333333336,Foundation,bak choy
+skyr yogurt yogurt,168104,"Frozen yogurts, chocolate",,,,,api_hit,44.0,SR Legacy,skyr yogurt yogurt yogurt
+chia seeds seeds,2710819,"Chia seeds, dry, raw",,,,,api_hit,61.904761904761905,Foundation,chia seeds seeds seeds
 kale,168421,"Kale, raw",,,,,api_hit,61.53846153846154,SR Legacy,kale
 skyr yogurt,168104,"Frozen yogurts, chocolate",,,,,api_hit,51.162790697674424,SR Legacy,skyr yogurt yogurt
 walnut milk,171030,"Oil, walnut",,,,,api_hit,54.54545454545454,SR Legacy,walnut milk
@@ -269,7 +276,7 @@ beef tendon,170602,"Beef, cured, corned beef, canned",,,,,api_hit,41.86046511627
 stir fried green beans,169253,"Mushrooms, white, stir-fried",,,,,api_hit,36.0,SR Legacy,stir fried green beans
 sweet peas,2644284,"Blackeye pea, dry",,,,,api_hit,44.44444444444444,Foundation,sweet peas
 cooked mixed greens,169391,"Cauliflower, green, cooked, with salt",,,,,api_hit,35.714285714285715,SR Legacy,cooked mixed greens
-green apple,175032,"Strudel, apple",,,,,api_hit,64.0,SR Legacy,green apple
+apple,175032,"Strudel, apple",,,,,api_hit,52.63157894736842,SR Legacy,apple
 chinese broccoli,168905,"Noodles, chinese, chow mein",,,,,api_hit,46.51162790697674,SR Legacy,chinese broccoli
 garlic mushrooms,1999627,"Mushroom, oyster",,,,,api_hit,56.25,Foundation,garlic mushrooms
 mixed greens,2747653,"Beet greens, raw",,,,,api_hit,57.14285714285714,Foundation,mixed greens
@@ -280,13 +287,8 @@ pasta,169736,"Pasta, dry, enriched",,,,,api_hit,40.0,SR Legacy,pasta
 steamed cod,167637,"Stew, steamed corn (Navajo)",,,,,api_hit,52.63157894736842,SR Legacy,steamed cod
 miso seaweed,172442,Miso,,,,,api_hit,50.0,SR Legacy,miso seaweed
 pork patty,172934,"Pork sausage, link/patty, unprepared",,,,,api_hit,43.47826086956522,SR Legacy,pork patty
-apple,175032,"Strudel, apple",,,,,api_hit,52.63157894736842,SR Legacy,apple
 mushroom,2003603,"Mushroom, beech",,,,,api_hit,69.56521739130434,Foundation,mushroom
 mushroom vegetables,2003602,"Mushroom, maitake",,,,,api_hit,66.66666666666666,Foundation,mushroom vegetables
 beef tendon/brisket,170602|170199,"Composite: Beef, cured, corned beef, canned | Beef, cured, corned beef, brisket, raw",,,,,api_hit_composite,31.11111111111111,composite,beef tendon/brisket
-yogurt/blueberries/flax seed/hempseed/chia seeds,167722|2346411|170554|2710819,"Composite: Tofu yogurt | Blueberries, raw | Seeds, chia seeds, dried | Chia seeds, dry, raw",,,,,api_hit_composite,47.368421052631575,composite,yogurt/blueberries/flax seed seed/hempseed/chia seeds seeds
-yogurt/blueberries,167722|2346411,"Composite: Tofu yogurt | Blueberries, raw",,,,,api_hit_composite,70.58823529411765,composite,yogurt/blueberries
 yogurt blueberries/flax seed/hempseed/chia seeds/kiwi,2346411|170554|2710819,"Composite: Blueberries, raw | Seeds, chia seeds, dried | Chia seeds, dry, raw",,,,,api_hit_composite,47.368421052631575,composite,yogurt blueberries/flax seed seed/hempseed/chia seeds seeds/kiwi
-skyr yogurt blueberries/flax seed/hempseed/chia seeds/kiwi,170914|170554|2710819,"Composite: Yogurt, Greek, Blueberry, CHOBANI | Seeds, chia seeds, dried | Chia seeds, dry, raw",343.0,12.8,7.23,0.24,api_hit_composite,47.368421052631575,composite,skyr yogurt yogurt blueberries/flax seed seed/hempseed/chia seeds seeds/kiwi
-skyr yogurt blueberries/flax seed/hempseed/chia seeds/1/4 green apple,170914|170554|2710819|175032,"Composite: Yogurt, Greek, Blueberry, CHOBANI | Seeds, chia seeds, dried | Chia seeds, dry, raw | Strudel, apple",343.0,12.8,7.23,0.24,api_hit_composite,47.368421052631575,composite,skyr yogurt yogurt blueberries/flax seed seed/hempseed/chia seeds seeds/1/4 green apple
 blueberries/1/2 kiwi,2346411,"Composite: Blueberries, raw",,,,,api_hit_composite,81.48148148148148,composite,blueberries/1/2 kiwi

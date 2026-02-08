@@ -24,7 +24,7 @@ def _required_columns(df: pd.DataFrame, cols: List[str], name: str):
 
 
 def validate_items(items: pd.DataFrame) -> Dict:
-    _required_columns(items, ["grams_final", "meal_id", "event_id"], "items")
+    _required_columns(items, ["grams_final", "meal_id", "event_id", "sheet_source"], "items")
     if (items["grams_final"] <= 0).any():
         raise ValueError("grams_final must be positive for all items")
     return {
@@ -34,7 +34,7 @@ def validate_items(items: pd.DataFrame) -> Dict:
 
 
 def validate_meals(meal_features: pd.DataFrame) -> Dict:
-    _required_columns(meal_features, ["meal_id", "datetime", "blood_glucose_2hrs_post"], "meal_features")
+    _required_columns(meal_features, ["meal_id", "datetime", "blood_glucose_2hrs_post", "sheet_source"], "meal_features")
     if meal_features["meal_id"].duplicated().any():
         raise ValueError("Duplicate meal_id detected")
     if meal_features["datetime"].isna().any():
@@ -50,7 +50,7 @@ def validate_meals(meal_features: pd.DataFrame) -> Dict:
 
 
 def validate_model(model_table: pd.DataFrame) -> Dict:
-    _required_columns(model_table, ["cbg_prev_same_day", "meal_id"], "model_table")
+    _required_columns(model_table, ["cbg_prev_same_day", "meal_id", "sheet_source"], "model_table")
     return {
         "model_rows": len(model_table),
     }

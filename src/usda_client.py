@@ -108,7 +108,7 @@ def _save_cache(cache: pd.DataFrame, cache_path: Path) -> None:
     cache.sort_values("food_name_std", inplace=True)
     try:
         cache.to_parquet(cache_path, index=False, engine="fastparquet")
-    except ValueError:
+    except Exception:
         cache.to_parquet(cache_path, index=False, engine="pyarrow")
     logger.info("Saved USDA cache to %s (%d rows)", cache_path, len(cache))
 
@@ -290,10 +290,11 @@ def enrich_items_with_usda(
     stored_info_path: Optional[Path] = None,
     text_replacements_path: Optional[Path] = None,
     throttle_config: Optional[Dict] = None,
+    allow_api: bool = True,
 ) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     """Attach USDA macros to items, update caches, and persist detail cache."""
 
-    api_key = _load_api_key(api_keys_path)
+    api_key = _load_api_key(api_keys_path) if allow_api else ""
     throttle_cfg = throttle_config or THROTTLE_DEFAULTS
     replacements = units.load_text_replacements(text_replacements_path)
 
@@ -344,7 +345,7 @@ def enrich_items_with_usda(
 
     macro_cols = ["calories_kcal_100g", "carbs_g_100g", "protein_g_100g", "fat_g_100g"]
     missing_mask = items[macro_cols].isna().any(axis=1) & (items.get("event_type") != "fasting")
-    queries_to_fetch = [q for q in items.loc[missing_mask, "usda_query"].dropna().unique() if str(q).strip()]
+    queries_to_fetch = [] if not allow_api else [q for q in items.loc[missing_mask, "usda_query"].dropna().unique() if str(q).strip()]
     items_non_empty = items[
         items["usda_query"].notna()
         & items.get("food_name_std", "").astype(str).str.strip().astype(bool)
@@ -353,7 +354,7 @@ def enrich_items_with_usda(
         items_by_query = {}
     else:
         items_by_query = (
-            items_non_empty.groupby("usda_query")["food_name_std"]
+            items_non_empty.groupby("usda_query")['food_name_std']
             .apply(lambda s: list(s.dropna().unique()))
             .to_dict()
         )

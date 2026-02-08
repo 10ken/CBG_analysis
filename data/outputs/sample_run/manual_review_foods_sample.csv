@@ -1,0 +1,104 @@
+food_text_raw,food_name_std,meal_id,event_id,sheet_source,assumption_reason,usda_match_status
+3 pretzels,pretzels,49,131dc62edd22,Dec25 Jan26,inferred_unit_count_missing_unit,matched
+fasting,,2,438a07049295,Dec25 Jan26,default_missing_qty_unit_100g,missing
+fasting,,4,01fa195cc08d,Dec25 Jan26,default_missing_qty_unit_100g,missing
+none,none,5,64ebce04833e,Dec25 Jan26,default_missing_qty_unit_100g,missing
+none,none,6,5bf626f28400,Dec25 Jan26,default_missing_qty_unit_100g,missing
+wonton wrappers,wrappers,7,106e551095ec,Dec25 Jan26,default_missing_qty_unit_100g,missing
+fasting,,8,d3dfb0abefbb,Dec25 Jan26,default_missing_qty_unit_100g,missing
+fasting,,48,7a9339c778df,Dec25 Jan26,default_missing_qty_unit_100g,missing
+fasting,,51,b016438a4abc,Dec25 Jan26,default_missing_qty_unit_100g,missing
+crackers,crackers,53,25599ce57245,Dec25 Jan26,default_missing_qty_unit_100g,missing
+fasting,,55,9229626448f5,Dec25 Jan26,default_missing_qty_unit_100g,missing
+fasting,,193,edef9dded5d3,Feb2026,default_missing_qty_unit_100g,missing
+pork patty,pork patty,197,b56193c807a4,Feb2026,default_missing_qty_unit_100g,missing
+fasting,,198,c645a242d53b,Feb2026,default_missing_qty_unit_100g,missing
+2 eggs,eggs,1,91ed4476c418,Dec25 Jan26,inferred_unit_count_missing_unit,missing
+1 kiwi,kiwi,3,ca24887fcd70,Dec25 Jan26,inferred_unit_count_missing_unit,missing
+1 kiwi,kiwi,7,106e551095ec,Dec25 Jan26,inferred_unit_count_missing_unit,missing
+2 eggs,eggs,9,fb6893e31123,Dec25 Jan26,inferred_unit_count_missing_unit,missing
+1 kiwi,kiwi,10,9162cb29e8ec,Dec25 Jan26,inferred_unit_count_missing_unit,missing
+2 eggs,eggs,13,b9bc5cb4526c,Dec25 Jan26,inferred_unit_count_missing_unit,missing
+2 eggs,eggs,49,131dc62edd22,Dec25 Jan26,inferred_unit_count_missing_unit,missing
+3 eggs,eggs,52,9e325a87788a,Dec25 Jan26,inferred_unit_count_missing_unit,missing
+9 olives,olives,53,25599ce57245,Dec25 Jan26,inferred_unit_count_missing_unit,missing
+1 kiwi,kiwi,54,577631dabfcd,Dec25 Jan26,inferred_unit_count_missing_unit,missing
+2 eggs,eggs,56,51b016f1e24a,Dec25 Jan26,inferred_unit_count_missing_unit,missing
+2 eggs,eggs,194,98e43c4d2604,Feb2026,inferred_unit_count_missing_unit,missing
+2 eggs,eggs,196,2631b6d81ef4,Feb2026,inferred_unit_count_missing_unit,missing
+2 eggs,eggs,199,5db452e25f23,Feb2026,inferred_unit_count_missing_unit,missing
+2 large eggs,large eggs,5,64ebce04833e,Dec25 Jan26,inferred_unit_cup_missing_unit,missing
+8 pork wontons,pork,7,106e551095ec,Dec25 Jan26,inferred_unit_cup_missing_unit,missing
+3 oz. sliced beef,oz. sliced beef,9,fb6893e31123,Dec25 Jan26,inferred_unit_cup_missing_unit,missing
+1/4 green onion pancake,green onion pancake,50,18a0a6f97cab,Dec25 Jan26,inferred_unit_cup_missing_unit,missing
+1 petzel,petzel,57,5badfdc86a76,Dec25 Jan26,inferred_unit_cup_missing_unit,missing
+1/3 apple,apple,202,156da7c717dd,Feb2026,inferred_unit_cup_missing_unit,missing
+1.5 piece pork chop,pork chop,3,ca24887fcd70,Dec25 Jan26,missing_grams_per_count,missing
+1 piece pork chop,pork chop,5,64ebce04833e,Dec25 Jan26,missing_grams_per_count,missing
+2 cups choy sum,choy sum,1,91ed4476c418,Dec25 Jan26,missing_grams_per_cup,missing
+1 cup quinoa,quinoa,3,ca24887fcd70,Dec25 Jan26,missing_grams_per_cup,missing
+2 cups chicken soup,chicken soup,3,ca24887fcd70,Dec25 Jan26,missing_grams_per_cup,missing
+1 cup stir fry green beans,stir fry green beans,3,ca24887fcd70,Dec25 Jan26,missing_grams_per_cup,missing
+0.5 cup blanched Choy Sum,blanched choy sum,3,ca24887fcd70,Dec25 Jan26,missing_grams_per_cup,missing
+1 cup stir fry green beans,stir fry green beans,5,64ebce04833e,Dec25 Jan26,missing_grams_per_cup,missing
+0.5 cup blanched Choy Sum,blanched choy sum,5,64ebce04833e,Dec25 Jan26,missing_grams_per_cup,missing
+1 tsp flax seed,flax seed seed,6,5bf626f28400,Dec25 Jan26,missing_grams_per_cup,missing
+1 tsp hemp seeds,hempseed seeds,6,5bf626f28400,Dec25 Jan26,missing_grams_per_cup,missing
+1/2 cup yogurt,yogurt,6,5bf626f28400,Dec25 Jan26,missing_grams_per_cup,missing
+1.5 cups choy sum,choy sum,7,106e551095ec,Dec25 Jan26,missing_grams_per_cup,missing
+2 cups watercress,watercress,9,fb6893e31123,Dec25 Jan26,missing_grams_per_cup,missing
+1 tsp flax seed,flax seed seed,10,9162cb29e8ec,Dec25 Jan26,missing_grams_per_cup,missing
+1 tsp hemp seeds,hempseed seeds,10,9162cb29e8ec,Dec25 Jan26,missing_grams_per_cup,missing
+1/2 cup yogurt,yogurt,10,9162cb29e8ec,Dec25 Jan26,missing_grams_per_cup,missing
+1/2 cup quinoa,quinoa,11,3000dce621db,Dec25 Jan26,missing_grams_per_cup,missing
+2 cups chicken soup,chicken soup,11,3000dce621db,Dec25 Jan26,missing_grams_per_cup,missing
+1.25 cup ground pork,ground pork,11,3000dce621db,Dec25 Jan26,missing_grams_per_cup,missing
+1.25 cup ground tofu,ground tofu,11,3000dce621db,Dec25 Jan26,missing_grams_per_cup,missing
+2 cups choy sum,choy sum,11,3000dce621db,Dec25 Jan26,missing_grams_per_cup,missing
+1/2 cup quinoa,quinoa,13,b9bc5cb4526c,Dec25 Jan26,missing_grams_per_cup,missing
+0.5 cup ground pork,ground pork,13,b9bc5cb4526c,Dec25 Jan26,missing_grams_per_cup,missing
+0.5 cup ground tofu,ground tofu,13,b9bc5cb4526c,Dec25 Jan26,missing_grams_per_cup,missing
+1 cup choy sum,choy sum,13,b9bc5cb4526c,Dec25 Jan26,missing_grams_per_cup,missing
+2 cups of chinese veggies,chinese vegetables,49,131dc62edd22,Dec25 Jan26,missing_grams_per_cup,missing
+2 cups mixed veggies,mixed vegetables,50,18a0a6f97cab,Dec25 Jan26,missing_grams_per_cup,missing
+1 cup black fungus,wood ear mushroom mushroom,50,18a0a6f97cab,Dec25 Jan26,missing_grams_per_cup,missing
+3/4 cup quinoa,quinoa,54,577631dabfcd,Dec25 Jan26,missing_grams_per_cup,missing
+2 cups choy sum,choy sum,54,577631dabfcd,Dec25 Jan26,missing_grams_per_cup,missing
+2 cups of chinese veggies,chinese vegetables,56,51b016f1e24a,Dec25 Jan26,missing_grams_per_cup,missing
+0.25 cup skyr,skyr yogurt,195,378ddd8ebaa0,Feb2026,missing_grams_per_cup,missing
+3 tsp flax seed,flax seed seed,195,378ddd8ebaa0,Feb2026,missing_grams_per_cup,missing
+1/2 cup quinoa,quinoa,197,b56193c807a4,Feb2026,missing_grams_per_cup,missing
+0.25 cup skyr,skyr yogurt,200,617cd9cba219,Feb2026,missing_grams_per_cup,missing
+3 tsp flax seed,flax seed seed,200,617cd9cba219,Feb2026,missing_grams_per_cup,missing
+2 cup choy sum,choy sum,202,156da7c717dd,Feb2026,missing_grams_per_cup,missing
+3/4 cup quinoa,quinoa,202,156da7c717dd,Feb2026,missing_grams_per_cup,missing
+1.5 oz of beef,beef,1,91ed4476c418,Dec25 Jan26,,missing
+0.5 cup blueberries,blueberries,6,5bf626f28400,Dec25 Jan26,,missing
+1/2 cup blueberries,blueberries,10,9162cb29e8ec,Dec25 Jan26,,missing
+2 oz beef,beef,49,131dc62edd22,Dec25 Jan26,,missing
+5 oz pork chop,pork chop,50,18a0a6f97cab,Dec25 Jan26,,missing
+2 oz sliced beef,sliced beef,52,9e325a87788a,Dec25 Jan26,,missing
+1 cup veggies,vegetables,52,9e325a87788a,Dec25 Jan26,,missing
+1 oz cheese,cheese,53,25599ce57245,Dec25 Jan26,,missing
+6 oz pork chops,pork chops,54,577631dabfcd,Dec25 Jan26,,missing
+2 oz sliced beef,sliced beef,56,51b016f1e24a,Dec25 Jan26,,missing
+1 oz cheese,cheese,57,5badfdc86a76,Dec25 Jan26,,missing
+1.5 cups veggies,vegetables,57,5badfdc86a76,Dec25 Jan26,,missing
+1.5 oz sliced beef,sliced beef,194,98e43c4d2604,Feb2026,,missing
+2 cups veggies,vegetables,194,98e43c4d2604,Feb2026,,missing
+1/4 slice of bread,bread,194,98e43c4d2604,Feb2026,,missing
+100 g blueberries,blueberries,195,378ddd8ebaa0,Feb2026,,missing
+3 tsp hempseed,hempseed,195,378ddd8ebaa0,Feb2026,,missing
+1 count kiwi,kiwi,195,378ddd8ebaa0,Feb2026,,missing
+2 cups veggies,vegetables,196,2631b6d81ef4,Feb2026,,missing
+1/4 slice of bread,bread,196,2631b6d81ef4,Feb2026,,missing
+2 cups veggies,vegetables,197,b56193c807a4,Feb2026,,missing
+1.5 oz sliced beef,sliced beef,199,5db452e25f23,Feb2026,,missing
+2 cups veggies,vegetables,199,5db452e25f23,Feb2026,,missing
+1/4 slice of bread,bread,199,5db452e25f23,Feb2026,,missing
+100 g blueberries,blueberries,200,617cd9cba219,Feb2026,,missing
+3 tsp hempseed,hempseed,200,617cd9cba219,Feb2026,,missing
+1 count kiwi,kiwi,200,617cd9cba219,Feb2026,,missing
+1.5 cup veggies,vegetables,201,ba259040c75b,Feb2026,,missing
+1/2 slice bread,bread,201,ba259040c75b,Feb2026,,missing
+5 oz pork chop,pork chop,202,156da7c717dd,Feb2026,,missing

@@ -1,66 +1,66 @@
-event_id,row_in_sheet,sheet,event_type,meal_label,meal_type,date_raw,time_raw,bg_2hrs_post_raw,protein_text,carb_text,veggies_text,fat_text,other_text,items_text,notes,datetime,datetime_imputed_flag,date,blood_glucose_2hrs_post,cbg_post,meal_id
+event_id,row_in_sheet,sheet_source,event_type,meal_label,meal_type,date_raw,time_raw,bg_2hrs_post_raw,protein_text,carb_text,veggies_text,fat_text,other_text,items_text,notes,sheet,datetime,datetime_imputed_flag,date,blood_glucose_2hrs_post,cbg_post,meal_id
 91ed4476c418,92,Dec25 Jan26,fasting,Breakfast,fasting,2025-01-12 00:00:00,nan,6.5,"2 eggs
-1.5 oz of beef",,2 cups choy sum,,,,,2025-01-12 00:00:00,False,2025-01-12,6.5,6.5,1
-438a07049295,109,Dec25 Jan26,fasting,FASTING,fasting,2025-01-15 00:00:00,nan,6,,,,,,,,2025-01-15 00:00:00,False,2025-01-15,6.0,6.0,2
+1.5 oz of beef",,2 cups choy sum,,,,,Dec25 Jan26,2025-01-12 00:00:00,False,2025-01-12,6.5,6.5,1
+438a07049295,109,Dec25 Jan26,fasting,FASTING,fasting,2025-01-15 00:00:00,nan,6,,,,,,,,Dec25 Jan26,2025-01-15 00:00:00,False,2025-01-15,6.0,6.0,2
 ca24887fcd70,0,Dec25 Jan26,meal,Dinner,dinner,2025-12-17 00:00:00,18:00:00,,1.5 piece pork chop,"1 cup quinoa
 1 kiwi","1 cup stir fry green beans
-0.5 cup blanched Choy Sum",avocado oil for cooking,2 cups chicken soup ,,,2025-12-17 18:00:00,False,2025-12-17,,,3
-01fa195cc08d,1,Dec25 Jan26,fasting,FASTING,fasting,2025-12-18 00:00:00,nan,,,,,,,,,2025-12-18 00:00:00,False,2025-12-18,,,4
+0.5 cup blanched Choy Sum",avocado oil for cooking,2 cups chicken soup ,,,Dec25 Jan26,2025-12-17 18:00:00,False,2025-12-17,,,3
+01fa195cc08d,1,Dec25 Jan26,fasting,FASTING,fasting,2025-12-18 00:00:00,nan,,,,,,,,,Dec25 Jan26,2025-12-18 00:00:00,False,2025-12-18,,,4
 64ebce04833e,2,Dec25 Jan26,fasting,Breakfast,fasting,2025-12-18 00:00:00,10:20:00,,"1 piece pork chop
 2 large eggs",none,"1 cup stir fry green beans
-0.5 cup blanched Choy Sum",avocado oil for cooking,,,,2025-12-18 10:20:00,False,2025-12-18,,,5
+0.5 cup blanched Choy Sum",avocado oil for cooking,,,,Dec25 Jan26,2025-12-18 10:20:00,False,2025-12-18,,,5
 5bf626f28400,3,Dec25 Jan26,meal,Lunch,lunch,2025-12-18 00:00:00,10:20:00,,1/2 cup yogurt,none,0.5 cup blueberries,,"1/4 cup mixed nuts
 1 tsp flax seed
-1 tsp hemp seeds",,,2025-12-18 10:20:00,False,2025-12-18,,,6
-106e551095ec,4,Dec25 Jan26,meal,Dinner,dinner,2025-12-18 00:00:00,17:30:00,,8 pork wontons,wonton wrappers,1.5 cups choy sum,,1 kiwi,,,2025-12-18 17:30:00,False,2025-12-18,,,7
-d3dfb0abefbb,5,Dec25 Jan26,fasting,FASTING,fasting,2025-12-19 00:00:00,nan,,,,,,,,,2025-12-19 00:00:00,False,2025-12-19,,,8
+1 tsp hemp seeds",,,Dec25 Jan26,2025-12-18 10:20:00,False,2025-12-18,,,6
+106e551095ec,4,Dec25 Jan26,meal,Dinner,dinner,2025-12-18 00:00:00,17:30:00,,8 pork wontons,wonton wrappers,1.5 cups choy sum,,1 kiwi,,,Dec25 Jan26,2025-12-18 17:30:00,False,2025-12-18,,,7
+d3dfb0abefbb,5,Dec25 Jan26,fasting,FASTING,fasting,2025-12-19 00:00:00,nan,,,,,,,,,Dec25 Jan26,2025-12-19 00:00:00,False,2025-12-19,,,8
 fb6893e31123,6,Dec25 Jan26,fasting,Breakfast,fasting,2025-12-19 00:00:00,10:00:00,,"2 eggs
-3 oz. sliced beef",,2 cups watercress ,,,,,2025-12-19 10:00:00,False,2025-12-19,,,9
+3 oz. sliced beef",,2 cups watercress ,,,,,Dec25 Jan26,2025-12-19 10:00:00,False,2025-12-19,,,9
 9162cb29e8ec,7,Dec25 Jan26,meal,Lunch,lunch,2025-12-19 00:00:00,15:00:00,,1/2 cup yogurt,"1 kiwi
 1/2 cup blueberries",,mixed nuts,"1/4 cup mixed nuts
 1 tsp flax seed
-1 tsp hemp seeds",,,2025-12-19 15:00:00,False,2025-12-19,,,10
-3000dce621db,8,Dec25 Jan26,meal,Dinner,dinner,2025-12-19 00:00:00,18:50:00,,2.5 cup ground pork/tofu,1/2 cup quinoa,2 cups choy sum,avocado oil for cooking,2 cups chicken soup ,,,2025-12-19 18:50:00,False,2025-12-19,,,11
-39f5975648e2,9,Dec25 Jan26,fasting,FASTING,fasting,2025-12-20 00:00:00,nan,,,,,,,,,2025-12-20 00:00:00,False,2025-12-20,,,12
+1 tsp hemp seeds",,,Dec25 Jan26,2025-12-19 15:00:00,False,2025-12-19,,,10
+3000dce621db,8,Dec25 Jan26,meal,Dinner,dinner,2025-12-19 00:00:00,18:50:00,,2.5 cup ground pork/tofu,1/2 cup quinoa,2 cups choy sum,avocado oil for cooking,2 cups chicken soup ,,,Dec25 Jan26,2025-12-19 18:50:00,False,2025-12-19,,,11
+39f5975648e2,9,Dec25 Jan26,fasting,FASTING,fasting,2025-12-20 00:00:00,nan,,,,,,,,,Dec25 Jan26,2025-12-20 00:00:00,False,2025-12-20,,,12
 b9bc5cb4526c,10,Dec25 Jan26,fasting,Breakfast,fasting,2025-12-20 00:00:00,nan,,"2 eggs
-1 cup ground pork/tofu",1/2 cup quinoa,1 cup choy sum,,,,,2025-12-20 00:00:00,False,2025-12-20,,,13
+1 cup ground pork/tofu",1/2 cup quinoa,1 cup choy sum,,,,,Dec25 Jan26,2025-12-20 00:00:00,False,2025-12-20,,,13
 b2ee93aed86a,11,Dec25 Jan26,meal,Lunch,lunch,2025-12-20 00:00:00,14:00:00,,1/2 cup yogurt,1/2 cup blueberries,,,"1/4 cup mixed nuts
 1 tsp flax seed
-1 tsp hemp seeds",,,2025-12-20 14:00:00,False,2025-12-20,,,14
-a6c8bed59d29,12,Dec25 Jan26,meal,Dinner,dinner,2025-12-20 00:00:00,18:00:00,,2 cups ground pork/soy beans,1/2 cup quinoa,2 cups pea shoots,,,,,2025-12-20 18:00:00,False,2025-12-20,,,15
+1 tsp hemp seeds",,,Dec25 Jan26,2025-12-20 14:00:00,False,2025-12-20,,,14
+a6c8bed59d29,12,Dec25 Jan26,meal,Dinner,dinner,2025-12-20 00:00:00,18:00:00,,2 cups ground pork/soy beans,1/2 cup quinoa,2 cups pea shoots,,,,,Dec25 Jan26,2025-12-20 18:00:00,False,2025-12-20,,,15
 37704f9e05b6,13,Dec25 Jan26,fasting,Breakfast,fasting,2025-12-21 00:00:00,10:15:00,,"2 eggs
 3 oz. sliced beef","pretzels
 1 oz parmesan cashews","1 cup pea shoots
-1 small tomato",avocado oil for cooking,1.5 cups cashew milk,,,2025-12-21 10:15:00,False,2025-12-21,,,16
+1 small tomato",avocado oil for cooking,1.5 cups cashew milk,,,Dec25 Jan26,2025-12-21 10:15:00,False,2025-12-21,,,16
 f9e155c00daa,14,Dec25 Jan26,meal,Lunch,lunch,2025-12-21 00:00:00,14:15:00,,"1 oz marble cheese
-1/2 sliced beef",,1/2 cup brocoli,,6 olives,,,2025-12-21 14:15:00,False,2025-12-21,,,17
+1/2 sliced beef",,1/2 cup brocoli,,6 olives,,,Dec25 Jan26,2025-12-21 14:15:00,False,2025-12-21,,,17
 7c305f480ad4,15,Dec25 Jan26,meal,Dinner,dinner,2025-12-21 00:00:00,18:15:00,,"5 oz. cod fish
 2 oz. ground pork/soybean
 1/2 sliced beef",3/4 cup quinoa,"2 cup brocoli
-1/2 cup okra",avocado oil for cooking,1 kiwi,,,2025-12-21 18:15:00,False,2025-12-21,,,18
+1/2 cup okra",avocado oil for cooking,1 kiwi,,,Dec25 Jan26,2025-12-21 18:15:00,False,2025-12-21,,,18
 0ae50f3b9a6a,16,Dec25 Jan26,fasting,Breakfast,fasting,2025-12-22 00:00:00,10:35:00,,"2 eggs
-1wonton/2 soup dumplings",(see protein),1 cup broccoli/okra,avocado oil for cooking,,,,2025-12-22 10:35:00,False,2025-12-22,,,19
+1wonton/2 soup dumplings",(see protein),1 cup broccoli/okra,avocado oil for cooking,,,,Dec25 Jan26,2025-12-22 10:35:00,False,2025-12-22,,,19
 c6248a804592,17,Dec25 Jan26,meal,Dinner,dinner,2025-12-22 00:00:00,18:30:00,,Chinese meal,"noodles
-cake",,,2 spring rolls,,,2025-12-22 18:30:00,False,2025-12-22,,,20
+cake",,,2 spring rolls,,,Dec25 Jan26,2025-12-22 18:30:00,False,2025-12-22,,,20
 d68a8c8b6c55,18,Dec25 Jan26,fasting,Breakfast,fasting,2025-12-23 00:00:00,10:15:00,,2 eggs,"5 pretzels
 ","1 cup bak choy
 1/2 cup gai lai","1 oz cheese
-1/2 avocado",spring roll,,,2025-12-23 10:15:00,False,2025-12-23,,,21
+1/2 avocado",spring roll,,,Dec25 Jan26,2025-12-23 10:15:00,False,2025-12-23,,,21
 fe8cc9a59944,19,Dec25 Jan26,meal,Lunch,lunch,2025-12-23 00:00:00,13:00:00,,egg,"5 pretzels
-",1/2 cup gai lan,1 oz cheese,400 ml of choco/cashew milk,,,2025-12-23 13:00:00,False,2025-12-23,,,22
-dc24b1201d76,20,Dec25 Jan26,meal,Dinner,dinner,2025-12-23 00:00:00,18:00:00,,5 oz. pork chops,3/4 cup quinoa,1 cup gai lan,,1 oz french fries @ 20:00 hrs for bday,,,2025-12-23 18:00:00,False,2025-12-23,,,23
+",1/2 cup gai lan,1 oz cheese,400 ml of choco/cashew milk,,,Dec25 Jan26,2025-12-23 13:00:00,False,2025-12-23,,,22
+dc24b1201d76,20,Dec25 Jan26,meal,Dinner,dinner,2025-12-23 00:00:00,18:00:00,,5 oz. pork chops,3/4 cup quinoa,1 cup gai lan,,1 oz french fries @ 20:00 hrs for bday,,,Dec25 Jan26,2025-12-23 18:00:00,False,2025-12-23,,,23
 e462eda30032,21,Dec25 Jan26,fasting,Breakfast,fasting,2025-12-24 00:00:00,10:40:00,,"2 eggs
-2 oz pork chop",1 tsp rice,1 cup veggies ,avocado oil for cooking,,,,2025-12-24 10:40:00,False,2025-12-24,,,24
+2 oz pork chop",1 tsp rice,1 cup veggies ,avocado oil for cooking,,,,Dec25 Jan26,2025-12-24 10:40:00,False,2025-12-24,,,24
 fe1a1d6326fc,22,Dec25 Jan26,meal,Lunch,lunch,2025-12-24 00:00:00,14:30:00,,"5 oz roast pork
 2 oz duck
 2 oz BBQ pork","2 cups stirfry noodles
 1/2 cup chicken rice
 2 slices of pizza","3 cup mixed Chinese veggies
-",,2 cups melons,,,2025-12-24 14:30:00,False,2025-12-24,,,25
+",,2 cups melons,,,Dec25 Jan26,2025-12-24 14:30:00,False,2025-12-24,,,25
 f3dc4502097d,23,Dec25 Jan26,meal,Dinner,dinner,2025-12-24 00:00:00,18:30:00,,1 oz marble cheese,,,,"6 olives
-3 cup chicken soup",,,2025-12-24 18:30:00,False,2025-12-24,,,26
-ae1d94a1e50d,25,Dec25 Jan26,meal,Snack,snack,2025-12-25 00:00:00,nan,,1 oz marble cheese,3 pretzels,,,6 olives,,,2025-12-25 00:00:00,False,2025-12-25,,,27
-fad97f100d5f,24,Dec25 Jan26,fasting,Breakfast,fasting,2025-12-25 00:00:00,10:30:00,,2 eggs,,1 cup mix Chinese veggies,,,,,2025-12-25 10:30:00,False,2025-12-25,,,28
+3 cup chicken soup",,,Dec25 Jan26,2025-12-24 18:30:00,False,2025-12-24,,,26
+ae1d94a1e50d,25,Dec25 Jan26,meal,Snack,snack,2025-12-25 00:00:00,nan,,1 oz marble cheese,3 pretzels,,,6 olives,,,Dec25 Jan26,2025-12-25 00:00:00,False,2025-12-25,,,27
+fad97f100d5f,24,Dec25 Jan26,fasting,Breakfast,fasting,2025-12-25 00:00:00,10:30:00,,2 eggs,,1 cup mix Chinese veggies,,,,,Dec25 Jan26,2025-12-25 10:30:00,False,2025-12-25,,,28
 0d93bb8fb6cb,26,Dec25 Jan26,meal,Dinner,dinner,2025-12-25 00:00:00,18:00:00,,"1 oz roast pork/BBQ pork
 2 oz fried tofu
 1 oz chicken (in soup)","1 cup stirfry noodles
@@ -68,274 +68,274 @@ fad97f100d5f,24,Dec25 Jan26,fasting,Breakfast,fasting,2025-12-25 00:00:00,10:30:
 
 ","3 cup mixed Chinese veggies
 2 cup stirfy pork/green beans
-",,2 cups melons,,,2025-12-25 18:00:00,False,2025-12-25,,,29
+",,2 cups melons,,,Dec25 Jan26,2025-12-25 18:00:00,False,2025-12-25,,,29
 38b8553f1229,27,Dec25 Jan26,fasting,Breakfast,fasting,2025-12-26 00:00:00,11:00:00,,"2 eggs
-2 oz fried tofu",1/2 cup udon noodles,2 cups of chinese veggies,,,,,2025-12-26 11:00:00,False,2025-12-26,,,30
-66c9f9812c83,28,Dec25 Jan26,meal,Snack,snack,2025-12-26 00:00:00,13:30:00,,1 oz marble cheese,3 pretzels,,,6 olives,,,2025-12-26 13:30:00,False,2025-12-26,,,31
-3754fce4ff35,29,Dec25 Jan26,meal,Dinner,dinner,2025-12-26 00:00:00,18:30:00,,8 oz beef steak (The Keg),1 bread roll,2 cups of veggies,butter,1 cup melons,,,2025-12-26 18:30:00,False,2025-12-26,,,32
-41c4a20101e0,30,Dec25 Jan26,fasting,Breakfast,fasting,2025-12-27 00:00:00,10:30:00,,3 eggs,5 dumplings,2 cups of veggies,cheese in eggs,,,,2025-12-27 10:30:00,False,2025-12-27,,,33
+2 oz fried tofu",1/2 cup udon noodles,2 cups of chinese veggies,,,,,Dec25 Jan26,2025-12-26 11:00:00,False,2025-12-26,,,30
+66c9f9812c83,28,Dec25 Jan26,meal,Snack,snack,2025-12-26 00:00:00,13:30:00,,1 oz marble cheese,3 pretzels,,,6 olives,,,Dec25 Jan26,2025-12-26 13:30:00,False,2025-12-26,,,31
+3754fce4ff35,29,Dec25 Jan26,meal,Dinner,dinner,2025-12-26 00:00:00,18:30:00,,8 oz beef steak (The Keg),1 bread roll,2 cups of veggies,butter,1 cup melons,,,Dec25 Jan26,2025-12-26 18:30:00,False,2025-12-26,,,32
+41c4a20101e0,30,Dec25 Jan26,fasting,Breakfast,fasting,2025-12-27 00:00:00,10:30:00,,3 eggs,5 dumplings,2 cups of veggies,cheese in eggs,,,,Dec25 Jan26,2025-12-27 10:30:00,False,2025-12-27,,,33
 eb483700af58,31,Dec25 Jan26,meal,Snack,snack,2025-12-27 00:00:00,12:00:00,,1 oz marble cheese,"Costco fries
-5 pretzels",,,6 olives,,,2025-12-27 12:00:00,False,2025-12-27,,,34
-7d072a0b35cd,32,Dec25 Jan26,meal,Dinner,dinner,2025-12-27 00:00:00,17:50:00,,5 oz salmon,3/4 cup quinoa,2 cups of chinese veggies,avocado oil for cooking,1 cup blueberries,,,2025-12-27 17:50:00,False,2025-12-27,,,35
-a17f98e8b83d,34,Dec25 Jan26,meal,Lunch,lunch,2025-12-28 00:00:00,nan,,1 oz marble cheese,,,,6 olives,,,2025-12-28 00:00:00,False,2025-12-28,,,36
+5 pretzels",,,6 olives,,,Dec25 Jan26,2025-12-27 12:00:00,False,2025-12-27,,,34
+7d072a0b35cd,32,Dec25 Jan26,meal,Dinner,dinner,2025-12-27 00:00:00,17:50:00,,5 oz salmon,3/4 cup quinoa,2 cups of chinese veggies,avocado oil for cooking,1 cup blueberries,,,Dec25 Jan26,2025-12-27 17:50:00,False,2025-12-27,,,35
+a17f98e8b83d,34,Dec25 Jan26,meal,Lunch,lunch,2025-12-28 00:00:00,nan,,1 oz marble cheese,,,,6 olives,,,Dec25 Jan26,2025-12-28 00:00:00,False,2025-12-28,,,36
 44db89634212,33,Dec25 Jan26,fasting,Breakfast,fasting,2025-12-28 00:00:00,10:30:00,,3.5 oz pork chops,"1/2 cup quinoa
-3 wontons",2 cups of chinese veggies,,1/2 cup melons,,,2025-12-28 10:30:00,False,2025-12-28,,,37
-29043cc5585c,35,Dec25 Jan26,meal,Dinner,dinner,2025-12-28 00:00:00,18:00:00,,5 oz salmon,3/4 cup quinoa,2 cup brocoli,1/2 avocado,1 kiwi,,,2025-12-28 18:00:00,False,2025-12-28,,,38
-ba0fa4f3fd63,36,Dec25 Jan26,fasting,Breakfast,fasting,2025-12-29 00:00:00,10:30:00,,2.5 eggs (steamed),2 wontons,2 cup brocoli,,,,,2025-12-29 10:30:00,False,2025-12-29,,,39
+3 wontons",2 cups of chinese veggies,,1/2 cup melons,,,Dec25 Jan26,2025-12-28 10:30:00,False,2025-12-28,,,37
+29043cc5585c,35,Dec25 Jan26,meal,Dinner,dinner,2025-12-28 00:00:00,18:00:00,,5 oz salmon,3/4 cup quinoa,2 cup brocoli,1/2 avocado,1 kiwi,,,Dec25 Jan26,2025-12-28 18:00:00,False,2025-12-28,,,38
+ba0fa4f3fd63,36,Dec25 Jan26,fasting,Breakfast,fasting,2025-12-29 00:00:00,10:30:00,,2.5 eggs (steamed),2 wontons,2 cup brocoli,,,,,Dec25 Jan26,2025-12-29 10:30:00,False,2025-12-29,,,39
 48e233f74ba8,37,Dec25 Jan26,meal,Snack,snack,2025-12-29 00:00:00,13:30:00,,"5 cups miso soup with tofu
-1 oz cheese",2 pretzels,,,,,,2025-12-29 13:30:00,False,2025-12-29,,,40
-011ebb462826,38,Dec25 Jan26,meal,Dinner,dinner,2025-12-29 00:00:00,16:50:00,,5 oz. ground pork/tofu,1/2 cup quinoa,2 cups of chinese veggies,,1 kiwi,,,2025-12-29 16:50:00,False,2025-12-29,,,41
+1 oz cheese",2 pretzels,,,,,,Dec25 Jan26,2025-12-29 13:30:00,False,2025-12-29,,,40
+011ebb462826,38,Dec25 Jan26,meal,Dinner,dinner,2025-12-29 00:00:00,16:50:00,,5 oz. ground pork/tofu,1/2 cup quinoa,2 cups of chinese veggies,,1 kiwi,,,Dec25 Jan26,2025-12-29 16:50:00,False,2025-12-29,,,41
 e9a80baf6328,39,Dec25 Jan26,fasting,Breakfast,fasting,2025-12-30 00:00:00,10:30:00,,"1/2 cup ground pork
-2.5 hardboiled egg",,1 cup chinese veggies,,,,,2025-12-30 10:30:00,False,2025-12-30,,,42
-426978835642,40,Dec25 Jan26,meal,Snack,snack,2025-12-30 00:00:00,12:00:00,,,2 packs of crackers,,,,,,2025-12-30 12:00:00,False,2025-12-30,,,43
+2.5 hardboiled egg",,1 cup chinese veggies,,,,,Dec25 Jan26,2025-12-30 10:30:00,False,2025-12-30,,,42
+426978835642,40,Dec25 Jan26,meal,Snack,snack,2025-12-30 00:00:00,12:00:00,,,2 packs of crackers,,,,,,Dec25 Jan26,2025-12-30 12:00:00,False,2025-12-30,,,43
 8d5559c58467,41,Dec25 Jan26,meal,Dinner,dinner,2025-12-30 00:00:00,17:30:00,,"8 pieces fried tofu with sauce
 beef tendon/brisket","soup wonton noodles
 2 spring rolls","3 cup mixed Chinese veggies
-",,1 kiwi,,,2025-12-30 17:30:00,False,2025-12-30,,,44
+",,1 kiwi,,,Dec25 Jan26,2025-12-30 17:30:00,False,2025-12-30,,,44
 582954e8f776,42,Dec25 Jan26,fasting,Breakfast,fasting,2025-12-31 00:00:00,10:30:00,,"2 eggs
-3 pieces of fried tofu",2 Tbs rice noodles,2 cups of chinese veggies,,,,,2025-12-31 10:30:00,False,2025-12-31,,,45
+3 pieces of fried tofu",2 Tbs rice noodles,2 cups of chinese veggies,,,,,Dec25 Jan26,2025-12-31 10:30:00,False,2025-12-31,,,45
 f121e06f8775,43,Dec25 Jan26,meal,Snack,snack,2025-12-31 00:00:00,14:00:00,,1 oz marble cheese,"1/4 cup cashew nuts
-3 crackers",,,,,,2025-12-31 14:00:00,False,2025-12-31,,,46
+3 crackers",,,,,,Dec25 Jan26,2025-12-31 14:00:00,False,2025-12-31,,,46
 327a15cb8302,44,Dec25 Jan26,meal,Dinner,dinner,2025-12-31 00:00:00,17:00:00,,"5 wings
 3 oz ground pork/tofu",,"2 cups of chinese veggies
-",,1 kiwi,,,2025-12-31 17:00:00,False,2025-12-31,,,47
-7a9339c778df,45,Dec25 Jan26,fasting,FASTING,fasting,2026-01-01 00:00:00,nan,5.1,,,,,,,,2026-01-01 00:00:00,False,2026-01-01,5.1,5.1,48
+",,1 kiwi,,,Dec25 Jan26,2025-12-31 17:00:00,False,2025-12-31,,,47
+7a9339c778df,45,Dec25 Jan26,fasting,FASTING,fasting,2026-01-01 00:00:00,nan,5.1,,,,,,,,Dec25 Jan26,2026-01-01 00:00:00,False,2026-01-01,5.1,5.1,48
 131dc62edd22,46,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-01 00:00:00,11:30:00,6.4,"2 eggs
 2 oz beef",3 pretzels,"2 cups of chinese veggies
-1 cup of green beans",,,,,2026-01-01 11:30:00,False,2026-01-01,6.4,6.4,49
+1 cup of green beans",,,,,Dec25 Jan26,2026-01-01 11:30:00,False,2026-01-01,6.4,6.4,49
 18a0a6f97cab,47,Dec25 Jan26,meal,Dinner,dinner,2026-01-01 00:00:00,18:30:00,5.4,5 oz pork chop,1/4 green onion pancake,"2 cups mixed veggies
-1 cup black fungus",,chickn soup,,,2026-01-01 18:30:00,False,2026-01-01,5.4,5.4,50
-b016438a4abc,48,Dec25 Jan26,fasting,FASTING,fasting,2026-01-02 00:00:00,nan,5.3,,,,,,,,2026-01-02 00:00:00,False,2026-01-02,5.3,5.3,51
+1 cup black fungus",,chickn soup,,,Dec25 Jan26,2026-01-01 18:30:00,False,2026-01-01,5.4,5.4,50
+b016438a4abc,48,Dec25 Jan26,fasting,FASTING,fasting,2026-01-02 00:00:00,nan,5.3,,,,,,,,Dec25 Jan26,2026-01-02 00:00:00,False,2026-01-02,5.3,5.3,51
 9e325a87788a,49,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-02 00:00:00,11:00:00,6.4,"3 eggs
-2 oz sliced beef",,1 cup veggies ,,,,,2026-01-02 11:00:00,False,2026-01-02,6.4,6.4,52
-25599ce57245,50,Dec25 Jan26,meal,Snack,snack,2026-01-02 00:00:00,11:00:00,,1 oz cheese,crackers/pretzel,,,9 olives,,,2026-01-02 11:00:00,False,2026-01-02,,,53
-577631dabfcd,51,Dec25 Jan26,meal,dinner,dinner,2026-01-02 00:00:00,11:00:00,6.8,6 oz pork chops,3/4 cup quinoa,2 cups choy sum,,1 kiwi,,,2026-01-02 11:00:00,False,2026-01-02,6.8,6.8,54
-9229626448f5,52,Dec25 Jan26,fasting,FASTING,fasting,2026-01-03 00:00:00,nan,5.2,,,,,,,,2026-01-03 00:00:00,False,2026-01-03,5.2,5.2,55
+2 oz sliced beef",,1 cup veggies ,,,,,Dec25 Jan26,2026-01-02 11:00:00,False,2026-01-02,6.4,6.4,52
+25599ce57245,50,Dec25 Jan26,meal,Snack,snack,2026-01-02 00:00:00,11:00:00,,1 oz cheese,crackers/pretzel,,,9 olives,,,Dec25 Jan26,2026-01-02 11:00:00,False,2026-01-02,,,53
+577631dabfcd,51,Dec25 Jan26,meal,dinner,dinner,2026-01-02 00:00:00,11:00:00,6.8,6 oz pork chops,3/4 cup quinoa,2 cups choy sum,,1 kiwi,,,Dec25 Jan26,2026-01-02 11:00:00,False,2026-01-02,6.8,6.8,54
+9229626448f5,52,Dec25 Jan26,fasting,FASTING,fasting,2026-01-03 00:00:00,nan,5.2,,,,,,,,Dec25 Jan26,2026-01-03 00:00:00,False,2026-01-03,5.2,5.2,55
 51b016f1e24a,53,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-03 00:00:00,11:00:00,6.4,"2 eggs
-2 oz sliced beef",,2 cups of chinese veggies,,,,,2026-01-03 11:00:00,False,2026-01-03,6.4,6.4,56
+2 oz sliced beef",,2 cups of chinese veggies,,,,,Dec25 Jan26,2026-01-03 11:00:00,False,2026-01-03,6.4,6.4,56
 5badfdc86a76,54,Dec25 Jan26,meal,Lunch,lunch,2026-01-03 00:00:00,11:00:00,6,"1 egg
-1 oz cheese",1 petzel,1.5 cups veggies,,,,,2026-01-03 11:00:00,False,2026-01-03,6.0,6.0,57
+1 oz cheese",1 petzel,1.5 cups veggies,,,,,Dec25 Jan26,2026-01-03 11:00:00,False,2026-01-03,6.0,6.0,57
 e2e5c64ac5c8,55,Dec25 Jan26,meal,dinner,dinner,2026-01-03 00:00:00,11:00:00,5.7,1.5 cups ground pork/tofu,1/2 cup quinoa,2 cups of chinese veggies,,"1 kiwi
-3 blackberries",,,2026-01-03 11:00:00,False,2026-01-03,5.7,5.7,58
-7a93702cf9e6,56,Dec25 Jan26,fasting,FASTING,fasting,2026-01-04 00:00:00,nan,5.1,,,,,,,,2026-01-04 00:00:00,False,2026-01-04,5.1,5.1,59
+3 blackberries",,,Dec25 Jan26,2026-01-03 11:00:00,False,2026-01-03,5.7,5.7,58
+7a93702cf9e6,56,Dec25 Jan26,fasting,FASTING,fasting,2026-01-04 00:00:00,nan,5.1,,,,,,,,Dec25 Jan26,2026-01-04 00:00:00,False,2026-01-04,5.1,5.1,59
 f563ab9f2332,57,Dec25 Jan26,fasting,breakfast,fasting,2026-01-04 00:00:00,10:30:00,6.3,"2 eggs
-1.5 oz of beef",2 pretzels,2 cups of chinese veggies,,,,,2026-01-04 10:30:00,False,2026-01-04,6.3,6.3,60
+1.5 oz of beef",2 pretzels,2 cups of chinese veggies,,,,,Dec25 Jan26,2026-01-04 10:30:00,False,2026-01-04,6.3,6.3,60
 1fadb7d0da5a,58,Dec25 Jan26,meal,lunch,lunch,2026-01-04 00:00:00,16:15:00,6.7,"Tofu/fried fish
 beef/pork
 ground pork",1/4 cup rice noodles,"green beans
-2 cups chinese veggies",,chinese food,,,2026-01-04 16:15:00,False,2026-01-04,6.7,6.7,61
-8556e07d9bc0,59,Dec25 Jan26,meal,Dinner,dinner,2026-01-04 00:00:00,20:00:00,6,fish and tofu,,1 cup chinese veggies,,leftovers from lunch,,,2026-01-04 20:00:00,False,2026-01-04,6.0,6.0,62
-b314cd62fa9c,60,Dec25 Jan26,fasting,FASTING,fasting,2026-01-05 00:00:00,nan,5.2,,,,,,,,2026-01-05 00:00:00,False,2026-01-05,5.2,5.2,63
+2 cups chinese veggies",,chinese food,,,Dec25 Jan26,2026-01-04 16:15:00,False,2026-01-04,6.7,6.7,61
+8556e07d9bc0,59,Dec25 Jan26,meal,Dinner,dinner,2026-01-04 00:00:00,20:00:00,6,fish and tofu,,1 cup chinese veggies,,leftovers from lunch,,,Dec25 Jan26,2026-01-04 20:00:00,False,2026-01-04,6.0,6.0,62
+b314cd62fa9c,60,Dec25 Jan26,fasting,FASTING,fasting,2026-01-05 00:00:00,nan,5.2,,,,,,,,Dec25 Jan26,2026-01-05 00:00:00,False,2026-01-05,5.2,5.2,63
 ece86dabfa26,61,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-05 00:00:00,10:30:00,6.3,"2 eggs
-3 slices of bacon",,2 cups veggies,,,,,2026-01-05 10:30:00,False,2026-01-05,6.3,6.3,64
+3 slices of bacon",,2 cups veggies,,,,,Dec25 Jan26,2026-01-05 10:30:00,False,2026-01-05,6.3,6.3,64
 61baf4b7a337,62,Dec25 Jan26,meal,Lunch,lunch,2026-01-05 00:00:00,14:30:00,5.8,"2 eggs
-1.5 oz sliced beef",1/4 cup yogurt and nuts/chia/hemp/flax/bluebeery,1 cup veggies ,,,,,2026-01-05 14:30:00,False,2026-01-05,5.8,5.8,65
-eb42b78c71ae,63,Dec25 Jan26,meal,Dinner,dinner,2026-01-05 00:00:00,17:00:00,5.9,1.5 cup ground pork/mushroom,1/4 fried rice,2 cups veggies,,,,,2026-01-05 17:00:00,False,2026-01-05,5.9,5.9,66
-986b9636c58e,64,Dec25 Jan26,fasting,FASTING,fasting,2026-01-06 00:00:00,nan,5.4,,,,,,,,2026-01-06 00:00:00,False,2026-01-06,5.4,5.4,67
+1.5 oz sliced beef",1/4 cup yogurt and nuts/chia/hemp/flax/bluebeery,1 cup veggies ,,,,,Dec25 Jan26,2026-01-05 14:30:00,False,2026-01-05,5.8,5.8,65
+eb42b78c71ae,63,Dec25 Jan26,meal,Dinner,dinner,2026-01-05 00:00:00,17:00:00,5.9,1.5 cup ground pork/mushroom,1/4 fried rice,2 cups veggies,,,,,Dec25 Jan26,2026-01-05 17:00:00,False,2026-01-05,5.9,5.9,66
+986b9636c58e,64,Dec25 Jan26,fasting,FASTING,fasting,2026-01-06 00:00:00,nan,5.4,,,,,,,,Dec25 Jan26,2026-01-06 00:00:00,False,2026-01-06,5.4,5.4,67
 73e321337316,65,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-06 00:00:00,10:30:00,6.3,"2 eggs 
-3 slices of bacon",,2 cups veggies,,,,,2026-01-06 10:30:00,False,2026-01-06,6.3,6.3,68
+3 slices of bacon",,2 cups veggies,,,,,Dec25 Jan26,2026-01-06 10:30:00,False,2026-01-06,6.3,6.3,68
 1827b19262bd,66,Dec25 Jan26,meal,Lunch,lunch,2026-01-06 00:00:00,14:30:00,6.6,"2 eggs
-1.5 oz sliced beef",,2 cups veggies,,,,,2026-01-06 14:30:00,False,2026-01-06,6.6,6.6,69
-26d1c24c2729,67,Dec25 Jan26,meal,Dinner,dinner,2026-01-06 00:00:00,17:00:00,4.9,6 oz trout,,2 cups veggies,,,,,2026-01-06 17:00:00,False,2026-01-06,4.9,4.9,70
+1.5 oz sliced beef",,2 cups veggies,,,,,Dec25 Jan26,2026-01-06 14:30:00,False,2026-01-06,6.6,6.6,69
+26d1c24c2729,67,Dec25 Jan26,meal,Dinner,dinner,2026-01-06 00:00:00,17:00:00,4.9,6 oz trout,,2 cups veggies,,,,,Dec25 Jan26,2026-01-06 17:00:00,False,2026-01-06,4.9,4.9,70
 dd73c6265a80,68,Dec25 Jan26,meal,snack,snack,2026-01-06 00:00:00,19:30:00,,"1/4  yogurt/blueberries/flax/hemp/chia
-0.5 oz cheese",,,,,,,2026-01-06 19:30:00,False,2026-01-06,,,71
-efc15fc9b408,69,Dec25 Jan26,fasting,FASTING,fasting,2026-01-07 00:00:00,nan,5.2,,,,,,,,2026-01-07 00:00:00,False,2026-01-07,5.2,5.2,72
+0.5 oz cheese",,,,,,,Dec25 Jan26,2026-01-06 19:30:00,False,2026-01-06,,,71
+efc15fc9b408,69,Dec25 Jan26,fasting,FASTING,fasting,2026-01-07 00:00:00,nan,5.2,,,,,,,,Dec25 Jan26,2026-01-07 00:00:00,False,2026-01-07,5.2,5.2,72
 f3703eaea826,70,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-07 00:00:00,nan,6.9,"2 eggs
-3 slices of bacon",,2 cups of chinese veggies,,,,,2026-01-07 00:00:00,False,2026-01-07,6.9,6.9,73
+3 slices of bacon",,2 cups of chinese veggies,,,,,Dec25 Jan26,2026-01-07 00:00:00,False,2026-01-07,6.9,6.9,73
 fb584a77e6ff,71,Dec25 Jan26,meal,lunch,lunch,2026-01-07 00:00:00,nan,6.1,"1 egg
 3 slice of beef",,"2 cups of chinese veggies
-",,,,,2026-01-07 00:00:00,False,2026-01-07,6.1,6.1,74
-f8ae2fe986e2,72,Dec25 Jan26,meal,Dinner,dinner,2026-01-07 00:00:00,nan,6.2,6 oz trout,,2 cups broccoli,,,,,2026-01-07 00:00:00,False,2026-01-07,6.2,6.2,75
-8e167c47301a,73,Dec25 Jan26,fasting,FASTING,fasting,2026-01-08 00:00:00,nan,5.8,,,,,,,,2026-01-08 00:00:00,False,2026-01-08,5.8,5.8,76
+",,,,,Dec25 Jan26,2026-01-07 00:00:00,False,2026-01-07,6.1,6.1,74
+f8ae2fe986e2,72,Dec25 Jan26,meal,Dinner,dinner,2026-01-07 00:00:00,nan,6.2,6 oz trout,,2 cups broccoli,,,,,Dec25 Jan26,2026-01-07 00:00:00,False,2026-01-07,6.2,6.2,75
+8e167c47301a,73,Dec25 Jan26,fasting,FASTING,fasting,2026-01-08 00:00:00,nan,5.8,,,,,,,,Dec25 Jan26,2026-01-08 00:00:00,False,2026-01-08,5.8,5.8,76
 de4370235f31,74,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-08 00:00:00,nan,7.2,"2 eggs
-1.5 oz of beef",,2 cups of chinese veggies,,,,,2026-01-08 00:00:00,False,2026-01-08,7.2,7.2,77
+1.5 oz of beef",,2 cups of chinese veggies,,,,,Dec25 Jan26,2026-01-08 00:00:00,False,2026-01-08,7.2,7.2,77
 3d6751f28e1b,75,Dec25 Jan26,meal,lunch,lunch,2026-01-08 00:00:00,nan,5.8,"2 eggs
 3 slices of bacon",,"2 cups of chinese veggies
-",,,,,2026-01-08 00:00:00,False,2026-01-08,5.8,5.8,78
-e9e3c9928f1f,76,Dec25 Jan26,meal,Dinner,dinner,2026-01-08 00:00:00,nan,6.1,1 cup ground pork/tofu,1/2 cup quinoa,,,1/4 yogurt/blueberries,,,2026-01-08 00:00:00,False,2026-01-08,6.1,6.1,79
-485cea8f5553,77,Dec25 Jan26,fasting,FASTING,fasting,2026-01-09 00:00:00,nan,5.3,,,,,,,,2026-01-09 00:00:00,False,2026-01-09,5.3,5.3,80
+",,,,,Dec25 Jan26,2026-01-08 00:00:00,False,2026-01-08,5.8,5.8,78
+e9e3c9928f1f,76,Dec25 Jan26,meal,Dinner,dinner,2026-01-08 00:00:00,nan,6.1,1 cup ground pork/tofu,1/2 cup quinoa,,,1/4 yogurt/blueberries,,,Dec25 Jan26,2026-01-08 00:00:00,False,2026-01-08,6.1,6.1,79
+485cea8f5553,77,Dec25 Jan26,fasting,FASTING,fasting,2026-01-09 00:00:00,nan,5.3,,,,,,,,Dec25 Jan26,2026-01-09 00:00:00,False,2026-01-09,5.3,5.3,80
 b53170036933,78,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-09 00:00:00,nan,6.6,"2 eggs
-2 oz beef",,2 cups stir fry mixed greens,,,,,2026-01-09 00:00:00,False,2026-01-09,6.6,6.6,81
+2 oz beef",,2 cups stir fry mixed greens,,,,,Dec25 Jan26,2026-01-09 00:00:00,False,2026-01-09,6.6,6.6,81
 3a73fac04dd4,79,Dec25 Jan26,meal,Lunch,lunch,2026-01-09 00:00:00,nan,6.4,"1 egg
-1/2 cup tofu/ground pork",,2 cups of chinese veggies,,,,,2026-01-09 00:00:00,False,2026-01-09,6.4,6.4,82
-1ca9fbe77502,80,Dec25 Jan26,meal,Dinner,dinner,2026-01-09 00:00:00,19:00:00,5.6,5 oz pork chop,1/2 cup quinoa,2 cups choy sum,,,,,2026-01-09 19:00:00,False,2026-01-09,5.6,5.6,83
-896883aecacf,81,Dec25 Jan26,fasting,FASTING,fasting,2026-01-10 00:00:00,nan,5.4,,,,,,,,2026-01-10 00:00:00,False,2026-01-10,5.4,5.4,84
-3d639e953fb1,82,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-10 00:00:00,11:00:00,6.7,2 eggs,2 pretzels,2 cups choy sum,2 slice bacon,1/4 yogurt/blueberries,,,2026-01-10 11:00:00,False,2026-01-10,6.7,6.7,85
+1/2 cup tofu/ground pork",,2 cups of chinese veggies,,,,,Dec25 Jan26,2026-01-09 00:00:00,False,2026-01-09,6.4,6.4,82
+1ca9fbe77502,80,Dec25 Jan26,meal,Dinner,dinner,2026-01-09 00:00:00,19:00:00,5.6,5 oz pork chop,1/2 cup quinoa,2 cups choy sum,,,,,Dec25 Jan26,2026-01-09 19:00:00,False,2026-01-09,5.6,5.6,83
+896883aecacf,81,Dec25 Jan26,fasting,FASTING,fasting,2026-01-10 00:00:00,nan,5.4,,,,,,,,Dec25 Jan26,2026-01-10 00:00:00,False,2026-01-10,5.4,5.4,84
+3d639e953fb1,82,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-10 00:00:00,11:00:00,6.7,2 eggs,2 pretzels,2 cups choy sum,2 slice bacon,1/4 yogurt/blueberries,,,Dec25 Jan26,2026-01-10 11:00:00,False,2026-01-10,6.7,6.7,85
 fe804b6b1dac,83,Dec25 Jan26,meal,Lunch,lunch,2026-01-10 00:00:00,15:45:00,6.8,beef brisket/tendon,"noodles
 cake","green beans
-2 cups chinese veggies",,Congee Queen,,,2026-01-10 15:45:00,False,2026-01-10,6.8,6.8,86
-611fb5c8548d,84,Dec25 Jan26,meal,Dinner,dinner,2026-01-10 00:00:00,20:45:00,5.4,2 eggs,1/4 wonton noodles,1 cup chinese veggies,2 cups chicken soup,1/4 yogurt/blueberries,,,2026-01-10 20:45:00,False,2026-01-10,5.4,5.4,87
-32b464bfe1a1,85,Dec25 Jan26,fasting,FASTING,fasting,2026-01-11 00:00:00,nan,5.3,,,,,,,,2026-01-11 00:00:00,False,2026-01-11,5.3,5.3,88
-a329b37327e3,89,Dec25 Jan26,meal,Dinner,dinner,2026-01-11 00:00:00,nan,5.5,,,,,,,,2026-01-11 00:00:00,False,2026-01-11,5.5,5.5,89
-de28f0eea4e1,90,Dec25 Jan26,meal,Snack,snack,2026-01-11 00:00:00,nan,,1/4 yogurt blueberries/flax/hemp/chia/kiwi,,,,,,,2026-01-11 00:00:00,False,2026-01-11,,,90
+2 cups chinese veggies",,Congee Queen,,,Dec25 Jan26,2026-01-10 15:45:00,False,2026-01-10,6.8,6.8,86
+611fb5c8548d,84,Dec25 Jan26,meal,Dinner,dinner,2026-01-10 00:00:00,20:45:00,5.4,2 eggs,1/4 wonton noodles,1 cup chinese veggies,2 cups chicken soup,1/4 yogurt/blueberries,,,Dec25 Jan26,2026-01-10 20:45:00,False,2026-01-10,5.4,5.4,87
+32b464bfe1a1,85,Dec25 Jan26,fasting,FASTING,fasting,2026-01-11 00:00:00,nan,5.3,,,,,,,,Dec25 Jan26,2026-01-11 00:00:00,False,2026-01-11,5.3,5.3,88
+a329b37327e3,89,Dec25 Jan26,meal,Dinner,dinner,2026-01-11 00:00:00,nan,5.5,,,,,,,,Dec25 Jan26,2026-01-11 00:00:00,False,2026-01-11,5.5,5.5,89
+de28f0eea4e1,90,Dec25 Jan26,meal,Snack,snack,2026-01-11 00:00:00,nan,,1/4 yogurt blueberries/flax/hemp/chia/kiwi,,,,,,,Dec25 Jan26,2026-01-11 00:00:00,False,2026-01-11,,,90
 25bced6a10c1,86,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-11 00:00:00,11:00:00,6.8,"2 eggs
-1.5 oz of beef",3 pretzels,2 cups bak choy,,,,,2026-01-11 11:00:00,False,2026-01-11,6.8,6.8,91
+1.5 oz of beef",3 pretzels,2 cups bak choy,,,,,Dec25 Jan26,2026-01-11 11:00:00,False,2026-01-11,6.8,6.8,91
 bbbe44543550,87,Dec25 Jan26,meal,Snack,snack,2026-01-11 00:00:00,13:00:00,,cashew nuts,"5 pretzels
-",,,1/4 yogurt/blueberries,,,2026-01-11 13:00:00,False,2026-01-11,,,92
+",,,1/4 yogurt/blueberries,,,Dec25 Jan26,2026-01-11 13:00:00,False,2026-01-11,,,92
 32ba0633ac4d,88,Dec25 Jan26,meal,Lunch,lunch,2026-01-11 00:00:00,15:30:00,5.4,"2 eggs
 1 oz sliced pork
-5.4 oz sheep milk",,1/5 cups bak choy,,,,,2026-01-11 15:30:00,False,2026-01-11,5.4,5.4,93
-038e7c4b8e1f,91,Dec25 Jan26,fasting,FASTING,fasting,2026-01-12 00:00:00,nan,5.4,,,,,,,,2026-01-12 00:00:00,False,2026-01-12,5.4,5.4,94
+5.4 oz sheep milk",,1/5 cups bak choy,,,,,Dec25 Jan26,2026-01-11 15:30:00,False,2026-01-11,5.4,5.4,93
+038e7c4b8e1f,91,Dec25 Jan26,fasting,FASTING,fasting,2026-01-12 00:00:00,nan,5.4,,,,,,,,Dec25 Jan26,2026-01-12 00:00:00,False,2026-01-12,5.4,5.4,94
 7955bb3e164e,93,Dec25 Jan26,meal,Lunch,lunch,2026-01-12 00:00:00,nan,5.6,"2 eggs
-1.5 oz of beef",,2 cups choy sum,,,,,2026-01-12 00:00:00,False,2026-01-12,5.6,5.6,95
-584ac4d50044,94,Dec25 Jan26,meal,Snack,snack,2026-01-12 00:00:00,nan,,1/4 yogurt blueberries/flax/hemp/chia/kiwi,pretzels,,,,,,2026-01-12 00:00:00,False,2026-01-12,,,96
-cb9a44cc4b72,96,Dec25 Jan26,meal,Snack,snack,2026-01-12 00:00:00,nan,,1/4 yogurt blueberries/flax/hemp/chia/kiwi,pretzels,,,,,,2026-01-12 00:00:00,False,2026-01-12,,,97
-a86543631a17,95,Dec25 Jan26,meal,Dinner,dinner,2026-01-12 00:00:00,18:30:00,6.1,1.5 cup ground pork/tofu,,2 cup brocoli,,,,,2026-01-12 18:30:00,False,2026-01-12,6.1,6.1,98
-39fa02d8c853,97,Dec25 Jan26,fasting,FASTING,fasting,2026-01-13 00:00:00,nan,5.4,,,,,,,,2026-01-13 00:00:00,False,2026-01-13,5.4,5.4,99
+1.5 oz of beef",,2 cups choy sum,,,,,Dec25 Jan26,2026-01-12 00:00:00,False,2026-01-12,5.6,5.6,95
+584ac4d50044,94,Dec25 Jan26,meal,Snack,snack,2026-01-12 00:00:00,nan,,1/4 yogurt blueberries/flax/hemp/chia/kiwi,pretzels,,,,,,Dec25 Jan26,2026-01-12 00:00:00,False,2026-01-12,,,96
+cb9a44cc4b72,96,Dec25 Jan26,meal,Snack,snack,2026-01-12 00:00:00,nan,,1/4 yogurt blueberries/flax/hemp/chia/kiwi,pretzels,,,,,,Dec25 Jan26,2026-01-12 00:00:00,False,2026-01-12,,,97
+a86543631a17,95,Dec25 Jan26,meal,Dinner,dinner,2026-01-12 00:00:00,18:30:00,6.1,1.5 cup ground pork/tofu,,2 cup brocoli,,,,,Dec25 Jan26,2026-01-12 18:30:00,False,2026-01-12,6.1,6.1,98
+39fa02d8c853,97,Dec25 Jan26,fasting,FASTING,fasting,2026-01-13 00:00:00,nan,5.4,,,,,,,,Dec25 Jan26,2026-01-13 00:00:00,False,2026-01-13,5.4,5.4,99
 4b29dacb814f,98,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-13 00:00:00,10:45:00,6.7,"2 eggs
-1.5 oz of beef",,2 cups of chinese veggies,,,,,2026-01-13 10:45:00,False,2026-01-13,6.7,6.7,100
-7383352f852a,99,Dec25 Jan26,meal,Snack,snack,2026-01-13 00:00:00,13:30:00,,1/4 skyr blueberries/flax/hemp/chia/kiwi,pretzels,,,,,,2026-01-13 13:30:00,False,2026-01-13,,,101
+1.5 oz of beef",,2 cups of chinese veggies,,,,,Dec25 Jan26,2026-01-13 10:45:00,False,2026-01-13,6.7,6.7,100
+7383352f852a,99,Dec25 Jan26,meal,Snack,snack,2026-01-13 00:00:00,13:30:00,,1/4 skyr blueberries/flax/hemp/chia/kiwi,pretzels,,,,,,Dec25 Jan26,2026-01-13 13:30:00,False,2026-01-13,,,101
 e0c8a56f8283,100,Dec25 Jan26,meal,Lunch,lunch,2026-01-13 00:00:00,15:30:00,5.7,"1 egg
-1.5 oz beef",plantain chips,2 cups choy sum,,,,,2026-01-13 15:30:00,False,2026-01-13,5.7,5.7,102
-23a41388b197,101,Dec25 Jan26,meal,Dinner,dinner,2026-01-13 00:00:00,18:30:00,5.7,5 oz pork chop,1/2 cup chicken rice,2 cups kale/brocoli,,,,,2026-01-13 18:30:00,False,2026-01-13,5.7,5.7,103
-0e4b7027a296,102,Dec25 Jan26,meal,Snack,snack,2026-01-13 00:00:00,21:30:00,,1/4 skyr blueberries/flax/hemp/chia/kiwi,pretzels,,,,,,2026-01-13 21:30:00,False,2026-01-13,,,104
-4a69e82cd462,103,Dec25 Jan26,fasting,FASTING,fasting,2026-01-14 00:00:00,nan,6,,,,,,,,2026-01-14 00:00:00,False,2026-01-14,6.0,6.0,105
+1.5 oz beef",plantain chips,2 cups choy sum,,,,,Dec25 Jan26,2026-01-13 15:30:00,False,2026-01-13,5.7,5.7,102
+23a41388b197,101,Dec25 Jan26,meal,Dinner,dinner,2026-01-13 00:00:00,18:30:00,5.7,5 oz pork chop,1/2 cup chicken rice,2 cups kale/brocoli,,,,,Dec25 Jan26,2026-01-13 18:30:00,False,2026-01-13,5.7,5.7,103
+0e4b7027a296,102,Dec25 Jan26,meal,Snack,snack,2026-01-13 00:00:00,21:30:00,,1/4 skyr blueberries/flax/hemp/chia/kiwi,pretzels,,,,,,Dec25 Jan26,2026-01-13 21:30:00,False,2026-01-13,,,104
+4a69e82cd462,103,Dec25 Jan26,fasting,FASTING,fasting,2026-01-14 00:00:00,nan,6,,,,,,,,Dec25 Jan26,2026-01-14 00:00:00,False,2026-01-14,6.0,6.0,105
 19490605502f,104,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-14 00:00:00,10:45:00,6.6,"2 eggs
-1.5 oz of beef",,2 cups of chinese veggies,,,,,2026-01-14 10:45:00,False,2026-01-14,6.6,6.6,106
-0fe1c93f4c50,105,Dec25 Jan26,meal,Snack,snack,2026-01-14 00:00:00,13:30:00,,1/4 skyr blueberries/flax/hemp/chia/kiwi,pretzels,,,,,,2026-01-14 13:30:00,False,2026-01-14,,,107
+1.5 oz of beef",,2 cups of chinese veggies,,,,,Dec25 Jan26,2026-01-14 10:45:00,False,2026-01-14,6.6,6.6,106
+0fe1c93f4c50,105,Dec25 Jan26,meal,Snack,snack,2026-01-14 00:00:00,13:30:00,,1/4 skyr blueberries/flax/hemp/chia/kiwi,pretzels,,,,,,Dec25 Jan26,2026-01-14 13:30:00,False,2026-01-14,,,107
 60f0679191f3,106,Dec25 Jan26,meal,Lunch,lunch,2026-01-14 00:00:00,16:15:00,6.1,"1 egg
-1.5 oz beef",,2 cups choy sum,,,,,2026-01-14 16:15:00,False,2026-01-14,6.1,6.1,108
-e4b44181fbec,107,Dec25 Jan26,meal,Dinner,dinner,2026-01-14 00:00:00,18:30:00,5.6,5 oz pork chop,1/2 cup quinoa,2 cup of mixed veggies,,,,,2026-01-14 18:30:00,False,2026-01-14,5.6,5.6,109
-52ba2c12bcb6,108,Dec25 Jan26,meal,Snack,snack,2026-01-14 00:00:00,21:30:00,,1/4 yogurt blueberries/flax/hemp/chia/kiwi,pretzels,,,,,,2026-01-14 21:30:00,False,2026-01-14,,,110
+1.5 oz beef",,2 cups choy sum,,,,,Dec25 Jan26,2026-01-14 16:15:00,False,2026-01-14,6.1,6.1,108
+e4b44181fbec,107,Dec25 Jan26,meal,Dinner,dinner,2026-01-14 00:00:00,18:30:00,5.6,5 oz pork chop,1/2 cup quinoa,2 cup of mixed veggies,,,,,Dec25 Jan26,2026-01-14 18:30:00,False,2026-01-14,5.6,5.6,109
+52ba2c12bcb6,108,Dec25 Jan26,meal,Snack,snack,2026-01-14 00:00:00,21:30:00,,1/4 yogurt blueberries/flax/hemp/chia/kiwi,pretzels,,,,,,Dec25 Jan26,2026-01-14 21:30:00,False,2026-01-14,,,110
 0f10c1afd8ae,112,Dec25 Jan26,meal,Lunch,lunch,2026-01-15 00:00:00,nan,5.9,"1 egg
-1.5 oz beef",,2 cups choy sum,,,,,2026-01-15 00:00:00,False,2026-01-15,5.9,5.9,111
-510d2aad98c0,113,Dec25 Jan26,meal,Dinner,dinner,2026-01-15 00:00:00,nan,6.3,1 cup ground pork/mushroom,1/2 cup quinoa,2 cup of mixed veggies,,,,,2026-01-15 00:00:00,False,2026-01-15,6.3,6.3,112
+1.5 oz beef",,2 cups choy sum,,,,,Dec25 Jan26,2026-01-15 00:00:00,False,2026-01-15,5.9,5.9,111
+510d2aad98c0,113,Dec25 Jan26,meal,Dinner,dinner,2026-01-15 00:00:00,nan,6.3,1 cup ground pork/mushroom,1/2 cup quinoa,2 cup of mixed veggies,,,,,Dec25 Jan26,2026-01-15 00:00:00,False,2026-01-15,6.3,6.3,112
 5110cda15602,110,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-15 00:00:00,10:30:00,6.2,"2 eggs
-1.5 oz of beef",,2 cups of chinese veggies,,,,,2026-01-15 10:30:00,False,2026-01-15,6.2,6.2,113
-328018be4703,111,Dec25 Jan26,meal,Snack,snack,2026-01-15 00:00:00,13:30:00,,1/4 skyr blueberries/flax/hemp/chia/kiwi,pretzels,,,,,,2026-01-15 13:30:00,False,2026-01-15,,,114
-134d71ae4773,114,Dec25 Jan26,fasting,FASTING,fasting,2026-01-16 00:00:00,nan,5.1,,,,,,,,2026-01-16 00:00:00,False,2026-01-16,5.1,5.1,115
-d7d5620f4cd2,116,Dec25 Jan26,meal,Snack,snack,2026-01-16 00:00:00,nan,,1/4 skyr blueberries/flax/hemp/chia/kiwi,pretzel,,,,,,2026-01-16 00:00:00,False,2026-01-16,,,116
+1.5 oz of beef",,2 cups of chinese veggies,,,,,Dec25 Jan26,2026-01-15 10:30:00,False,2026-01-15,6.2,6.2,113
+328018be4703,111,Dec25 Jan26,meal,Snack,snack,2026-01-15 00:00:00,13:30:00,,1/4 skyr blueberries/flax/hemp/chia/kiwi,pretzels,,,,,,Dec25 Jan26,2026-01-15 13:30:00,False,2026-01-15,,,114
+134d71ae4773,114,Dec25 Jan26,fasting,FASTING,fasting,2026-01-16 00:00:00,nan,5.1,,,,,,,,Dec25 Jan26,2026-01-16 00:00:00,False,2026-01-16,5.1,5.1,115
+d7d5620f4cd2,116,Dec25 Jan26,meal,Snack,snack,2026-01-16 00:00:00,nan,,1/4 skyr blueberries/flax/hemp/chia/kiwi,pretzel,,,,,,Dec25 Jan26,2026-01-16 00:00:00,False,2026-01-16,,,116
 37f1cf8cd09b,115,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-16 00:00:00,10:30:00,6.4,"2 eggs
-1.5 oz of beef",,2 cups of chinese veggies,,,,,2026-01-16 10:30:00,False,2026-01-16,6.4,6.4,117
+1.5 oz of beef",,2 cups of chinese veggies,,,,,Dec25 Jan26,2026-01-16 10:30:00,False,2026-01-16,6.4,6.4,117
 36832093e59c,117,Dec25 Jan26,meal,Lunch,lunch,2026-01-16 00:00:00,15:45:00,6.2,"1 egg
-1.5 oz beef",,2 cups choy sum,,,,,2026-01-16 15:45:00,False,2026-01-16,6.2,6.2,118
+1.5 oz beef",,2 cups choy sum,,,,,Dec25 Jan26,2026-01-16 15:45:00,False,2026-01-16,6.2,6.2,118
 4de09ecaf586,118,Dec25 Jan26,meal,Dinner,dinner,2026-01-16 00:00:00,19:05:00,7,1.5 cup ground pork/mushroom,"3/4 cup quinoa
-pizza slice",2 cups of rapini,,1/4 yogurt blueberries/flax/hemp/chia/kiwi,,,2026-01-16 19:05:00,False,2026-01-16,7.0,7.0,119
-0b44a31db2aa,119,Dec25 Jan26,fasting,FASTING,fasting,2026-01-17 00:00:00,nan,5.1,,,,,,,,2026-01-17 00:00:00,False,2026-01-17,5.1,5.1,120
-ea927af931e3,121,Dec25 Jan26,meal,Snack,snack,2026-01-17 00:00:00,01:30:00,,1/4 cup skyr/bluberries/flax/hemp/kiwi,3 pretzels,,,,,,2026-01-17 01:30:00,False,2026-01-17,,,121
+pizza slice",2 cups of rapini,,1/4 yogurt blueberries/flax/hemp/chia/kiwi,,,Dec25 Jan26,2026-01-16 19:05:00,False,2026-01-16,7.0,7.0,119
+0b44a31db2aa,119,Dec25 Jan26,fasting,FASTING,fasting,2026-01-17 00:00:00,nan,5.1,,,,,,,,Dec25 Jan26,2026-01-17 00:00:00,False,2026-01-17,5.1,5.1,120
+ea927af931e3,121,Dec25 Jan26,meal,Snack,snack,2026-01-17 00:00:00,01:30:00,,1/4 cup skyr/bluberries/flax/hemp/kiwi,3 pretzels,,,,,,Dec25 Jan26,2026-01-17 01:30:00,False,2026-01-17,,,121
 3f8b465ffa55,122,Dec25 Jan26,meal,Lunch,lunch,2026-01-17 00:00:00,03:45:00,7.2,"1 egg
 1.5 oz beef",2 pretzels,1.5 cups veggies,Sheep milk fat,"1 cup of sheep milk
-1 cup of walnut milk",,,2026-01-17 03:45:00,False,2026-01-17,7.2,7.2,122
+1 cup of walnut milk",,,Dec25 Jan26,2026-01-17 03:45:00,False,2026-01-17,7.2,7.2,122
 ed243371f5b8,123,Dec25 Jan26,meal,Dinner,dinner,2026-01-17 00:00:00,06:15:00,5.3,6 oz salmon,1/2 cup quinoa,"1 cup of chinese veggies
-1 cup of garlic green beans",,,,,2026-01-17 06:15:00,False,2026-01-17,5.3,5.3,123
+1 cup of garlic green beans",,,,,Dec25 Jan26,2026-01-17 06:15:00,False,2026-01-17,5.3,5.3,123
 9dd0cc4a1fd9,120,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-17 00:00:00,10:30:00,6.6,"0.5 ground pork
-2 eggs and cheese",1 pop pan cracker,2 cups of rapini,,,,,2026-01-17 10:30:00,False,2026-01-17,6.6,6.6,124
-6534f447b70f,124,Dec25 Jan26,fasting,FASTING,fasting,2026-01-18 00:00:00,nan,5.4,,,,,,,,2026-01-18 00:00:00,False,2026-01-18,5.4,5.4,125
+2 eggs and cheese",1 pop pan cracker,2 cups of rapini,,,,,Dec25 Jan26,2026-01-17 10:30:00,False,2026-01-17,6.6,6.6,124
+6534f447b70f,124,Dec25 Jan26,fasting,FASTING,fasting,2026-01-18 00:00:00,nan,5.4,,,,,,,,Dec25 Jan26,2026-01-18 00:00:00,False,2026-01-18,5.4,5.4,125
 a4f818cc5216,125,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-18 00:00:00,10:30:00,6.8,"2 eggs
 1.5 oz sliced beef",,"1 cup of chinese veggies
-1 cup of garlic green beans",,,,,2026-01-18 10:30:00,False,2026-01-18,6.8,6.8,126
-72b1439d1c3c,126,Dec25 Jan26,meal,Snack,snack,2026-01-18 00:00:00,13:30:00,,1/4 cup skyr/bluberries/flax/hemp/kiwi,1/3 slice of bread,,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,2026-01-18 13:30:00,False,2026-01-18,,,127
+1 cup of garlic green beans",,,,,Dec25 Jan26,2026-01-18 10:30:00,False,2026-01-18,6.8,6.8,126
+72b1439d1c3c,126,Dec25 Jan26,meal,Snack,snack,2026-01-18 00:00:00,13:30:00,,1/4 cup skyr/bluberries/flax/hemp/kiwi,1/3 slice of bread,,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,Dec25 Jan26,2026-01-18 13:30:00,False,2026-01-18,,,127
 96f72cc8128a,127,Dec25 Jan26,meal,Lunch,lunch,2026-01-18 00:00:00,15:45:00,6.2,"1 egg
 2.5 oz salmon",1/3 slice of bread,"1 cup of chinese veggies
-1 cup of garlic green beans",,,,,2026-01-18 15:45:00,False,2026-01-18,6.2,6.2,128
-adc09c186352,128,Dec25 Jan26,meal,Dinner,dinner,2026-01-18 00:00:00,18:15:00,5.9,6 oz salmon,1/2 cup quinoa,2 cups of brocoli,,,,,2026-01-18 18:15:00,False,2026-01-18,5.9,5.9,129
-94b34a3e3d3f,129,Dec25 Jan26,fasting,FASTING,fasting,2026-01-19 00:00:00,nan,5.5,,,,,,,,2026-01-19 00:00:00,False,2026-01-19,5.5,5.5,130
+1 cup of garlic green beans",,,,,Dec25 Jan26,2026-01-18 15:45:00,False,2026-01-18,6.2,6.2,128
+adc09c186352,128,Dec25 Jan26,meal,Dinner,dinner,2026-01-18 00:00:00,18:15:00,5.9,6 oz salmon,1/2 cup quinoa,2 cups of brocoli,,,,,Dec25 Jan26,2026-01-18 18:15:00,False,2026-01-18,5.9,5.9,129
+94b34a3e3d3f,129,Dec25 Jan26,fasting,FASTING,fasting,2026-01-19 00:00:00,nan,5.5,,,,,,,,Dec25 Jan26,2026-01-19 00:00:00,False,2026-01-19,5.5,5.5,130
 aa65d7f85903,130,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-19 00:00:00,10:30:00,6.8,"2 eggs
-1.5 oz sliced pork",1/4 slice of bread,1 cup of bok choy,,,,,2026-01-19 10:30:00,False,2026-01-19,6.8,6.8,131
-b68462474ad1,131,Dec25 Jan26,meal,Snack,snack,2026-01-19 00:00:00,13:30:00,,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,,,,2026-01-19 13:30:00,False,2026-01-19,,,132
+1.5 oz sliced pork",1/4 slice of bread,1 cup of bok choy,,,,,Dec25 Jan26,2026-01-19 10:30:00,False,2026-01-19,6.8,6.8,131
+b68462474ad1,131,Dec25 Jan26,meal,Snack,snack,2026-01-19 00:00:00,13:30:00,,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,,,,Dec25 Jan26,2026-01-19 13:30:00,False,2026-01-19,,,132
 e366d9c6cd4f,132,Dec25 Jan26,meal,Lunch,lunch,2026-01-19 00:00:00,15:30:00,6.4,"1 egg
-1 oz of sliced pork",1/4 slice of bread,1 cup of brocoli,,,,,2026-01-19 15:30:00,False,2026-01-19,6.4,6.4,133
+1 oz of sliced pork",1/4 slice of bread,1 cup of brocoli,,,,,Dec25 Jan26,2026-01-19 15:30:00,False,2026-01-19,6.4,6.4,133
 12ad0fe42a22,133,Dec25 Jan26,meal,Dinner,dinner,2026-01-19 00:00:00,18:00:00,5.7,"4 oz of beef stir fry
 3/4 cup milk pudding","1/2 cup of quinoa
-1/2 slice bread",2 cups of bok choy,,cup of apple cider vinegar,,,2026-01-19 18:00:00,False,2026-01-19,5.7,5.7,134
-922b62ed0ff0,134,Dec25 Jan26,meal,Snack,snack,2026-01-19 00:00:00,21:30:00,,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,,,,2026-01-19 21:30:00,False,2026-01-19,,,135
-973cbc93cc95,135,Dec25 Jan26,fasting,FASTING,fasting,2026-01-20 00:00:00,nan,5.1,,,,,,,,2026-01-20 00:00:00,False,2026-01-20,5.1,5.1,136
+1/2 slice bread",2 cups of bok choy,,cup of apple cider vinegar,,,Dec25 Jan26,2026-01-19 18:00:00,False,2026-01-19,5.7,5.7,134
+922b62ed0ff0,134,Dec25 Jan26,meal,Snack,snack,2026-01-19 00:00:00,21:30:00,,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,,,,Dec25 Jan26,2026-01-19 21:30:00,False,2026-01-19,,,135
+973cbc93cc95,135,Dec25 Jan26,fasting,FASTING,fasting,2026-01-20 00:00:00,nan,5.1,,,,,,,,Dec25 Jan26,2026-01-20 00:00:00,False,2026-01-20,5.1,5.1,136
 02fc2329e416,136,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-20 00:00:00,10:30:00,6.9,"2 eggs
-1 oz beef",1/4 slice of bread,1.5 cups bok choy,,,,,2026-01-20 10:30:00,False,2026-01-20,6.9,6.9,137
-937ab0cfb712,137,Dec25 Jan26,meal,Snack,snack,2026-01-20 00:00:00,13:30:00,,,,6 olives,,,,,2026-01-20 13:30:00,False,2026-01-20,,,138
+1 oz beef",1/4 slice of bread,1.5 cups bok choy,,,,,Dec25 Jan26,2026-01-20 10:30:00,False,2026-01-20,6.9,6.9,137
+937ab0cfb712,137,Dec25 Jan26,meal,Snack,snack,2026-01-20 00:00:00,13:30:00,,,,6 olives,,,,,Dec25 Jan26,2026-01-20 13:30:00,False,2026-01-20,,,138
 5c8ffdc854fe,138,Dec25 Jan26,meal,Lunch,lunch,2026-01-20 00:00:00,15:30:00,5.8,"1 egg
-1 oz pork",1/4 slice of bread,1.5 cups bok choy,,1 cup walnut milk,,,2026-01-20 15:30:00,False,2026-01-20,5.8,5.8,139
+1 oz pork",1/4 slice of bread,1.5 cups bok choy,,1 cup walnut milk,,,Dec25 Jan26,2026-01-20 15:30:00,False,2026-01-20,5.8,5.8,139
 c6338d16efc0,139,Dec25 Jan26,meal,Dinner,dinner,2026-01-20 00:00:00,20:00:00,7.4,5 oz beef brisket/tendon,"1/2 cup egg noodles
 2 spring rolls","2 cups stirfry green beans
-2 cup pea shoots",,Congee Queen Chinese Food,,,2026-01-20 20:00:00,False,2026-01-20,7.4,7.4,140
-a63acbdc1e34,140,Dec25 Jan26,fasting,FASTING,fasting,2026-01-21 00:00:00,nan,5.3,,,,,,,,2026-01-21 00:00:00,False,2026-01-21,5.3,5.3,141
+2 cup pea shoots",,Congee Queen Chinese Food,,,Dec25 Jan26,2026-01-20 20:00:00,False,2026-01-20,7.4,7.4,140
+a63acbdc1e34,140,Dec25 Jan26,fasting,FASTING,fasting,2026-01-21 00:00:00,nan,5.3,,,,,,,,Dec25 Jan26,2026-01-21 00:00:00,False,2026-01-21,5.3,5.3,141
 ac840aa2e2d5,141,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-21 00:00:00,10:30:00,6.4 (CGM 5.8),"2 eggs
-1.5 oz sliced pork",1/4 slice of bread,2 cup chinese veggies,,,,,2026-01-21 10:30:00,False,2026-01-21,6.1,6.1,142
-089fc884306b,142,Dec25 Jan26,meal,Snack,snack,2026-01-21 00:00:00,13:30:00,,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,,,,2026-01-21 13:30:00,False,2026-01-21,,,143
-9b2b6d802931,143,Dec25 Jan26,meal,Lunch,lunch,2026-01-21 00:00:00,15:30:00,6 (CGM 5.4),2 eggs,1/4 slice of bread,1.5 cups choy sum,,,,,2026-01-21 15:30:00,False,2026-01-21,5.7,5.7,144
+1.5 oz sliced pork",1/4 slice of bread,2 cup chinese veggies,,,,,Dec25 Jan26,2026-01-21 10:30:00,False,2026-01-21,6.1,6.1,142
+089fc884306b,142,Dec25 Jan26,meal,Snack,snack,2026-01-21 00:00:00,13:30:00,,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,,,,Dec25 Jan26,2026-01-21 13:30:00,False,2026-01-21,,,143
+9b2b6d802931,143,Dec25 Jan26,meal,Lunch,lunch,2026-01-21 00:00:00,15:30:00,6 (CGM 5.4),2 eggs,1/4 slice of bread,1.5 cups choy sum,,,,,Dec25 Jan26,2026-01-21 15:30:00,False,2026-01-21,5.7,5.7,144
 0b1e70ada509,144,Dec25 Jan26,meal,Dinner,dinner,2026-01-21 00:00:00,18:30:00,5.6 (CGM 5.3),5 oz pork chops,1/2 cup egg noodles,"1.5 cups choy sum
-1.5 cup wood fungus",1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,2026-01-21 18:30:00,False,2026-01-21,5.449999999999999,5.449999999999999,145
-ff72080a12a1,145,Dec25 Jan26,fasting,FASTING,fasting,2926-01-22 00:00:00,nan,5.4,,,,,,,,2026-01-21 18:30:00,True,2026-01-21,5.4,5.4,146
+1.5 cup wood fungus",1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,Dec25 Jan26,2026-01-21 18:30:00,False,2026-01-21,5.449999999999999,5.449999999999999,145
+ff72080a12a1,145,Dec25 Jan26,fasting,FASTING,fasting,2926-01-22 00:00:00,nan,5.4,,,,,,,,Dec25 Jan26,2026-01-21 18:30:00,True,2026-01-21,5.4,5.4,146
 b339510a9522,147,Dec25 Jan26,meal,Lunch,lunch,2026-01-22 00:00:00,nan,5.7 (CGM 5.1),"1 egg
-1 oz of sliced pork",,1.5 cups choy sum,,,,,2026-01-22 00:00:00,False,2026-01-22,5.4,5.4,147
-f7c17780356c,148,Dec25 Jan26,meal,Snack,snack,2026-01-22 00:00:00,nan,,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,,,,2026-01-22 00:00:00,False,2026-01-22,,,148
-f99174f6a827,149,Dec25 Jan26,meal,Dinner,dinner,2026-01-22 00:00:00,nan,5 (CGM 4.6),5 oz pork chop,,1 cup brocoli,,,,,2026-01-22 00:00:00,False,2026-01-22,4.8,4.8,149
+1 oz of sliced pork",,1.5 cups choy sum,,,,,Dec25 Jan26,2026-01-22 00:00:00,False,2026-01-22,5.4,5.4,147
+f7c17780356c,148,Dec25 Jan26,meal,Snack,snack,2026-01-22 00:00:00,nan,,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,,,,Dec25 Jan26,2026-01-22 00:00:00,False,2026-01-22,,,148
+f99174f6a827,149,Dec25 Jan26,meal,Dinner,dinner,2026-01-22 00:00:00,nan,5 (CGM 4.6),5 oz pork chop,,1 cup brocoli,,,,,Dec25 Jan26,2026-01-22 00:00:00,False,2026-01-22,4.8,4.8,149
 bf7af6880d7e,146,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-22 00:00:00,11:00:00,6.9,"2 eggs
 1 oz sliced pork
-5.4 oz sheep milk",2/9 slice of bread,1.5 cups choy sum/wood fungus,,,,,2026-01-22 11:00:00,False,2026-01-22,6.9,6.9,150
-a4ecc45936df,150,Dec25 Jan26,fasting,FASTING,fasting,2026-01-23 00:00:00,nan,5.1 (CGM 4.4),,,,,,,,2026-01-23 00:00:00,False,2026-01-23,4.75,4.75,151
+5.4 oz sheep milk",2/9 slice of bread,1.5 cups choy sum/wood fungus,,,,,Dec25 Jan26,2026-01-22 11:00:00,False,2026-01-22,6.9,6.9,150
+a4ecc45936df,150,Dec25 Jan26,fasting,FASTING,fasting,2026-01-23 00:00:00,nan,5.1 (CGM 4.4),,,,,,,,Dec25 Jan26,2026-01-23 00:00:00,False,2026-01-23,4.75,4.75,151
 333d10785571,151,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-23 00:00:00,10:30:00,6.5 (CGM 5.4),"2 eggs
-2 oz pork chop",,1.5 cups choy sum,,,,,2026-01-23 10:30:00,False,2026-01-23,5.95,5.95,152
+2 oz pork chop",,1.5 cups choy sum,,,,,Dec25 Jan26,2026-01-23 10:30:00,False,2026-01-23,5.95,5.95,152
 7ac04083f741,152,Dec25 Jan26,meal,Lunch,lunch,2026-01-23 00:00:00,13:30:00,6.2 (CGM 5.2),1 egg,,"sweet peas
-1.5 cooked mixed greens",,,,,2026-01-23 13:30:00,False,2026-01-23,5.7,5.7,153
-e55ec002a60e,153,Dec25 Jan26,meal,Snack,snack,2026-01-23 00:00:00,15:30:00,,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,,,,2026-01-23 15:30:00,False,2026-01-23,,,154
+1.5 cooked mixed greens",,,,,Dec25 Jan26,2026-01-23 13:30:00,False,2026-01-23,5.7,5.7,153
+e55ec002a60e,153,Dec25 Jan26,meal,Snack,snack,2026-01-23 00:00:00,15:30:00,,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,,,,Dec25 Jan26,2026-01-23 15:30:00,False,2026-01-23,,,154
 8312ce28874e,154,Dec25 Jan26,meal,Dinner,dinner,2026-01-23 00:00:00,18:00:00,6.2 (CGM 5.6),1 cup beef brisket/tendon,3/4 cup quinoa,"1 cup green beans
-1 cup brocoli",1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,2026-01-23 18:00:00,False,2026-01-23,5.9,5.9,155
-ac4b7a265701,155,Dec25 Jan26,fasting,FASTING,fasting,2026-01-24 00:00:00,nan,5.2 (CGM 4.3),,,,,,,,2026-01-24 00:00:00,False,2026-01-24,4.75,4.75,156
+1 cup brocoli",1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,Dec25 Jan26,2026-01-23 18:00:00,False,2026-01-23,5.9,5.9,155
+ac4b7a265701,155,Dec25 Jan26,fasting,FASTING,fasting,2026-01-24 00:00:00,nan,5.2 (CGM 4.3),,,,,,,,Dec25 Jan26,2026-01-24 00:00:00,False,2026-01-24,4.75,4.75,156
 efa072ab2fd3,156,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-24 00:00:00,10:15:00,6.5 (CGM 5.3),"2 eggs
 1.5 oz of beef",2 pretzels,"1 cup cooked mixed greens
-1/2 green beans",1 oz cheese,,,,2026-01-24 10:15:00,False,2026-01-24,5.9,5.9,157
-3dfd562a8136,157,Dec25 Jan26,meal,Snack,snack,2026-01-24 00:00:00,14:30:00,,1/4 skyr blueberries/flax/hemp/chia/1/4 green apple,,,,,,,2026-01-24 14:30:00,False,2026-01-24,,,158
+1/2 green beans",1 oz cheese,,,,Dec25 Jan26,2026-01-24 10:15:00,False,2026-01-24,5.9,5.9,157
+3dfd562a8136,157,Dec25 Jan26,meal,Snack,snack,2026-01-24 00:00:00,14:30:00,,1/4 skyr blueberries/flax/hemp/chia/1/4 green apple,,,,,,,Dec25 Jan26,2026-01-24 14:30:00,False,2026-01-24,,,158
 1207bbf6a5f5,158,Dec25 Jan26,meal,Lunch,lunch,2026-01-24 00:00:00,15:30:00,CGM 4.9,2 eggs,,"1 cup cooked mixed greens
-1/2 green beans",,,,,2026-01-24 15:30:00,False,2026-01-24,4.9,4.9,159
+1/2 green beans",,,,,Dec25 Jan26,2026-01-24 15:30:00,False,2026-01-24,4.9,4.9,159
 49c5c7ea140b,159,Dec25 Jan26,meal,Dinner,dinner,2026-01-24 00:00:00,19:00:00,CGM 5.1,6 oz salmon,3/4 cup quinoa,"2 cup chinese broccoli
-1/2 garlic mushrooms",1/4 cup skyr/bluberries/flax/hemp/chia/grn apple,,,,2026-01-24 19:00:00,False,2026-01-24,5.1,5.1,160
-9a40c2292026,160,Dec25 Jan26,fasting,FASTING,fasting,2026-01-25 00:00:00,nan,CGM 4.3,,,,,,,,2026-01-25 00:00:00,False,2026-01-25,4.3,4.3,161
-3bbf3ceb6c9b,162,Dec25 Jan26,meal,Lunch,lunch,2026-01-25 00:00:00,nan,CGM 5.6,2 eggs,1/4 slice of bread,1.5 mixed greens,,,,,2026-01-25 00:00:00,False,2026-01-25,5.6,5.6,162
-b23bdb8d5839,163,Dec25 Jan26,meal,Dinner,dinner,2026-01-25 00:00:00,nan,CGM 5.7,6 oz salmon,1/2 cup quinoa,1.5 cups bok choy,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,2026-01-25 00:00:00,False,2026-01-25,5.7,5.7,163
+1/2 garlic mushrooms",1/4 cup skyr/bluberries/flax/hemp/chia/grn apple,,,,Dec25 Jan26,2026-01-24 19:00:00,False,2026-01-24,5.1,5.1,160
+9a40c2292026,160,Dec25 Jan26,fasting,FASTING,fasting,2026-01-25 00:00:00,nan,CGM 4.3,,,,,,,,Dec25 Jan26,2026-01-25 00:00:00,False,2026-01-25,4.3,4.3,161
+3bbf3ceb6c9b,162,Dec25 Jan26,meal,Lunch,lunch,2026-01-25 00:00:00,nan,CGM 5.6,2 eggs,1/4 slice of bread,1.5 mixed greens,,,,,Dec25 Jan26,2026-01-25 00:00:00,False,2026-01-25,5.6,5.6,162
+b23bdb8d5839,163,Dec25 Jan26,meal,Dinner,dinner,2026-01-25 00:00:00,nan,CGM 5.7,6 oz salmon,1/2 cup quinoa,1.5 cups bok choy,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,Dec25 Jan26,2026-01-25 00:00:00,False,2026-01-25,5.7,5.7,163
 160fdd4fba39,161,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-25 00:00:00,10:30:00,CGM 5.4,"2 eggs
-1.5 oz sliced beef",1/4 slice of bread,1.5 mixed greens,1 oz cheese,,,,2026-01-25 10:30:00,False,2026-01-25,5.4,5.4,164
-31209151a582,164,Dec25 Jan26,fasting,FASTING,fasting,2026-01-26 00:00:00,nan,CGM 4.4,,,,,,,,2026-01-26 00:00:00,False,2026-01-26,4.4,4.4,165
-4442f88cbdca,165,Dec25 Jan26,meal,Snack,snack,2026-01-26 00:00:00,10:30:00,,1 oz cheese,,6 olives,,at hospital,,,2026-01-26 10:30:00,False,2026-01-26,,,166
+1.5 oz sliced beef",1/4 slice of bread,1.5 mixed greens,1 oz cheese,,,,Dec25 Jan26,2026-01-25 10:30:00,False,2026-01-25,5.4,5.4,164
+31209151a582,164,Dec25 Jan26,fasting,FASTING,fasting,2026-01-26 00:00:00,nan,CGM 4.4,,,,,,,,Dec25 Jan26,2026-01-26 00:00:00,False,2026-01-26,4.4,4.4,165
+4442f88cbdca,165,Dec25 Jan26,meal,Snack,snack,2026-01-26 00:00:00,10:30:00,,1 oz cheese,,6 olives,,at hospital,,,Dec25 Jan26,2026-01-26 10:30:00,False,2026-01-26,,,166
 b4795a4acb91,166,Dec25 Jan26,meal,Lunch,lunch,2026-01-26 00:00:00,13:30:00,CGM 5.3,"2 eggs
-2 oz beef",1/4 slice of bread,2 cup of mixed veggies,5 oz milk,,,,2026-01-26 13:30:00,False,2026-01-26,5.3,5.3,167
-a66334a0a208,167,Dec25 Jan26,meal,Dinner,dinner,2026-01-26 00:00:00,18:00:00,CGM 4.7,1 cup ground pork/tofu,3/4 cup linguine,2 cup brocoli,5 oz milk,,,,2026-01-26 18:00:00,False,2026-01-26,4.7,4.7,168
-ab139bbbfbe6,168,Dec25 Jan26,meal,Snack,snack,2026-01-26 00:00:00,21:00:00,,0.5 oz cheese,,3 olives,3 pecans,,,,2026-01-26 21:00:00,False,2026-01-26,,,169
-b9b4f04097f0,169,Dec25 Jan26,fasting,FASTING,fasting,2026-01-27 00:00:00,nan,CGM 4.4,,,,,,,,2026-01-27 00:00:00,False,2026-01-27,4.4,4.4,170
+2 oz beef",1/4 slice of bread,2 cup of mixed veggies,5 oz milk,,,,Dec25 Jan26,2026-01-26 13:30:00,False,2026-01-26,5.3,5.3,167
+a66334a0a208,167,Dec25 Jan26,meal,Dinner,dinner,2026-01-26 00:00:00,18:00:00,CGM 4.7,1 cup ground pork/tofu,3/4 cup linguine,2 cup brocoli,5 oz milk,,,,Dec25 Jan26,2026-01-26 18:00:00,False,2026-01-26,4.7,4.7,168
+ab139bbbfbe6,168,Dec25 Jan26,meal,Snack,snack,2026-01-26 00:00:00,21:00:00,,0.5 oz cheese,,3 olives,3 pecans,,,,Dec25 Jan26,2026-01-26 21:00:00,False,2026-01-26,,,169
+b9b4f04097f0,169,Dec25 Jan26,fasting,FASTING,fasting,2026-01-27 00:00:00,nan,CGM 4.4,,,,,,,,Dec25 Jan26,2026-01-27 00:00:00,False,2026-01-27,4.4,4.4,170
 98bc6aacfb75,170,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-27 00:00:00,10:00:00,CGM 5.7,"2 eggs
-1.5 oz sliced beef",1/4 slice of bread,2 cup brocoli,,Intralipids,,,2026-01-27 10:00:00,False,2026-01-27,5.7,5.7,171
-32c5470ba037,171,Dec25 Jan26,meal,Snack,snack,2026-01-27 00:00:00,13:00:00,,1 oz cheese,,,,,,,2026-01-27 13:00:00,False,2026-01-27,,,172
-018aee552e8c,172,Dec25 Jan26,meal,Lunch,lunch,2026-01-27 00:00:00,14:15:00,CGM 5.1,2 eggs,,2 cup brocoli,,,,,2026-01-27 14:15:00,False,2026-01-27,5.1,5.1,173
-708c7a8d2bee,173,Dec25 Jan26,meal,Snack,snack,2026-01-27 00:00:00,15:00:00,,5 oz milk,,,,,,,2026-01-27 15:00:00,False,2026-01-27,,,174
+1.5 oz sliced beef",1/4 slice of bread,2 cup brocoli,,Intralipids,,,Dec25 Jan26,2026-01-27 10:00:00,False,2026-01-27,5.7,5.7,171
+32c5470ba037,171,Dec25 Jan26,meal,Snack,snack,2026-01-27 00:00:00,13:00:00,,1 oz cheese,,,,,,,Dec25 Jan26,2026-01-27 13:00:00,False,2026-01-27,,,172
+018aee552e8c,172,Dec25 Jan26,meal,Lunch,lunch,2026-01-27 00:00:00,14:15:00,CGM 5.1,2 eggs,,2 cup brocoli,,,,,Dec25 Jan26,2026-01-27 14:15:00,False,2026-01-27,5.1,5.1,173
+708c7a8d2bee,173,Dec25 Jan26,meal,Snack,snack,2026-01-27 00:00:00,15:00:00,,5 oz milk,,,,,,,Dec25 Jan26,2026-01-27 15:00:00,False,2026-01-27,,,174
 61687e732376,174,Dec25 Jan26,meal,Dinner,dinner,2026-01-27 00:00:00,18:15:00,CGM 5.3,1 cup ground pork/tofu,,"1 cup cooked mixed greens
-1/2 green beans",2 pieces of duck,blueberries/1/2 kiwi,,,2026-01-27 18:15:00,False,2026-01-27,5.3,5.3,175
-a96ce92f259e,175,Dec25 Jan26,fasting,FASTING,fasting,2026-01-28 00:00:00,nan,CGM 4.3,,,,,,,,2026-01-28 00:00:00,False,2026-01-28,4.3,4.3,176
+1/2 green beans",2 pieces of duck,blueberries/1/2 kiwi,,,Dec25 Jan26,2026-01-27 18:15:00,False,2026-01-27,5.3,5.3,175
+a96ce92f259e,175,Dec25 Jan26,fasting,FASTING,fasting,2026-01-28 00:00:00,nan,CGM 4.3,,,,,,,,Dec25 Jan26,2026-01-28 00:00:00,False,2026-01-28,4.3,4.3,176
 8b3a8001ca51,176,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-28 00:00:00,10:30:00,CGM 5.4,"2 eggs
 1.5 oz of beef",1/4 slice of bread,"2 cups of chinese veggies
-1 cup of green beans",,,,,2026-01-28 10:30:00,False,2026-01-28,5.4,5.4,177
+1 cup of green beans",,,,,Dec25 Jan26,2026-01-28 10:30:00,False,2026-01-28,5.4,5.4,177
 510055415587,177,Dec25 Jan26,meal,dinner,dinner,2026-01-28 00:00:00,18:00:00,CGM 4.9,"3 oz pork chop
-3 oz duck",1/2 cup quinoa,2 cup pea shoots,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,2026-01-28 18:00:00,False,2026-01-28,4.9,4.9,178
-09c86b560178,178,Dec25 Jan26,fasting,FASTING,fasting,2026-01-29 00:00:00,nan,CGM 4.3,,,,,,,,2026-01-29 00:00:00,False,2026-01-29,4.3,4.3,179
+3 oz duck",1/2 cup quinoa,2 cup pea shoots,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,Dec25 Jan26,2026-01-28 18:00:00,False,2026-01-28,4.9,4.9,178
+09c86b560178,178,Dec25 Jan26,fasting,FASTING,fasting,2026-01-29 00:00:00,nan,CGM 4.3,,,,,,,,Dec25 Jan26,2026-01-29 00:00:00,False,2026-01-29,4.3,4.3,179
 98db54c837ce,179,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-29 00:00:00,nan,CGM 5.3,"2 eggs
-1.5 oz of beef",,,,,,,2026-01-29 00:00:00,False,2026-01-29,5.3,5.3,180
-e1d645ac26f3,180,Dec25 Jan26,meal,snack,snack,nan,nan,,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,,,,2026-01-29 00:00:00,True,2026-01-29,,,181
-6861decd2c75,181,Dec25 Jan26,meal,Lunch,lunch,nan,nan,CGM 5.8,1 egg,,1.5 cups choy sum,,,,,2026-01-29 00:00:00,True,2026-01-29,5.8,5.8,182
-ec116b2c76d8,182,Dec25 Jan26,meal,Dinner,dinner,2026-01-29 00:00:00,18:30:00,CGM 5.2,5 oz ground pork,1/2 cup quinoa,2 cup chinese veggies,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,2026-01-29 18:30:00,False,2026-01-29,5.2,5.2,183
-9dc95a53145b,183,Dec25 Jan26,fasting,FASTING,fasting,2026-01-30 00:00:00,nan,CGM  3.9,,,,,,,,2026-01-30 00:00:00,False,2026-01-30,3.9,3.9,184
-62c5a564b9c5,184,Dec25 Jan26,fasting,breakfast,fasting,2026-01-30 00:00:00,10:30:00,CGM 5.5,2 eggs,,1.5 cups choy sum,,,,,2026-01-30 10:30:00,False,2026-01-30,5.5,5.5,185
-f4e4f43a76a8,185,Dec25 Jan26,meal,snack,snack,2026-01-30 00:00:00,13:30:00,,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,5 oz milk,,,,2026-01-30 13:30:00,False,2026-01-30,,,186
-d8402864e907,186,Dec25 Jan26,meal,Lunch,lunch,2026-01-30 00:00:00,16:00:00,CGM 5.0,1 egg,,1.5 cups nappa cabbage,,,,,2026-01-30 16:00:00,False,2026-01-30,5.0,5.0,187
-4e4238fbb96c,187,Dec25 Jan26,meal,Dinner,dinner,2026-01-30 00:00:00,18:30:00,CGM 4.9,5 oz steamed cod,1/2 cup pasta,2 cup nappa,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,2026-01-30 18:30:00,False,2026-01-30,4.9,4.9,188
-a4a1b4b219ea,188,Dec25 Jan26,fasting,FASTING,fasting,2026-01-31 00:00:00,nan,CGM 4.4,,,,,,,,2026-01-31 00:00:00,False,2026-01-31,4.4,4.4,189
+1.5 oz of beef",,,,,,,Dec25 Jan26,2026-01-29 00:00:00,False,2026-01-29,5.3,5.3,180
+e1d645ac26f3,180,Dec25 Jan26,meal,snack,snack,nan,nan,,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,,,,Dec25 Jan26,2026-01-29 00:00:00,True,2026-01-29,,,181
+6861decd2c75,181,Dec25 Jan26,meal,Lunch,lunch,nan,nan,CGM 5.8,1 egg,,1.5 cups choy sum,,,,,Dec25 Jan26,2026-01-29 00:00:00,True,2026-01-29,5.8,5.8,182
+ec116b2c76d8,182,Dec25 Jan26,meal,Dinner,dinner,2026-01-29 00:00:00,18:30:00,CGM 5.2,5 oz ground pork,1/2 cup quinoa,2 cup chinese veggies,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,Dec25 Jan26,2026-01-29 18:30:00,False,2026-01-29,5.2,5.2,183
+9dc95a53145b,183,Dec25 Jan26,fasting,FASTING,fasting,2026-01-30 00:00:00,nan,CGM  3.9,,,,,,,,Dec25 Jan26,2026-01-30 00:00:00,False,2026-01-30,3.9,3.9,184
+62c5a564b9c5,184,Dec25 Jan26,fasting,breakfast,fasting,2026-01-30 00:00:00,10:30:00,CGM 5.5,2 eggs,,1.5 cups choy sum,,,,,Dec25 Jan26,2026-01-30 10:30:00,False,2026-01-30,5.5,5.5,185
+f4e4f43a76a8,185,Dec25 Jan26,meal,snack,snack,2026-01-30 00:00:00,13:30:00,,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,5 oz milk,,,,Dec25 Jan26,2026-01-30 13:30:00,False,2026-01-30,,,186
+d8402864e907,186,Dec25 Jan26,meal,Lunch,lunch,2026-01-30 00:00:00,16:00:00,CGM 5.0,1 egg,,1.5 cups nappa cabbage,,,,,Dec25 Jan26,2026-01-30 16:00:00,False,2026-01-30,5.0,5.0,187
+4e4238fbb96c,187,Dec25 Jan26,meal,Dinner,dinner,2026-01-30 00:00:00,18:30:00,CGM 4.9,5 oz steamed cod,1/2 cup pasta,2 cup nappa,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,Dec25 Jan26,2026-01-30 18:30:00,False,2026-01-30,4.9,4.9,188
+a4a1b4b219ea,188,Dec25 Jan26,fasting,FASTING,fasting,2026-01-31 00:00:00,nan,CGM 4.4,,,,,,,,Dec25 Jan26,2026-01-31 00:00:00,False,2026-01-31,4.4,4.4,189
 7b1bdc267115,189,Dec25 Jan26,fasting,Breakfast,fasting,2026-01-31 00:00:00,11:00:00,CGM 5.3,"2 eggs
-1.5 oz of beef",1/2 slice bread,1.5 cup cooked veggies,1 cup walnut milk with coco powder,,,,2026-01-31 11:00:00,False,2026-01-31,5.3,5.3,190
-ed8f72f2cdef,190,Dec25 Jan26,meal,Lunch,lunch,2026-01-31 00:00:00,13:30:00,CGM 5.2,2 eggs,1/2 slice bread,1.5 cups bok choy,4 cups miso soup with tofu/seaweed,,,,2026-01-31 13:30:00,False,2026-01-31,5.2,5.2,191
-327beefc352e,191,Dec25 Jan26,meal,Dinner,dinner,2026-01-31 00:00:00,18:00:00,CGM 5.2 ,1 cup ground pork,1/2 cup pasta,2 cups veggies,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,2026-01-31 18:00:00,False,2026-01-31,5.2,5.2,192
-edef9dded5d3,0,Feb2026,fasting,FASTING,fasting,2026-02-01 00:00:00,nan,CGM 4.4,,,,,,,,2026-02-01 00:00:00,False,2026-02-01,4.4,4.4,193
+1.5 oz of beef",1/2 slice bread,1.5 cup cooked veggies,1 cup walnut milk with coco powder,,,,Dec25 Jan26,2026-01-31 11:00:00,False,2026-01-31,5.3,5.3,190
+ed8f72f2cdef,190,Dec25 Jan26,meal,Lunch,lunch,2026-01-31 00:00:00,13:30:00,CGM 5.2,2 eggs,1/2 slice bread,1.5 cups bok choy,4 cups miso soup with tofu/seaweed,,,,Dec25 Jan26,2026-01-31 13:30:00,False,2026-01-31,5.2,5.2,191
+327beefc352e,191,Dec25 Jan26,meal,Dinner,dinner,2026-01-31 00:00:00,18:00:00,CGM 5.2 ,1 cup ground pork,1/2 cup pasta,2 cups veggies,1/4 cup skyr/bluberries/flax/hemp/kiwi,,,,Dec25 Jan26,2026-01-31 18:00:00,False,2026-01-31,5.2,5.2,192
+edef9dded5d3,0,Feb2026,fasting,FASTING,fasting,2026-02-01 00:00:00,nan,CGM 4.4,,,,,,,,Feb2026,2026-02-01 00:00:00,False,2026-02-01,4.4,4.4,193
 98e43c4d2604,1,Feb2026,fasting,Breakfast,fasting,2026-02-01 00:00:00,10:30:00,CGM 5.0,,,,,,"2 eggs, 1.5 oz sliced beef, 2 cups veggies
-1/4 slice of bread",,2026-02-01 10:30:00,False,2026-02-01,5.0,5.0,194
-378ddd8ebaa0,3,Feb2026,meal,Snack,snack,2026-02-01 00:00:00,13:30:00,,,,,,,1/4 cup skyr/bluberries/flax/hemp/kiwi,1 slice pizza?,2026-02-01 13:30:00,False,2026-02-01,,,195
+1/4 slice of bread",,Feb2026,2026-02-01 10:30:00,False,2026-02-01,5.0,5.0,194
+378ddd8ebaa0,3,Feb2026,meal,Snack,snack,2026-02-01 00:00:00,13:30:00,,,,,,,1/4 cup skyr/bluberries/flax/hemp/kiwi,1 slice pizza?,Feb2026,2026-02-01 13:30:00,False,2026-02-01,,,195
 2631b6d81ef4,2,Feb2026,meal,Lunch,lunch,2026-02-01 00:00:00,15:30:00,CGM 6.6,,,,,,"2 eggs, 2 cups veggies
-1/4 slice of bread",,2026-02-01 15:30:00,False,2026-02-01,6.6,6.6,196
-b56193c807a4,4,Feb2026,meal,Dinner,dinner,2026-02-01 00:00:00,19:00:00,CGM4.3,,,,,,"tofu/pork patty, 1/2 cup quinoa, 2 cups veggies",,2026-02-01 19:00:00,False,2026-02-01,4.3,4.3,197
-c645a242d53b,5,Feb2026,fasting,FASTING,fasting,2026-02-02 00:00:00,nan,CGM 4.2,,,,,,,,2026-02-02 00:00:00,False,2026-02-02,4.2,4.2,198
+1/4 slice of bread",,Feb2026,2026-02-01 15:30:00,False,2026-02-01,6.6,6.6,196
+b56193c807a4,4,Feb2026,meal,Dinner,dinner,2026-02-01 00:00:00,19:00:00,CGM4.3,,,,,,"tofu/pork patty, 1/2 cup quinoa, 2 cups veggies",,Feb2026,2026-02-01 19:00:00,False,2026-02-01,4.3,4.3,197
+c645a242d53b,5,Feb2026,fasting,FASTING,fasting,2026-02-02 00:00:00,nan,CGM 4.2,,,,,,,,Feb2026,2026-02-02 00:00:00,False,2026-02-02,4.2,4.2,198
 5db452e25f23,6,Feb2026,fasting,Breakfast,fasting,2026-02-02 00:00:00,10:30:00,CGM 5.4,,,,,,"2 eggs, 1.5 oz sliced beef, 2 cups veggies
-1/4 slice of bread",,2026-02-02 10:30:00,False,2026-02-02,5.4,5.4,199
-617cd9cba219,7,Feb2026,meal,Snack,snack,2026-02-02 00:00:00,13:30:00,,,,,,,1/4 cup skyr/bluberries/flax/hemp/kiwi,,2026-02-02 13:30:00,False,2026-02-02,,,200
-ba259040c75b,8,Feb2026,meal,Lunch,lunch,2026-02-02 00:00:00,16:00:00,CGM5.1,,,,,,"1 egg, 1.5 cup veggies, 1/2 slice bread",,2026-02-02 16:00:00,False,2026-02-02,5.1,5.1,201
-156da7c717dd,9,Feb2026,meal,Dinner,dinner,2026-02-02 00:00:00,18:30:00,CGM5.2,,,,,,"5 oz pork chop, 2 cup choy sum, 3/4 cup quinoa, 1/3 apple",,2026-02-02 18:30:00,False,2026-02-02,5.2,5.2,202
-7690be5c9764,10,Feb2026,fasting,FASTING,fasting,2026-02-03 00:00:00,nan,CGM 4.4,,,,,,,,2026-02-03 00:00:00,False,2026-02-03,4.4,4.4,203
+1/4 slice of bread",,Feb2026,2026-02-02 10:30:00,False,2026-02-02,5.4,5.4,199
+617cd9cba219,7,Feb2026,meal,Snack,snack,2026-02-02 00:00:00,13:30:00,,,,,,,1/4 cup skyr/bluberries/flax/hemp/kiwi,,Feb2026,2026-02-02 13:30:00,False,2026-02-02,,,200
+ba259040c75b,8,Feb2026,meal,Lunch,lunch,2026-02-02 00:00:00,16:00:00,CGM5.1,,,,,,"1 egg, 1.5 cup veggies, 1/2 slice bread",,Feb2026,2026-02-02 16:00:00,False,2026-02-02,5.1,5.1,201
+156da7c717dd,9,Feb2026,meal,Dinner,dinner,2026-02-02 00:00:00,18:30:00,CGM5.2,,,,,,"5 oz pork chop, 2 cup choy sum, 3/4 cup quinoa, 1/3 apple",,Feb2026,2026-02-02 18:30:00,False,2026-02-02,5.2,5.2,202
+7690be5c9764,10,Feb2026,fasting,FASTING,fasting,2026-02-03 00:00:00,nan,CGM 4.4,,,,,,,,Feb2026,2026-02-03 00:00:00,False,2026-02-03,4.4,4.4,203
 a8f4060779ab,11,Feb2026,fasting,Breakfast,fasting,2026-02-03 00:00:00,10:30:00,CGM 5.4,,,,,,"2 eggs, 1.5 oz sliced beef, 2 cups veggies
-1/4 slice of bread",,2026-02-03 10:30:00,False,2026-02-03,5.4,5.4,204
-c6b048da3318,12,Feb2026,meal,Lunch,lunch,2026-02-03 00:00:00,16:00:00,CGM5.3,,,,,,"1 egg, 1.5 cup veggies, 1/2 slice bread",,2026-02-03 16:00:00,False,2026-02-03,5.3,5.3,205
-3b01723dadb3,13,Feb2026,meal,Dinner,dinner,2026-02-03 00:00:00,18:30:00,CGM 5.2,,,,,,"5 oz pork chop, 5 oz tofu, 2 cups mushroom/veggies, 1/2 cup quinoa",,2026-02-03 18:30:00,False,2026-02-03,5.2,5.2,206
+1/4 slice of bread",,Feb2026,2026-02-03 10:30:00,False,2026-02-03,5.4,5.4,204
+c6b048da3318,12,Feb2026,meal,Lunch,lunch,2026-02-03 00:00:00,16:00:00,CGM5.3,,,,,,"1 egg, 1.5 cup veggies, 1/2 slice bread",,Feb2026,2026-02-03 16:00:00,False,2026-02-03,5.3,5.3,205
+3b01723dadb3,13,Feb2026,meal,Dinner,dinner,2026-02-03 00:00:00,18:30:00,CGM 5.2,,,,,,"5 oz pork chop, 5 oz tofu, 2 cups mushroom/veggies, 1/2 cup quinoa",,Feb2026,2026-02-03 18:30:00,False,2026-02-03,5.2,5.2,206

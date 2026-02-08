@@ -96,7 +96,7 @@ def build_meal_features(items: pd.DataFrame, clean_events: pd.DataFrame) -> pd.D
     )
     agg.reset_index(inplace=True)
 
-    events = clean_events[["meal_id", "datetime", "date", "blood_glucose_2hrs_post", "cbg_post", "meal_type"]].drop_duplicates("meal_id")
+    events = clean_events[["meal_id", "datetime", "date", "blood_glucose_2hrs_post", "cbg_post", "meal_type", "sheet_source"]].drop_duplicates("meal_id")
     meal_features = agg.merge(events, on="meal_id", how="left")
 
     meal_features["hour"] = meal_features["datetime"].dt.hour
@@ -123,6 +123,7 @@ def build_assumptions_report(items: pd.DataFrame) -> pd.DataFrame:
     columns = [
         "event_id",
         "meal_id",
+        "sheet_source",
         "datetime",
         "date",
         "event_type",
@@ -150,6 +151,6 @@ def build_assumptions_report(items: pd.DataFrame) -> pd.DataFrame:
 def build_manual_review(items: pd.DataFrame) -> pd.DataFrame:
     """List items missing USDA matches or relying on assumptions for QA review."""
     mask = (items["usda_match_status"] == "missing") | (items["assumed_100g_flag"])
-    review = items.loc[mask, ["food_text_raw", "food_name_std", "meal_id", "event_id", "assumption_reason", "usda_match_status"]]
+    review = items.loc[mask, ["food_text_raw", "food_name_std", "meal_id", "event_id", "sheet_source", "assumption_reason", "usda_match_status"]]
     review.sort_values(["usda_match_status", "assumption_reason"], inplace=True)
     return review

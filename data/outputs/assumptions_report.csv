@@ -1,285 +1,269 @@
-event_id,meal_id,datetime,date,event_type,food_text_raw,food_name_std,food_category,qty_raw,unit_raw,qty_numeric,unit_std,grams_final,assumed_100g_flag,default_applied_flag,assumption_reason,usda_match_status,fdcId,usda_description
-91ed4476c418,1,2025-01-12 00:00:00,2025-01-12,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-438a07049295,2,2025-01-15 00:00:00,2025-01-15,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-ca24887fcd70,3,2025-12-17 18:00:00,2025-12-17,meal,1 kiwi,kiwi,carb,1,,1.0,count,75.0,False,True,inferred_unit_count_missing_unit,missing,,
-ca24887fcd70,3,2025-12-17 18:00:00,2025-12-17,meal,avocado oil for cooking,avocado oil for cooking,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,173573,"Oil, avocado"
-ca24887fcd70,3,2025-12-17 18:00:00,2025-12-17,meal,1.5 piece pork chop,pork chop,protein,1.5,piece,1.5,count,100.0,True,False,missing_grams_per_count,missing,2727575,"Pork, chop, center cut, raw"
-01fa195cc08d,4,2025-12-18 00:00:00,2025-12-18,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-64ebce04833e,5,2025-12-18 10:20:00,2025-12-18,fasting,none,none,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-64ebce04833e,5,2025-12-18 10:20:00,2025-12-18,fasting,avocado oil for cooking,avocado oil for cooking,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,173573,"Oil, avocado"
-64ebce04833e,5,2025-12-18 10:20:00,2025-12-18,fasting,1 piece pork chop,pork chop,protein,1,piece,1.0,count,100.0,True,False,missing_grams_per_count,missing,2727575,"Pork, chop, center cut, raw"
-64ebce04833e,5,2025-12-18 10:20:00,2025-12-18,fasting,2 large eggs,large eggs,protein,2,,2.0,cup,480.0,False,True,inferred_unit_cup_missing_unit,missing,,
-5bf626f28400,6,2025-12-18 10:20:00,2025-12-18,meal,none,none,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-106e551095ec,7,2025-12-18 17:30:00,2025-12-18,meal,wonton wrappers,wrappers,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,172802.0,Wonton wrappers (includes egg roll wrappers)
-106e551095ec,7,2025-12-18 17:30:00,2025-12-18,meal,1 kiwi,kiwi,other,1,,1.0,count,75.0,False,True,inferred_unit_count_missing_unit,missing,,
-106e551095ec,7,2025-12-18 17:30:00,2025-12-18,meal,8 pork wontons,pork,protein,8,,8.0,cup,1920.0,False,True,inferred_unit_cup_missing_unit,missing,173856.0,"Bologna, pork"
-d3dfb0abefbb,8,2025-12-19 00:00:00,2025-12-19,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-fb6893e31123,9,2025-12-19 10:00:00,2025-12-19,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-fb6893e31123,9,2025-12-19 10:00:00,2025-12-19,fasting,3 oz. sliced beef,oz. sliced beef,protein,3,,3.0,cup,720.0,False,True,inferred_unit_cup_missing_unit,missing,,
-9162cb29e8ec,10,2025-12-19 15:00:00,2025-12-19,meal,1 kiwi,kiwi,carb,1,,1.0,count,75.0,False,True,inferred_unit_count_missing_unit,missing,,
-9162cb29e8ec,10,2025-12-19 15:00:00,2025-12-19,meal,mixed nuts,mixed nuts,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,168599,"Nuts, mixed nuts, dry roasted, with peanuts, with salt added"
-3000dce621db,11,2025-12-19 18:50:00,2025-12-19,meal,avocado oil for cooking,avocado oil for cooking,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,173573,"Oil, avocado"
-39f5975648e2,12,2025-12-20 00:00:00,2025-12-20,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-b9bc5cb4526c,13,2025-12-20 00:00:00,2025-12-20,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-37704f9e05b6,16,2025-12-21 10:15:00,2025-12-21,fasting,pretzels,pretzels,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171370,"Babyfood, pretzels"
-37704f9e05b6,16,2025-12-21 10:15:00,2025-12-21,fasting,avocado oil for cooking,avocado oil for cooking,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,173573,"Oil, avocado"
-37704f9e05b6,16,2025-12-21 10:15:00,2025-12-21,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-37704f9e05b6,16,2025-12-21 10:15:00,2025-12-21,fasting,3 oz. sliced beef,oz. sliced beef,protein,3,,3.0,cup,720.0,False,True,inferred_unit_cup_missing_unit,missing,,
-37704f9e05b6,16,2025-12-21 10:15:00,2025-12-21,fasting,1 small tomato,small tomato,veggies,1,,1.0,cup,240.0,False,True,inferred_unit_cup_missing_unit,missing,,
-f9e155c00daa,17,2025-12-21 14:15:00,2025-12-21,meal,6 olives,olives,other,6,,6.0,count,30.0,False,True,inferred_unit_count_missing_unit,missing,172926.0,"Olive loaf, pork"
-f9e155c00daa,17,2025-12-21 14:15:00,2025-12-21,meal,1/2 sliced beef,sliced beef,protein,1/2,,0.5,cup,120.0,False,True,inferred_unit_cup_missing_unit,missing,170602,"Beef, cured, corned beef, canned"
-7c305f480ad4,18,2025-12-21 18:15:00,2025-12-21,meal,avocado oil for cooking,avocado oil for cooking,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,173573,"Oil, avocado"
-7c305f480ad4,18,2025-12-21 18:15:00,2025-12-21,meal,1 kiwi,kiwi,other,1,,1.0,count,75.0,False,True,inferred_unit_count_missing_unit,missing,,
-7c305f480ad4,18,2025-12-21 18:15:00,2025-12-21,meal,5 oz. cod fish,oz. cod fish,protein,5,,5.0,cup,1200.0,False,True,inferred_unit_cup_missing_unit,missing,173577.0,"Fish oil, cod liver"
-7c305f480ad4,18,2025-12-21 18:15:00,2025-12-21,meal,1/2 sliced beef,sliced beef,protein,1/2,,0.5,cup,120.0,False,True,inferred_unit_cup_missing_unit,missing,170602,"Beef, cured, corned beef, canned"
-0ae50f3b9a6a,19,2025-12-22 10:35:00,2025-12-22,fasting,(see protein),,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-0ae50f3b9a6a,19,2025-12-22 10:35:00,2025-12-22,fasting,avocado oil for cooking,avocado oil for cooking,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,173573,"Oil, avocado"
-0ae50f3b9a6a,19,2025-12-22 10:35:00,2025-12-22,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-0ae50f3b9a6a,19,2025-12-22 10:35:00,2025-12-22,fasting,1wonton/2 soup dumplings,wonton/2 soup,protein,1,,1.0,cup,240.0,False,True,inferred_unit_cup_missing_unit,missing,,
-c6248a804592,20,2025-12-22 18:30:00,2025-12-22,meal,noodles,noodles,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,168914,"Rice noodles, cooked"
-c6248a804592,20,2025-12-22 18:30:00,2025-12-22,meal,cake,cake,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,174943,"Cake, snack cakes, creme-filled, sponge"
-c6248a804592,20,2025-12-22 18:30:00,2025-12-22,meal,2 spring rolls,spring,other,2,,2.0,cup,480.0,False,True,inferred_unit_cup_missing_unit,missing,168889,"Wheat, hard red spring"
-c6248a804592,20,2025-12-22 18:30:00,2025-12-22,meal,Chinese meal,chinese meal,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,169392,"Broccoli, chinese, cooked"
-d68a8c8b6c55,21,2025-12-23 10:15:00,2025-12-23,fasting,5 pretzels,pretzels,carb,5,,5.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
-d68a8c8b6c55,21,2025-12-23 10:15:00,2025-12-23,fasting,1/2 avocado,avocado,fat,1/2,,0.5,cup,120.0,False,True,inferred_unit_cup_missing_unit,missing,173573,"Oil, avocado"
-d68a8c8b6c55,21,2025-12-23 10:15:00,2025-12-23,fasting,spring roll,spring,other,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,168889,"Wheat, hard red spring"
-d68a8c8b6c55,21,2025-12-23 10:15:00,2025-12-23,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-fe8cc9a59944,22,2025-12-23 13:00:00,2025-12-23,meal,5 pretzels,pretzels,carb,5,,5.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
-fe8cc9a59944,22,2025-12-23 13:00:00,2025-12-23,meal,egg,egg,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,747997,"Eggs, Grade A, Large, egg white"
-dc24b1201d76,23,2025-12-23 18:00:00,2025-12-23,meal,5 oz. pork chops,oz. pork chops,protein,5,,5.0,cup,1200.0,False,True,inferred_unit_cup_missing_unit,missing,2727575,"Pork, chop, center cut, raw"
-e462eda30032,24,2025-12-24 10:40:00,2025-12-24,fasting,avocado oil for cooking,avocado oil for cooking,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,173573,"Oil, avocado"
-e462eda30032,24,2025-12-24 10:40:00,2025-12-24,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-f3dc4502097d,26,2025-12-24 18:30:00,2025-12-24,meal,6 olives,olives,other,6,,6.0,count,30.0,False,True,inferred_unit_count_missing_unit,missing,172926.0,"Olive loaf, pork"
-ae1d94a1e50d,27,2025-12-25 00:00:00,2025-12-25,meal,3 pretzels,pretzels,carb,3,,3.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
-ae1d94a1e50d,27,2025-12-25 00:00:00,2025-12-25,meal,6 olives,olives,other,6,,6.0,count,30.0,False,True,inferred_unit_count_missing_unit,missing,172926.0,"Olive loaf, pork"
-fad97f100d5f,28,2025-12-25 10:30:00,2025-12-25,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-0d93bb8fb6cb,29,2025-12-25 18:00:00,2025-12-25,meal,3 veggie spring rolls,veggie spring,carb,3,,3.0,cup,720.0,False,True,inferred_unit_cup_missing_unit,missing,168889.0,"Wheat, hard red spring"
-38b8553f1229,30,2025-12-26 11:00:00,2025-12-26,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-66c9f9812c83,31,2025-12-26 13:30:00,2025-12-26,meal,3 pretzels,pretzels,carb,3,,3.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
-66c9f9812c83,31,2025-12-26 13:30:00,2025-12-26,meal,6 olives,olives,other,6,,6.0,count,30.0,False,True,inferred_unit_count_missing_unit,missing,172926.0,"Olive loaf, pork"
-3754fce4ff35,32,2025-12-26 18:30:00,2025-12-26,meal,1 bread roll,bread,carb,1,,1.0,count,28.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-3754fce4ff35,32,2025-12-26 18:30:00,2025-12-26,meal,butter,butter,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171314,"Butter, Clarified butter (ghee)"
-41c4a20101e0,33,2025-12-27 10:30:00,2025-12-27,fasting,5 dumplings,,carb,5,dumplings,5.0,count,100.0,True,False,missing_grams_per_count,missing,,
-41c4a20101e0,33,2025-12-27 10:30:00,2025-12-27,fasting,cheese in eggs,cheese eggs,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-41c4a20101e0,33,2025-12-27 10:30:00,2025-12-27,fasting,3 eggs,eggs,protein,3,,3.0,count,150.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-eb483700af58,34,2025-12-27 12:00:00,2025-12-27,meal,Costco fries,costco fries,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,172451,"Tofu, fried"
-eb483700af58,34,2025-12-27 12:00:00,2025-12-27,meal,5 pretzels,pretzels,carb,5,,5.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
-eb483700af58,34,2025-12-27 12:00:00,2025-12-27,meal,6 olives,olives,other,6,,6.0,count,30.0,False,True,inferred_unit_count_missing_unit,missing,172926.0,"Olive loaf, pork"
-7d072a0b35cd,35,2025-12-27 17:50:00,2025-12-27,meal,avocado oil for cooking,avocado oil for cooking,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,173573,"Oil, avocado"
-a17f98e8b83d,36,2025-12-28 00:00:00,2025-12-28,meal,6 olives,olives,other,6,,6.0,count,30.0,False,True,inferred_unit_count_missing_unit,missing,172926.0,"Olive loaf, pork"
-44db89634212,37,2025-12-28 10:30:00,2025-12-28,fasting,3 wontons,,carb,3,wontons,3.0,count,100.0,True,False,missing_grams_per_count,missing,,
-29043cc5585c,38,2025-12-28 18:00:00,2025-12-28,meal,1/2 avocado,avocado,fat,1/2,,0.5,cup,120.0,False,True,inferred_unit_cup_missing_unit,missing,173573.0,"Oil, avocado"
-29043cc5585c,38,2025-12-28 18:00:00,2025-12-28,meal,1 kiwi,kiwi,other,1,,1.0,count,75.0,False,True,inferred_unit_count_missing_unit,missing,,
-ba0fa4f3fd63,39,2025-12-29 10:30:00,2025-12-29,fasting,2 wontons,,carb,2,wontons,2.0,count,100.0,True,False,missing_grams_per_count,missing,,
-ba0fa4f3fd63,39,2025-12-29 10:30:00,2025-12-29,fasting,2.5 eggs (steamed),eggs,protein,2.5,,2.5,count,125.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-48e233f74ba8,40,2025-12-29 13:30:00,2025-12-29,meal,2 pretzels,pretzels,carb,2,,2.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
-011ebb462826,41,2025-12-29 16:50:00,2025-12-29,meal,1 kiwi,kiwi,other,1,,1.0,count,75.0,False,True,inferred_unit_count_missing_unit,missing,,
-e9a80baf6328,42,2025-12-30 10:30:00,2025-12-30,fasting,2.5 hardboiled egg,hardboiled egg,protein,2.5,,2.5,cup,600.0,False,True,inferred_unit_cup_missing_unit,missing,,
-426978835642,43,2025-12-30 12:00:00,2025-12-30,meal,2 packs of crackers,packs crackers,carb,2,,2.0,cup,480.0,False,True,inferred_unit_cup_missing_unit,missing,167529.0,"Crackers, snack, Goya Crackers"
-8d5559c58467,44,2025-12-30 17:30:00,2025-12-30,meal,soup wonton noodles,soup noodles,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,171571.0,"Soup, chicken noodle, dry, mix"
-8d5559c58467,44,2025-12-30 17:30:00,2025-12-30,meal,2 spring rolls,spring,carb,2,,2.0,cup,480.0,False,True,inferred_unit_cup_missing_unit,missing,168889,"Wheat, hard red spring"
-8d5559c58467,44,2025-12-30 17:30:00,2025-12-30,meal,1 kiwi,kiwi,other,1,,1.0,count,75.0,False,True,inferred_unit_count_missing_unit,missing,,
-8d5559c58467,44,2025-12-30 17:30:00,2025-12-30,meal,8 pieces fried tofu with sauce,fried tofu with sauce,protein,8,pieces,8.0,count,100.0,True,False,missing_grams_per_count,missing,174304.0,"Tofu, fried, prepared with calcium sulfate"
-8d5559c58467,44,2025-12-30 17:30:00,2025-12-30,meal,beef tendon/brisket,beef tendon/brisket,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,170199,"Beef, cured, corned beef, brisket, raw"
-582954e8f776,45,2025-12-31 10:30:00,2025-12-31,fasting,2 Tbs rice noodles,tbs rice noodles,carb,2,,2.0,cup,480.0,False,True,inferred_unit_cup_missing_unit,missing,,
-582954e8f776,45,2025-12-31 10:30:00,2025-12-31,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-582954e8f776,45,2025-12-31 10:30:00,2025-12-31,fasting,3 pieces of fried tofu,fried tofu,protein,3,pieces,3.0,count,100.0,True,False,missing_grams_per_count,missing,172451,"Tofu, fried"
-f121e06f8775,46,2025-12-31 14:00:00,2025-12-31,meal,3 crackers,crackers,carb,3,,3.0,cup,720.0,False,True,inferred_unit_cup_missing_unit,missing,173161.0,Rice crackers
-327a15cb8302,47,2025-12-31 17:00:00,2025-12-31,meal,1 kiwi,kiwi,other,1,,1.0,count,75.0,False,True,inferred_unit_count_missing_unit,missing,,
-327a15cb8302,47,2025-12-31 17:00:00,2025-12-31,meal,5 wings,wings,protein,5,,5.0,cup,1200.0,False,True,inferred_unit_cup_missing_unit,missing,170478.0,"Winged bean leaves, raw"
-7a9339c778df,48,2026-01-01 00:00:00,2026-01-01,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-131dc62edd22,49,2026-01-01 11:30:00,2026-01-01,fasting,3 pretzels,pretzels,carb,3,,3.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
-131dc62edd22,49,2026-01-01 11:30:00,2026-01-01,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-18a0a6f97cab,50,2026-01-01 18:30:00,2026-01-01,meal,1/4 green onion pancake,green onion pancake,carb,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,missing,170092.0,Potato pancakes
-18a0a6f97cab,50,2026-01-01 18:30:00,2026-01-01,meal,chickn soup,chickn soup,other,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,172899,"Soup, HEALTHY CHOICE Chicken and Rice Soup, canned"
-b016438a4abc,51,2026-01-02 00:00:00,2026-01-02,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-9e325a87788a,52,2026-01-02 11:00:00,2026-01-02,fasting,3 eggs,eggs,protein,3,,3.0,count,150.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-25599ce57245,53,2026-01-02 11:00:00,2026-01-02,meal,crackers,crackers,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,173161.0,Rice crackers
-25599ce57245,53,2026-01-02 11:00:00,2026-01-02,meal,pretzel,pretzel,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171370,"Babyfood, pretzels"
-25599ce57245,53,2026-01-02 11:00:00,2026-01-02,meal,9 olives,olives,other,9,,9.0,count,45.0,False,True,inferred_unit_count_missing_unit,missing,172926.0,"Olive loaf, pork"
-577631dabfcd,54,2026-01-02 11:00:00,2026-01-02,meal,1 kiwi,kiwi,other,1,,1.0,count,75.0,False,True,inferred_unit_count_missing_unit,missing,,
-9229626448f5,55,2026-01-03 00:00:00,2026-01-03,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-51b016f1e24a,56,2026-01-03 11:00:00,2026-01-03,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-5badfdc86a76,57,2026-01-03 11:00:00,2026-01-03,meal,1 petzel,petzel,carb,1,,1.0,cup,240.0,False,True,inferred_unit_cup_missing_unit,missing,,
-5badfdc86a76,57,2026-01-03 11:00:00,2026-01-03,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
-e2e5c64ac5c8,58,2026-01-03 11:00:00,2026-01-03,meal,1 kiwi,kiwi,other,1,,1.0,count,75.0,False,True,inferred_unit_count_missing_unit,missing,,
-e2e5c64ac5c8,58,2026-01-03 11:00:00,2026-01-03,meal,3 blackberries,blackberries,other,3,,3.0,cup,720.0,False,True,inferred_unit_cup_missing_unit,missing,173946.0,"Blackberries, raw"
-7a93702cf9e6,59,2026-01-04 00:00:00,2026-01-04,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-f563ab9f2332,60,2026-01-04 10:30:00,2026-01-04,fasting,2 pretzels,pretzels,carb,2,,2.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
-f563ab9f2332,60,2026-01-04 10:30:00,2026-01-04,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-1fadb7d0da5a,61,2026-01-04 16:15:00,2026-01-04,meal,chinese food,chinese food,other,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,169392,"Broccoli, chinese, cooked"
-1fadb7d0da5a,61,2026-01-04 16:15:00,2026-01-04,meal,Tofu,tofu,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,167722,Tofu yogurt
-1fadb7d0da5a,61,2026-01-04 16:15:00,2026-01-04,meal,fried fish,fried fish,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-1fadb7d0da5a,61,2026-01-04 16:15:00,2026-01-04,meal,beef,beef,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,172012.0,"Bologna, beef"
-1fadb7d0da5a,61,2026-01-04 16:15:00,2026-01-04,meal,pork,pork,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,173856.0,"Bologna, pork"
-1fadb7d0da5a,61,2026-01-04 16:15:00,2026-01-04,meal,ground pork,ground pork,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,2514745,"Pork, ground, raw"
-1fadb7d0da5a,61,2026-01-04 16:15:00,2026-01-04,meal,green beans,green beans,veggies,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,169965,"Beans, snap, green, microwaved"
-8556e07d9bc0,62,2026-01-04 20:00:00,2026-01-04,meal,leftovers from lunch,leftovers from lunch,other,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,170794,"School Lunch, chicken patty, whole grain breaded"
-8556e07d9bc0,62,2026-01-04 20:00:00,2026-01-04,meal,fish and tofu,fish and tofu,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,167722,Tofu yogurt
-b314cd62fa9c,63,2026-01-05 00:00:00,2026-01-05,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-ece86dabfa26,64,2026-01-05 10:30:00,2026-01-05,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-ece86dabfa26,64,2026-01-05 10:30:00,2026-01-05,fasting,3 slices of bacon,bacon,protein,3,slices,3.0,count,100.0,True,False,missing_grams_per_count,missing,172439,"Bacon, meatless"
-61baf4b7a337,65,2026-01-05 14:30:00,2026-01-05,meal,chia,chia seeds,carb,,,3.0,tsp,9.0,False,True,default_chia_3tsp,missing,2710819.0,"Chia seeds, dry, raw"
-61baf4b7a337,65,2026-01-05 14:30:00,2026-01-05,meal,hemp,hempseed,carb,,,3.0,tsp,8.009495,False,True,default_flax_hemp_3tsp,missing,,
-61baf4b7a337,65,2026-01-05 14:30:00,2026-01-05,meal,flax,flax seed,carb,,,3.0,tsp,8.3175525,False,True,default_flax_hemp_3tsp,missing,170554,"Seeds, chia seeds, dried"
-61baf4b7a337,65,2026-01-05 14:30:00,2026-01-05,meal,bluebeery,bluebeery,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-61baf4b7a337,65,2026-01-05 14:30:00,2026-01-05,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673.0,"Bread, egg"
-eb42b78c71ae,66,2026-01-05 17:00:00,2026-01-05,meal,1/4 fried rice,fried rice,carb,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,missing,172451.0,"Tofu, fried"
-986b9636c58e,67,2026-01-06 00:00:00,2026-01-06,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-73e321337316,68,2026-01-06 10:30:00,2026-01-06,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-73e321337316,68,2026-01-06 10:30:00,2026-01-06,fasting,3 slices of bacon,bacon,protein,3,slices,3.0,count,100.0,True,False,missing_grams_per_count,missing,172439,"Bacon, meatless"
-1827b19262bd,69,2026-01-06 14:30:00,2026-01-06,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673.0,"Bread, egg"
-dd73c6265a80,71,2026-01-06 19:30:00,2026-01-06,meal,1/4  yogurt/blueberries/flax/hemp/chia,yogurt/blueberries/flax seed/hempseed/chia seeds,protein,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,missing,170554,"Seeds, chia seeds, dried"
-efc15fc9b408,72,2026-01-07 00:00:00,2026-01-07,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-f3703eaea826,73,2026-01-07 00:00:00,2026-01-07,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-f3703eaea826,73,2026-01-07 00:00:00,2026-01-07,fasting,3 slices of bacon,bacon,protein,3,slices,3.0,count,100.0,True,False,missing_grams_per_count,missing,172439,"Bacon, meatless"
-fb584a77e6ff,74,2026-01-07 00:00:00,2026-01-07,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
-fb584a77e6ff,74,2026-01-07 00:00:00,2026-01-07,meal,3 slice of beef,beef,protein,3,slice,3.0,count,100.0,True,False,missing_grams_per_count,missing,172012.0,"Bologna, beef"
-8e167c47301a,76,2026-01-08 00:00:00,2026-01-08,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-de4370235f31,77,2026-01-08 00:00:00,2026-01-08,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-3d6751f28e1b,78,2026-01-08 00:00:00,2026-01-08,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673.0,"Bread, egg"
-3d6751f28e1b,78,2026-01-08 00:00:00,2026-01-08,meal,3 slices of bacon,bacon,protein,3,slices,3.0,count,100.0,True,False,missing_grams_per_count,missing,172439.0,"Bacon, meatless"
-e9e3c9928f1f,79,2026-01-08 00:00:00,2026-01-08,meal,1/4 yogurt/blueberries,yogurt/blueberries,other,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,missing,2346411.0,"Blueberries, raw"
-485cea8f5553,80,2026-01-09 00:00:00,2026-01-09,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-b53170036933,81,2026-01-09 00:00:00,2026-01-09,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-3a73fac04dd4,82,2026-01-09 00:00:00,2026-01-09,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
-896883aecacf,84,2026-01-10 00:00:00,2026-01-10,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-3d639e953fb1,85,2026-01-10 11:00:00,2026-01-10,fasting,2 pretzels,pretzels,carb,2,,2.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
-3d639e953fb1,85,2026-01-10 11:00:00,2026-01-10,fasting,2 slice bacon,bacon,fat,2,slice,2.0,count,100.0,True,False,missing_grams_per_count,missing,172439,"Bacon, meatless"
-3d639e953fb1,85,2026-01-10 11:00:00,2026-01-10,fasting,1/4 yogurt/blueberries,yogurt/blueberries,other,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,missing,2346411,"Blueberries, raw"
-3d639e953fb1,85,2026-01-10 11:00:00,2026-01-10,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-fe804b6b1dac,86,2026-01-10 15:45:00,2026-01-10,meal,noodles,noodles,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,168914,"Rice noodles, cooked"
-fe804b6b1dac,86,2026-01-10 15:45:00,2026-01-10,meal,cake,cake,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,174943,"Cake, snack cakes, creme-filled, sponge"
-fe804b6b1dac,86,2026-01-10 15:45:00,2026-01-10,meal,Congee Queen,congee queen,other,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171969,"Crustaceans, crab, queen, raw"
-fe804b6b1dac,86,2026-01-10 15:45:00,2026-01-10,meal,beef brisket,beef brisket,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,170199.0,"Beef, cured, corned beef, brisket, raw"
-fe804b6b1dac,86,2026-01-10 15:45:00,2026-01-10,meal,tendon,tendon,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-fe804b6b1dac,86,2026-01-10 15:45:00,2026-01-10,meal,green beans,green beans,veggies,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,169965,"Beans, snap, green, microwaved"
-611fb5c8548d,87,2026-01-10 20:45:00,2026-01-10,meal,1/4 wonton noodles,noodles,carb,1/4,wonton,0.25,count,100.0,True,False,missing_grams_per_count,matched,168914,"Rice noodles, cooked"
-611fb5c8548d,87,2026-01-10 20:45:00,2026-01-10,meal,1/4 yogurt/blueberries,yogurt/blueberries,other,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,missing,2346411.0,"Blueberries, raw"
-611fb5c8548d,87,2026-01-10 20:45:00,2026-01-10,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673.0,"Bread, egg"
-32b464bfe1a1,88,2026-01-11 00:00:00,2026-01-11,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-de28f0eea4e1,90,2026-01-11 00:00:00,2026-01-11,meal,1/4 yogurt blueberries/flax/hemp/chia/kiwi,yogurt blueberries/flax seed/hempseed/chia seeds/kiwi,protein,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,missing,170554,"Seeds, chia seeds, dried"
-25bced6a10c1,91,2026-01-11 11:00:00,2026-01-11,fasting,3 pretzels,pretzels,carb,3,,3.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
-25bced6a10c1,91,2026-01-11 11:00:00,2026-01-11,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-bbbe44543550,92,2026-01-11 13:00:00,2026-01-11,meal,5 pretzels,pretzels,carb,5,,5.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
-bbbe44543550,92,2026-01-11 13:00:00,2026-01-11,meal,1/4 yogurt/blueberries,yogurt/blueberries,other,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,missing,2346411.0,"Blueberries, raw"
-bbbe44543550,92,2026-01-11 13:00:00,2026-01-11,meal,cashew nuts,cashew nuts,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,2515374,"Nuts, cashew nuts, raw"
-32ba0633ac4d,93,2026-01-11 15:30:00,2026-01-11,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673.0,"Bread, egg"
-038e7c4b8e1f,94,2026-01-12 00:00:00,2026-01-12,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-7955bb3e164e,95,2026-01-12 00:00:00,2026-01-12,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673.0,"Bread, egg"
-584ac4d50044,96,2026-01-12 00:00:00,2026-01-12,meal,pretzels,pretzels,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171370,"Babyfood, pretzels"
-584ac4d50044,96,2026-01-12 00:00:00,2026-01-12,meal,1/4 yogurt blueberries/flax/hemp/chia/kiwi,yogurt blueberries/flax seed/hempseed/chia seeds/kiwi,protein,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,missing,170554,"Seeds, chia seeds, dried"
-cb9a44cc4b72,97,2026-01-12 00:00:00,2026-01-12,meal,pretzels,pretzels,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171370,"Babyfood, pretzels"
-cb9a44cc4b72,97,2026-01-12 00:00:00,2026-01-12,meal,1/4 yogurt blueberries/flax/hemp/chia/kiwi,yogurt blueberries/flax seed/hempseed/chia seeds/kiwi,protein,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,missing,170554,"Seeds, chia seeds, dried"
-39fa02d8c853,99,2026-01-13 00:00:00,2026-01-13,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-4b29dacb814f,100,2026-01-13 10:45:00,2026-01-13,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-7383352f852a,101,2026-01-13 13:30:00,2026-01-13,meal,pretzels,pretzels,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171370,"Babyfood, pretzels"
-7383352f852a,101,2026-01-13 13:30:00,2026-01-13,meal,1/4 skyr blueberries/flax/hemp/chia/kiwi,skyr yogurt blueberries/flax seed/hempseed/chia seeds/kiwi,protein,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,matched,170914.0,"Yogurt, Greek, Blueberry, CHOBANI"
-e0c8a56f8283,102,2026-01-13 15:30:00,2026-01-13,meal,plantain chips,plantain chips,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,173142,"Snacks, plantain chips, salted"
-e0c8a56f8283,102,2026-01-13 15:30:00,2026-01-13,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
-0e4b7027a296,104,2026-01-13 21:30:00,2026-01-13,meal,pretzels,pretzels,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171370,"Babyfood, pretzels"
-0e4b7027a296,104,2026-01-13 21:30:00,2026-01-13,meal,1/4 skyr blueberries/flax/hemp/chia/kiwi,skyr yogurt blueberries/flax seed/hempseed/chia seeds/kiwi,protein,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,matched,170914.0,"Yogurt, Greek, Blueberry, CHOBANI"
-4a69e82cd462,105,2026-01-14 00:00:00,2026-01-14,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-19490605502f,106,2026-01-14 10:45:00,2026-01-14,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-0fe1c93f4c50,107,2026-01-14 13:30:00,2026-01-14,meal,pretzels,pretzels,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171370,"Babyfood, pretzels"
-0fe1c93f4c50,107,2026-01-14 13:30:00,2026-01-14,meal,1/4 skyr blueberries/flax/hemp/chia/kiwi,skyr yogurt blueberries/flax seed/hempseed/chia seeds/kiwi,protein,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,matched,170914.0,"Yogurt, Greek, Blueberry, CHOBANI"
-60f0679191f3,108,2026-01-14 16:15:00,2026-01-14,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
-52ba2c12bcb6,110,2026-01-14 21:30:00,2026-01-14,meal,pretzels,pretzels,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171370,"Babyfood, pretzels"
-52ba2c12bcb6,110,2026-01-14 21:30:00,2026-01-14,meal,1/4 yogurt blueberries/flax/hemp/chia/kiwi,yogurt blueberries/flax seed/hempseed/chia seeds/kiwi,protein,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,missing,170554,"Seeds, chia seeds, dried"
-0f10c1afd8ae,111,2026-01-15 00:00:00,2026-01-15,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
-5110cda15602,113,2026-01-15 10:30:00,2026-01-15,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-328018be4703,114,2026-01-15 13:30:00,2026-01-15,meal,pretzels,pretzels,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171370,"Babyfood, pretzels"
-328018be4703,114,2026-01-15 13:30:00,2026-01-15,meal,1/4 skyr blueberries/flax/hemp/chia/kiwi,skyr yogurt blueberries/flax seed/hempseed/chia seeds/kiwi,protein,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,matched,170914.0,"Yogurt, Greek, Blueberry, CHOBANI"
-134d71ae4773,115,2026-01-16 00:00:00,2026-01-16,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-d7d5620f4cd2,116,2026-01-16 00:00:00,2026-01-16,meal,pretzel,pretzel,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171370,"Babyfood, pretzels"
-d7d5620f4cd2,116,2026-01-16 00:00:00,2026-01-16,meal,1/4 skyr blueberries/flax/hemp/chia/kiwi,skyr yogurt blueberries/flax seed/hempseed/chia seeds/kiwi,protein,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,matched,170914.0,"Yogurt, Greek, Blueberry, CHOBANI"
-37f1cf8cd09b,117,2026-01-16 10:30:00,2026-01-16,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-36832093e59c,118,2026-01-16 15:45:00,2026-01-16,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
-4de09ecaf586,119,2026-01-16 19:05:00,2026-01-16,meal,pizza slice,pizza,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-4de09ecaf586,119,2026-01-16 19:05:00,2026-01-16,meal,1/4 yogurt blueberries/flax/hemp/chia/kiwi,yogurt blueberries/flax seed/hempseed/chia seeds/kiwi,other,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,missing,170554,"Seeds, chia seeds, dried"
-0b44a31db2aa,120,2026-01-17 00:00:00,2026-01-17,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-ea927af931e3,121,2026-01-17 01:30:00,2026-01-17,meal,3 pretzels,pretzels,carb,3,,3.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
-3f8b465ffa55,122,2026-01-17 03:45:00,2026-01-17,meal,2 pretzels,pretzels,carb,2,,2.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
-3f8b465ffa55,122,2026-01-17 03:45:00,2026-01-17,meal,Sheep milk fat,sheep milk fat,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,170882,"Milk, sheep, fluid"
-3f8b465ffa55,122,2026-01-17 03:45:00,2026-01-17,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
-9dd0cc4a1fd9,124,2026-01-17 10:30:00,2026-01-17,fasting,1 pop pan cracker,pop pan cracker,carb,1,,1.0,cup,240.0,False,True,inferred_unit_cup_missing_unit,missing,,
-9dd0cc4a1fd9,124,2026-01-17 10:30:00,2026-01-17,fasting,0.5 ground pork,ground pork,protein,0.5,,0.5,cup,120.0,False,True,inferred_unit_cup_missing_unit,missing,2514745,"Pork, ground, raw"
-9dd0cc4a1fd9,124,2026-01-17 10:30:00,2026-01-17,fasting,2 eggs and cheese,eggs and cheese,protein,2,,2.0,cup,480.0,False,True,inferred_unit_cup_missing_unit,missing,,
-6534f447b70f,125,2026-01-18 00:00:00,2026-01-18,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-a4f818cc5216,126,2026-01-18 10:30:00,2026-01-18,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-96f72cc8128a,128,2026-01-18 15:45:00,2026-01-18,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
-94b34a3e3d3f,130,2026-01-19 00:00:00,2026-01-19,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-aa65d7f85903,131,2026-01-19 10:30:00,2026-01-19,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-e366d9c6cd4f,133,2026-01-19 15:30:00,2026-01-19,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
-12ad0fe42a22,134,2026-01-19 18:00:00,2026-01-19,meal,cup of apple cider vinegar,apple cider vinegar,other,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,173469.0,"Vinegar, cider"
-973cbc93cc95,136,2026-01-20 00:00:00,2026-01-20,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-02fc2329e416,137,2026-01-20 10:30:00,2026-01-20,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-937ab0cfb712,138,2026-01-20 13:30:00,2026-01-20,meal,6 olives,olives,veggies,6,,6.0,count,30.0,False,True,inferred_unit_count_missing_unit,missing,172926.0,"Olive loaf, pork"
-5c8ffdc854fe,139,2026-01-20 15:30:00,2026-01-20,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
-c6338d16efc0,140,2026-01-20 20:00:00,2026-01-20,meal,2 spring rolls,spring,carb,2,,2.0,cup,480.0,False,True,inferred_unit_cup_missing_unit,missing,168889,"Wheat, hard red spring"
-c6338d16efc0,140,2026-01-20 20:00:00,2026-01-20,meal,Congee Queen Chinese Food,congee queen chinese food,other,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,169392,"Broccoli, chinese, cooked"
-a63acbdc1e34,141,2026-01-21 00:00:00,2026-01-21,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-ac840aa2e2d5,142,2026-01-21 10:30:00,2026-01-21,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-9b2b6d802931,144,2026-01-21 15:30:00,2026-01-21,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673.0,"Bread, egg"
-ff72080a12a1,146,2026-01-21 18:30:00,2026-01-21,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-b339510a9522,147,2026-01-22 00:00:00,2026-01-22,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
-bf7af6880d7e,150,2026-01-22 11:00:00,2026-01-22,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-a4ecc45936df,151,2026-01-23 00:00:00,2026-01-23,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-333d10785571,152,2026-01-23 10:30:00,2026-01-23,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-7ac04083f741,153,2026-01-23 13:30:00,2026-01-23,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
-7ac04083f741,153,2026-01-23 13:30:00,2026-01-23,meal,sweet peas,sweet peas,veggies,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,2644284.0,"Blackeye pea, dry"
-7ac04083f741,153,2026-01-23 13:30:00,2026-01-23,meal,1.5 cooked mixed greens,cooked mixed greens,veggies,1.5,,1.5,cup,360.0,False,True,inferred_unit_cup_missing_unit,missing,169391.0,"Cauliflower, green, cooked, with salt"
-ac4b7a265701,156,2026-01-24 00:00:00,2026-01-24,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-efa072ab2fd3,157,2026-01-24 10:15:00,2026-01-24,fasting,2 pretzels,pretzels,carb,2,,2.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
-efa072ab2fd3,157,2026-01-24 10:15:00,2026-01-24,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-efa072ab2fd3,157,2026-01-24 10:15:00,2026-01-24,fasting,1/2 green beans,green beans,veggies,1/2,,0.5,cup,120.0,False,True,inferred_unit_cup_missing_unit,matched,169965,"Beans, snap, green, microwaved"
-3dfd562a8136,158,2026-01-24 14:30:00,2026-01-24,meal,1/4 skyr blueberries/flax/hemp/chia/1/4 green apple,skyr yogurt blueberries/flax seed/hempseed/chia seeds/1/4 green apple,protein,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,matched,170554.0,"Seeds, chia seeds, dried"
-1207bbf6a5f5,159,2026-01-24 15:30:00,2026-01-24,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673.0,"Bread, egg"
-1207bbf6a5f5,159,2026-01-24 15:30:00,2026-01-24,meal,1/2 green beans,green beans,veggies,1/2,,0.5,cup,120.0,False,True,inferred_unit_cup_missing_unit,matched,169965,"Beans, snap, green, microwaved"
-49c5c7ea140b,160,2026-01-24 19:00:00,2026-01-24,meal,bluberries,bluberries,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-49c5c7ea140b,160,2026-01-24 19:00:00,2026-01-24,meal,flax,flax seed,fat,,,3.0,tsp,8.3175525,False,True,default_flax_hemp_3tsp,missing,170554,"Seeds, chia seeds, dried"
-49c5c7ea140b,160,2026-01-24 19:00:00,2026-01-24,meal,hemp,hempseed,fat,,,3.0,tsp,8.009495,False,True,default_flax_hemp_3tsp,missing,,
-49c5c7ea140b,160,2026-01-24 19:00:00,2026-01-24,meal,chia,chia seeds,fat,,,3.0,tsp,9.0,False,True,default_chia_3tsp,missing,2710819.0,"Chia seeds, dry, raw"
-49c5c7ea140b,160,2026-01-24 19:00:00,2026-01-24,meal,grn apple,green apple,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,175032,"Strudel, apple"
-49c5c7ea140b,160,2026-01-24 19:00:00,2026-01-24,meal,1/2 garlic mushrooms,garlic mushrooms,veggies,1/2,,0.5,cup,120.0,False,True,inferred_unit_cup_missing_unit,missing,1999627.0,"Mushroom, oyster"
-9a40c2292026,161,2026-01-25 00:00:00,2026-01-25,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-3bbf3ceb6c9b,162,2026-01-25 00:00:00,2026-01-25,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673.0,"Bread, egg"
-3bbf3ceb6c9b,162,2026-01-25 00:00:00,2026-01-25,meal,1.5 mixed greens,mixed greens,veggies,1.5,,1.5,cup,360.0,False,True,inferred_unit_cup_missing_unit,missing,2747653.0,"Beet greens, raw"
-160fdd4fba39,164,2026-01-25 10:30:00,2026-01-25,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-160fdd4fba39,164,2026-01-25 10:30:00,2026-01-25,fasting,1.5 mixed greens,mixed greens,veggies,1.5,,1.5,cup,360.0,False,True,inferred_unit_cup_missing_unit,missing,2747653,"Beet greens, raw"
-31209151a582,165,2026-01-26 00:00:00,2026-01-26,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-4442f88cbdca,166,2026-01-26 10:30:00,2026-01-26,meal,at hospital,at hospital,other,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-4442f88cbdca,166,2026-01-26 10:30:00,2026-01-26,meal,6 olives,olives,veggies,6,,6.0,count,30.0,False,True,inferred_unit_count_missing_unit,missing,172926.0,"Olive loaf, pork"
-b4795a4acb91,167,2026-01-26 13:30:00,2026-01-26,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673.0,"Bread, egg"
-ab139bbbfbe6,169,2026-01-26 21:00:00,2026-01-26,meal,3 pecans,pecans,fat,3,,3.0,cup,720.0,False,True,inferred_unit_cup_missing_unit,missing,170182.0,"Nuts, pecans"
-ab139bbbfbe6,169,2026-01-26 21:00:00,2026-01-26,meal,3 olives,olives,veggies,3,,3.0,count,15.0,False,True,inferred_unit_count_missing_unit,missing,172926.0,"Olive loaf, pork"
-b9b4f04097f0,170,2026-01-27 00:00:00,2026-01-27,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-98bc6aacfb75,171,2026-01-27 10:00:00,2026-01-27,fasting,Intralipids,intralipids,other,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-98bc6aacfb75,171,2026-01-27 10:00:00,2026-01-27,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-018aee552e8c,173,2026-01-27 14:15:00,2026-01-27,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673.0,"Bread, egg"
-61687e732376,175,2026-01-27 18:15:00,2026-01-27,meal,2 pieces of duck,duck,fat,2,pieces,2.0,count,100.0,True,False,missing_grams_per_count,missing,171823.0,"Sauce, duck, ready-to-serve"
-61687e732376,175,2026-01-27 18:15:00,2026-01-27,meal,blueberries/1/2 kiwi,blueberries/1/2 kiwi,other,,,,g,100.0,False,True,default_missing_qty_unit_100g,missing,174111.0,"Beverages, Kiwi Strawberry Juice Drink"
-61687e732376,175,2026-01-27 18:15:00,2026-01-27,meal,1/2 green beans,green beans,veggies,1/2,,0.5,cup,120.0,False,True,inferred_unit_cup_missing_unit,matched,169965,"Beans, snap, green, microwaved"
-a96ce92f259e,176,2026-01-28 00:00:00,2026-01-28,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-8b3a8001ca51,177,2026-01-28 10:30:00,2026-01-28,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-09c86b560178,179,2026-01-29 00:00:00,2026-01-29,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-98db54c837ce,180,2026-01-29 00:00:00,2026-01-29,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-6861decd2c75,182,2026-01-29 00:00:00,2026-01-29,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
-9dc95a53145b,184,2026-01-30 00:00:00,2026-01-30,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-62c5a564b9c5,185,2026-01-30 10:30:00,2026-01-30,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-d8402864e907,187,2026-01-30 16:00:00,2026-01-30,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
-a4a1b4b219ea,189,2026-01-31 00:00:00,2026-01-31,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-7b1bdc267115,190,2026-01-31 11:00:00,2026-01-31,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-ed8f72f2cdef,191,2026-01-31 13:30:00,2026-01-31,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673.0,"Bread, egg"
-edef9dded5d3,193,2026-02-01 00:00:00,2026-02-01,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-98e43c4d2604,194,2026-02-01 10:30:00,2026-02-01,fasting,2 eggs,eggs,unspecified,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-2631b6d81ef4,196,2026-02-01 15:30:00,2026-02-01,meal,2 eggs,eggs,unspecified,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673.0,"Bread, egg"
-b56193c807a4,197,2026-02-01 19:00:00,2026-02-01,meal,tofu,tofu,unspecified,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,167722,Tofu yogurt
-b56193c807a4,197,2026-02-01 19:00:00,2026-02-01,meal,pork patty,pork patty,unspecified,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,172934.0,"Pork sausage, link/patty, unprepared"
-c645a242d53b,198,2026-02-02 00:00:00,2026-02-02,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-5db452e25f23,199,2026-02-02 10:30:00,2026-02-02,fasting,2 eggs,eggs,unspecified,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-ba259040c75b,201,2026-02-02 16:00:00,2026-02-02,meal,1 egg,egg,unspecified,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
-156da7c717dd,202,2026-02-02 18:30:00,2026-02-02,meal,1/3 apple,apple,unspecified,1/3,,0.3333333333333333,cup,36.333333333333336,False,True,inferred_unit_cup_missing_unit,missing,175032.0,"Strudel, apple"
-7690be5c9764,203,2026-02-03 00:00:00,2026-02-03,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
-a8f4060779ab,204,2026-02-03 10:30:00,2026-02-03,fasting,2 eggs,eggs,unspecified,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
-c6b048da3318,205,2026-02-03 16:00:00,2026-02-03,meal,1 egg,egg,unspecified,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
+event_id,meal_id,sheet_source,datetime,date,event_type,food_text_raw,food_name_std,food_category,qty_raw,unit_raw,qty_numeric,unit_std,grams_final,assumed_100g_flag,default_applied_flag,assumption_reason,usda_match_status,fdcId,usda_description
+91ed4476c418,1,Dec25 Jan26,2025-01-12 00:00:00,2025-01-12,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+438a07049295,2,Dec25 Jan26,2025-01-15 00:00:00,2025-01-15,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+ca24887fcd70,3,Dec25 Jan26,2025-12-17 18:00:00,2025-12-17,meal,1 kiwi,kiwi,carb,1,,1.0,count,75.0,False,True,inferred_unit_count_missing_unit,missing,,
+ca24887fcd70,3,Dec25 Jan26,2025-12-17 18:00:00,2025-12-17,meal,avocado oil for cooking,avocado oil for cooking,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,173573,"Oil, avocado"
+ca24887fcd70,3,Dec25 Jan26,2025-12-17 18:00:00,2025-12-17,meal,1.5 piece pork chop,pork chop,protein,1.5,piece,1.5,count,100.0,True,False,missing_grams_per_count,missing,2727575,"Pork, chop, center cut, raw"
+01fa195cc08d,4,Dec25 Jan26,2025-12-18 00:00:00,2025-12-18,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+64ebce04833e,5,Dec25 Jan26,2025-12-18 10:20:00,2025-12-18,fasting,none,none,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+64ebce04833e,5,Dec25 Jan26,2025-12-18 10:20:00,2025-12-18,fasting,avocado oil for cooking,avocado oil for cooking,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,173573,"Oil, avocado"
+64ebce04833e,5,Dec25 Jan26,2025-12-18 10:20:00,2025-12-18,fasting,1 piece pork chop,pork chop,protein,1,piece,1.0,count,100.0,True,False,missing_grams_per_count,missing,2727575,"Pork, chop, center cut, raw"
+64ebce04833e,5,Dec25 Jan26,2025-12-18 10:20:00,2025-12-18,fasting,2 large eggs,large eggs,protein,2,,2.0,cup,480.0,False,True,inferred_unit_cup_missing_unit,missing,,
+5bf626f28400,6,Dec25 Jan26,2025-12-18 10:20:00,2025-12-18,meal,none,none,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+106e551095ec,7,Dec25 Jan26,2025-12-18 17:30:00,2025-12-18,meal,wonton wrappers,wrappers,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,172802,Wonton wrappers (includes egg roll wrappers)
+106e551095ec,7,Dec25 Jan26,2025-12-18 17:30:00,2025-12-18,meal,1 kiwi,kiwi,other,1,,1.0,count,75.0,False,True,inferred_unit_count_missing_unit,missing,,
+106e551095ec,7,Dec25 Jan26,2025-12-18 17:30:00,2025-12-18,meal,8 pork wontons,pork,protein,8,,8.0,cup,1920.0,False,True,inferred_unit_cup_missing_unit,missing,173856,"Bologna, pork"
+d3dfb0abefbb,8,Dec25 Jan26,2025-12-19 00:00:00,2025-12-19,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+fb6893e31123,9,Dec25 Jan26,2025-12-19 10:00:00,2025-12-19,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+fb6893e31123,9,Dec25 Jan26,2025-12-19 10:00:00,2025-12-19,fasting,3 oz. sliced beef,oz. sliced beef,protein,3,,3.0,cup,720.0,False,True,inferred_unit_cup_missing_unit,missing,,
+9162cb29e8ec,10,Dec25 Jan26,2025-12-19 15:00:00,2025-12-19,meal,1 kiwi,kiwi,carb,1,,1.0,count,75.0,False,True,inferred_unit_count_missing_unit,missing,,
+9162cb29e8ec,10,Dec25 Jan26,2025-12-19 15:00:00,2025-12-19,meal,mixed nuts,mixed nuts,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,168599,"Nuts, mixed nuts, dry roasted, with peanuts, with salt added"
+3000dce621db,11,Dec25 Jan26,2025-12-19 18:50:00,2025-12-19,meal,avocado oil for cooking,avocado oil for cooking,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,173573,"Oil, avocado"
+39f5975648e2,12,Dec25 Jan26,2025-12-20 00:00:00,2025-12-20,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+b9bc5cb4526c,13,Dec25 Jan26,2025-12-20 00:00:00,2025-12-20,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+37704f9e05b6,16,Dec25 Jan26,2025-12-21 10:15:00,2025-12-21,fasting,pretzels,pretzels,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171370,"Babyfood, pretzels"
+37704f9e05b6,16,Dec25 Jan26,2025-12-21 10:15:00,2025-12-21,fasting,avocado oil for cooking,avocado oil for cooking,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,173573,"Oil, avocado"
+37704f9e05b6,16,Dec25 Jan26,2025-12-21 10:15:00,2025-12-21,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+37704f9e05b6,16,Dec25 Jan26,2025-12-21 10:15:00,2025-12-21,fasting,3 oz. sliced beef,oz. sliced beef,protein,3,,3.0,cup,720.0,False,True,inferred_unit_cup_missing_unit,missing,,
+37704f9e05b6,16,Dec25 Jan26,2025-12-21 10:15:00,2025-12-21,fasting,1 small tomato,small tomato,veggies,1,,1.0,cup,240.0,False,True,inferred_unit_cup_missing_unit,missing,,
+f9e155c00daa,17,Dec25 Jan26,2025-12-21 14:15:00,2025-12-21,meal,6 olives,olives,other,6,,6.0,count,30.0,False,True,inferred_unit_count_missing_unit,missing,172926,"Olive loaf, pork"
+f9e155c00daa,17,Dec25 Jan26,2025-12-21 14:15:00,2025-12-21,meal,1/2 sliced beef,sliced beef,protein,1/2,,0.5,cup,120.0,False,True,inferred_unit_cup_missing_unit,missing,170602,"Beef, cured, corned beef, canned"
+7c305f480ad4,18,Dec25 Jan26,2025-12-21 18:15:00,2025-12-21,meal,avocado oil for cooking,avocado oil for cooking,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,173573,"Oil, avocado"
+7c305f480ad4,18,Dec25 Jan26,2025-12-21 18:15:00,2025-12-21,meal,1 kiwi,kiwi,other,1,,1.0,count,75.0,False,True,inferred_unit_count_missing_unit,missing,,
+7c305f480ad4,18,Dec25 Jan26,2025-12-21 18:15:00,2025-12-21,meal,5 oz. cod fish,oz. cod fish,protein,5,,5.0,cup,1200.0,False,True,inferred_unit_cup_missing_unit,missing,173577,"Fish oil, cod liver"
+7c305f480ad4,18,Dec25 Jan26,2025-12-21 18:15:00,2025-12-21,meal,1/2 sliced beef,sliced beef,protein,1/2,,0.5,cup,120.0,False,True,inferred_unit_cup_missing_unit,missing,170602,"Beef, cured, corned beef, canned"
+0ae50f3b9a6a,19,Dec25 Jan26,2025-12-22 10:35:00,2025-12-22,fasting,(see protein),,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+0ae50f3b9a6a,19,Dec25 Jan26,2025-12-22 10:35:00,2025-12-22,fasting,avocado oil for cooking,avocado oil for cooking,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,173573,"Oil, avocado"
+0ae50f3b9a6a,19,Dec25 Jan26,2025-12-22 10:35:00,2025-12-22,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+0ae50f3b9a6a,19,Dec25 Jan26,2025-12-22 10:35:00,2025-12-22,fasting,1wonton/2 soup dumplings,wonton/2 soup,protein,1,,1.0,cup,240.0,False,True,inferred_unit_cup_missing_unit,missing,,
+c6248a804592,20,Dec25 Jan26,2025-12-22 18:30:00,2025-12-22,meal,noodles,noodles,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,168914,"Rice noodles, cooked"
+c6248a804592,20,Dec25 Jan26,2025-12-22 18:30:00,2025-12-22,meal,cake,cake,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,174943,"Cake, snack cakes, creme-filled, sponge"
+c6248a804592,20,Dec25 Jan26,2025-12-22 18:30:00,2025-12-22,meal,2 spring rolls,spring,other,2,,2.0,cup,480.0,False,True,inferred_unit_cup_missing_unit,missing,168889,"Wheat, hard red spring"
+c6248a804592,20,Dec25 Jan26,2025-12-22 18:30:00,2025-12-22,meal,Chinese meal,chinese meal,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,169392,"Broccoli, chinese, cooked"
+d68a8c8b6c55,21,Dec25 Jan26,2025-12-23 10:15:00,2025-12-23,fasting,5 pretzels,pretzels,carb,5,,5.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
+d68a8c8b6c55,21,Dec25 Jan26,2025-12-23 10:15:00,2025-12-23,fasting,1/2 avocado,avocado,fat,1/2,,0.5,cup,120.0,False,True,inferred_unit_cup_missing_unit,missing,173573,"Oil, avocado"
+d68a8c8b6c55,21,Dec25 Jan26,2025-12-23 10:15:00,2025-12-23,fasting,spring roll,spring,other,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,168889,"Wheat, hard red spring"
+d68a8c8b6c55,21,Dec25 Jan26,2025-12-23 10:15:00,2025-12-23,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+fe8cc9a59944,22,Dec25 Jan26,2025-12-23 13:00:00,2025-12-23,meal,5 pretzels,pretzels,carb,5,,5.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
+fe8cc9a59944,22,Dec25 Jan26,2025-12-23 13:00:00,2025-12-23,meal,egg,egg,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,747997,"Eggs, Grade A, Large, egg white"
+dc24b1201d76,23,Dec25 Jan26,2025-12-23 18:00:00,2025-12-23,meal,5 oz. pork chops,oz. pork chops,protein,5,,5.0,cup,1200.0,False,True,inferred_unit_cup_missing_unit,missing,2727575,"Pork, chop, center cut, raw"
+e462eda30032,24,Dec25 Jan26,2025-12-24 10:40:00,2025-12-24,fasting,avocado oil for cooking,avocado oil for cooking,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,173573,"Oil, avocado"
+e462eda30032,24,Dec25 Jan26,2025-12-24 10:40:00,2025-12-24,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+f3dc4502097d,26,Dec25 Jan26,2025-12-24 18:30:00,2025-12-24,meal,6 olives,olives,other,6,,6.0,count,30.0,False,True,inferred_unit_count_missing_unit,missing,172926,"Olive loaf, pork"
+ae1d94a1e50d,27,Dec25 Jan26,2025-12-25 00:00:00,2025-12-25,meal,3 pretzels,pretzels,carb,3,,3.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
+ae1d94a1e50d,27,Dec25 Jan26,2025-12-25 00:00:00,2025-12-25,meal,6 olives,olives,other,6,,6.0,count,30.0,False,True,inferred_unit_count_missing_unit,missing,172926,"Olive loaf, pork"
+fad97f100d5f,28,Dec25 Jan26,2025-12-25 10:30:00,2025-12-25,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+0d93bb8fb6cb,29,Dec25 Jan26,2025-12-25 18:00:00,2025-12-25,meal,3 veggie spring rolls,veggie spring,carb,3,,3.0,cup,720.0,False,True,inferred_unit_cup_missing_unit,missing,168889,"Wheat, hard red spring"
+38b8553f1229,30,Dec25 Jan26,2025-12-26 11:00:00,2025-12-26,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+66c9f9812c83,31,Dec25 Jan26,2025-12-26 13:30:00,2025-12-26,meal,3 pretzels,pretzels,carb,3,,3.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
+66c9f9812c83,31,Dec25 Jan26,2025-12-26 13:30:00,2025-12-26,meal,6 olives,olives,other,6,,6.0,count,30.0,False,True,inferred_unit_count_missing_unit,missing,172926,"Olive loaf, pork"
+3754fce4ff35,32,Dec25 Jan26,2025-12-26 18:30:00,2025-12-26,meal,1 bread roll,bread,carb,1,,1.0,count,28.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+3754fce4ff35,32,Dec25 Jan26,2025-12-26 18:30:00,2025-12-26,meal,butter,butter,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171314,"Butter, Clarified butter (ghee)"
+41c4a20101e0,33,Dec25 Jan26,2025-12-27 10:30:00,2025-12-27,fasting,5 dumplings,,carb,5,dumplings,5.0,count,100.0,True,False,missing_grams_per_count,missing,,
+41c4a20101e0,33,Dec25 Jan26,2025-12-27 10:30:00,2025-12-27,fasting,cheese in eggs,cheese eggs,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+41c4a20101e0,33,Dec25 Jan26,2025-12-27 10:30:00,2025-12-27,fasting,3 eggs,eggs,protein,3,,3.0,count,150.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+eb483700af58,34,Dec25 Jan26,2025-12-27 12:00:00,2025-12-27,meal,Costco fries,costco fries,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,172451,"Tofu, fried"
+eb483700af58,34,Dec25 Jan26,2025-12-27 12:00:00,2025-12-27,meal,5 pretzels,pretzels,carb,5,,5.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
+eb483700af58,34,Dec25 Jan26,2025-12-27 12:00:00,2025-12-27,meal,6 olives,olives,other,6,,6.0,count,30.0,False,True,inferred_unit_count_missing_unit,missing,172926,"Olive loaf, pork"
+7d072a0b35cd,35,Dec25 Jan26,2025-12-27 17:50:00,2025-12-27,meal,avocado oil for cooking,avocado oil for cooking,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,173573,"Oil, avocado"
+a17f98e8b83d,36,Dec25 Jan26,2025-12-28 00:00:00,2025-12-28,meal,6 olives,olives,other,6,,6.0,count,30.0,False,True,inferred_unit_count_missing_unit,missing,172926,"Olive loaf, pork"
+44db89634212,37,Dec25 Jan26,2025-12-28 10:30:00,2025-12-28,fasting,3 wontons,,carb,3,wontons,3.0,count,100.0,True,False,missing_grams_per_count,missing,,
+29043cc5585c,38,Dec25 Jan26,2025-12-28 18:00:00,2025-12-28,meal,1/2 avocado,avocado,fat,1/2,,0.5,cup,120.0,False,True,inferred_unit_cup_missing_unit,missing,173573,"Oil, avocado"
+29043cc5585c,38,Dec25 Jan26,2025-12-28 18:00:00,2025-12-28,meal,1 kiwi,kiwi,other,1,,1.0,count,75.0,False,True,inferred_unit_count_missing_unit,missing,,
+ba0fa4f3fd63,39,Dec25 Jan26,2025-12-29 10:30:00,2025-12-29,fasting,2 wontons,,carb,2,wontons,2.0,count,100.0,True,False,missing_grams_per_count,missing,,
+ba0fa4f3fd63,39,Dec25 Jan26,2025-12-29 10:30:00,2025-12-29,fasting,2.5 eggs (steamed),eggs,protein,2.5,,2.5,count,125.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+48e233f74ba8,40,Dec25 Jan26,2025-12-29 13:30:00,2025-12-29,meal,2 pretzels,pretzels,carb,2,,2.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
+011ebb462826,41,Dec25 Jan26,2025-12-29 16:50:00,2025-12-29,meal,1 kiwi,kiwi,other,1,,1.0,count,75.0,False,True,inferred_unit_count_missing_unit,missing,,
+e9a80baf6328,42,Dec25 Jan26,2025-12-30 10:30:00,2025-12-30,fasting,2.5 hardboiled egg,hardboiled egg,protein,2.5,,2.5,cup,600.0,False,True,inferred_unit_cup_missing_unit,missing,,
+426978835642,43,Dec25 Jan26,2025-12-30 12:00:00,2025-12-30,meal,2 packs of crackers,packs crackers,carb,2,,2.0,cup,480.0,False,True,inferred_unit_cup_missing_unit,missing,167529,"Crackers, snack, Goya Crackers"
+8d5559c58467,44,Dec25 Jan26,2025-12-30 17:30:00,2025-12-30,meal,soup wonton noodles,soup noodles,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,171571,"Soup, chicken noodle, dry, mix"
+8d5559c58467,44,Dec25 Jan26,2025-12-30 17:30:00,2025-12-30,meal,2 spring rolls,spring,carb,2,,2.0,cup,480.0,False,True,inferred_unit_cup_missing_unit,missing,168889,"Wheat, hard red spring"
+8d5559c58467,44,Dec25 Jan26,2025-12-30 17:30:00,2025-12-30,meal,1 kiwi,kiwi,other,1,,1.0,count,75.0,False,True,inferred_unit_count_missing_unit,missing,,
+8d5559c58467,44,Dec25 Jan26,2025-12-30 17:30:00,2025-12-30,meal,8 pieces fried tofu with sauce,fried tofu with sauce,protein,8,pieces,8.0,count,100.0,True,False,missing_grams_per_count,missing,174304,"Tofu, fried, prepared with calcium sulfate"
+8d5559c58467,44,Dec25 Jan26,2025-12-30 17:30:00,2025-12-30,meal,beef tendon/brisket,beef tendon/brisket,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,170602|170199,"Composite: Beef, cured, corned beef, canned | Beef, cured, corned beef, brisket, raw"
+582954e8f776,45,Dec25 Jan26,2025-12-31 10:30:00,2025-12-31,fasting,2 Tbs rice noodles,tbs rice noodles,carb,2,,2.0,cup,480.0,False,True,inferred_unit_cup_missing_unit,missing,,
+582954e8f776,45,Dec25 Jan26,2025-12-31 10:30:00,2025-12-31,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+582954e8f776,45,Dec25 Jan26,2025-12-31 10:30:00,2025-12-31,fasting,3 pieces of fried tofu,fried tofu,protein,3,pieces,3.0,count,100.0,True,False,missing_grams_per_count,missing,172451,"Tofu, fried"
+f121e06f8775,46,Dec25 Jan26,2025-12-31 14:00:00,2025-12-31,meal,3 crackers,crackers,carb,3,,3.0,cup,720.0,False,True,inferred_unit_cup_missing_unit,missing,173161,Rice crackers
+327a15cb8302,47,Dec25 Jan26,2025-12-31 17:00:00,2025-12-31,meal,1 kiwi,kiwi,other,1,,1.0,count,75.0,False,True,inferred_unit_count_missing_unit,missing,,
+327a15cb8302,47,Dec25 Jan26,2025-12-31 17:00:00,2025-12-31,meal,5 wings,wings,protein,5,,5.0,cup,1200.0,False,True,inferred_unit_cup_missing_unit,missing,170478,"Winged bean leaves, raw"
+7a9339c778df,48,Dec25 Jan26,2026-01-01 00:00:00,2026-01-01,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+131dc62edd22,49,Dec25 Jan26,2026-01-01 11:30:00,2026-01-01,fasting,3 pretzels,pretzels,carb,3,,3.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
+131dc62edd22,49,Dec25 Jan26,2026-01-01 11:30:00,2026-01-01,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+18a0a6f97cab,50,Dec25 Jan26,2026-01-01 18:30:00,2026-01-01,meal,1/4 green onion pancake,green onion pancake,carb,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,missing,170092,Potato pancakes
+18a0a6f97cab,50,Dec25 Jan26,2026-01-01 18:30:00,2026-01-01,meal,chickn soup,chickn soup,other,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,172899,"Soup, HEALTHY CHOICE Chicken and Rice Soup, canned"
+b016438a4abc,51,Dec25 Jan26,2026-01-02 00:00:00,2026-01-02,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+9e325a87788a,52,Dec25 Jan26,2026-01-02 11:00:00,2026-01-02,fasting,3 eggs,eggs,protein,3,,3.0,count,150.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+25599ce57245,53,Dec25 Jan26,2026-01-02 11:00:00,2026-01-02,meal,crackers,crackers,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,173161,Rice crackers
+25599ce57245,53,Dec25 Jan26,2026-01-02 11:00:00,2026-01-02,meal,pretzel,pretzel,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171370,"Babyfood, pretzels"
+25599ce57245,53,Dec25 Jan26,2026-01-02 11:00:00,2026-01-02,meal,9 olives,olives,other,9,,9.0,count,45.0,False,True,inferred_unit_count_missing_unit,missing,172926,"Olive loaf, pork"
+577631dabfcd,54,Dec25 Jan26,2026-01-02 11:00:00,2026-01-02,meal,1 kiwi,kiwi,other,1,,1.0,count,75.0,False,True,inferred_unit_count_missing_unit,missing,,
+9229626448f5,55,Dec25 Jan26,2026-01-03 00:00:00,2026-01-03,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+51b016f1e24a,56,Dec25 Jan26,2026-01-03 11:00:00,2026-01-03,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+5badfdc86a76,57,Dec25 Jan26,2026-01-03 11:00:00,2026-01-03,meal,1 petzel,petzel,carb,1,,1.0,cup,240.0,False,True,inferred_unit_cup_missing_unit,missing,,
+5badfdc86a76,57,Dec25 Jan26,2026-01-03 11:00:00,2026-01-03,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
+e2e5c64ac5c8,58,Dec25 Jan26,2026-01-03 11:00:00,2026-01-03,meal,1 kiwi,kiwi,other,1,,1.0,count,75.0,False,True,inferred_unit_count_missing_unit,missing,,
+e2e5c64ac5c8,58,Dec25 Jan26,2026-01-03 11:00:00,2026-01-03,meal,3 blackberries,blackberries,other,3,,3.0,cup,720.0,False,True,inferred_unit_cup_missing_unit,missing,173946,"Blackberries, raw"
+7a93702cf9e6,59,Dec25 Jan26,2026-01-04 00:00:00,2026-01-04,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+f563ab9f2332,60,Dec25 Jan26,2026-01-04 10:30:00,2026-01-04,fasting,2 pretzels,pretzels,carb,2,,2.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
+f563ab9f2332,60,Dec25 Jan26,2026-01-04 10:30:00,2026-01-04,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+1fadb7d0da5a,61,Dec25 Jan26,2026-01-04 16:15:00,2026-01-04,meal,chinese food,chinese food,other,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,169392,"Broccoli, chinese, cooked"
+1fadb7d0da5a,61,Dec25 Jan26,2026-01-04 16:15:00,2026-01-04,meal,Tofu,tofu,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,167722,Tofu yogurt
+1fadb7d0da5a,61,Dec25 Jan26,2026-01-04 16:15:00,2026-01-04,meal,fried fish,fried fish,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+1fadb7d0da5a,61,Dec25 Jan26,2026-01-04 16:15:00,2026-01-04,meal,beef,beef,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,172012,"Bologna, beef"
+1fadb7d0da5a,61,Dec25 Jan26,2026-01-04 16:15:00,2026-01-04,meal,pork,pork,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,173856,"Bologna, pork"
+1fadb7d0da5a,61,Dec25 Jan26,2026-01-04 16:15:00,2026-01-04,meal,ground pork,ground pork,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,2514745,"Pork, ground, raw"
+1fadb7d0da5a,61,Dec25 Jan26,2026-01-04 16:15:00,2026-01-04,meal,green beans,green beans,veggies,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,169965,"Beans, snap, green, microwaved"
+8556e07d9bc0,62,Dec25 Jan26,2026-01-04 20:00:00,2026-01-04,meal,leftovers from lunch,leftovers from lunch,other,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,170794,"School Lunch, chicken patty, whole grain breaded"
+8556e07d9bc0,62,Dec25 Jan26,2026-01-04 20:00:00,2026-01-04,meal,fish and tofu,fish and tofu,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,167722,Tofu yogurt
+b314cd62fa9c,63,Dec25 Jan26,2026-01-05 00:00:00,2026-01-05,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+ece86dabfa26,64,Dec25 Jan26,2026-01-05 10:30:00,2026-01-05,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+ece86dabfa26,64,Dec25 Jan26,2026-01-05 10:30:00,2026-01-05,fasting,3 slices of bacon,bacon,protein,3,slices,3.0,count,100.0,True,False,missing_grams_per_count,missing,172439,"Bacon, meatless"
+61baf4b7a337,65,Dec25 Jan26,2026-01-05 14:30:00,2026-01-05,meal,chia,chia seeds,carb,,,3.0,tsp,9.0,False,True,default_chia_3tsp,missing,2710819,"Chia seeds, dry, raw"
+61baf4b7a337,65,Dec25 Jan26,2026-01-05 14:30:00,2026-01-05,meal,hemp,hempseed,carb,,,3.0,tsp,8.009495,False,True,default_flax_hemp_3tsp,missing,,
+61baf4b7a337,65,Dec25 Jan26,2026-01-05 14:30:00,2026-01-05,meal,flax,flax seed,carb,,,3.0,tsp,8.3175525,False,True,default_flax_hemp_3tsp,missing,170554,"Seeds, chia seeds, dried"
+61baf4b7a337,65,Dec25 Jan26,2026-01-05 14:30:00,2026-01-05,meal,bluebeery,bluebeery,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+61baf4b7a337,65,Dec25 Jan26,2026-01-05 14:30:00,2026-01-05,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+eb42b78c71ae,66,Dec25 Jan26,2026-01-05 17:00:00,2026-01-05,meal,1/4 fried rice,fried rice,carb,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,missing,172451,"Tofu, fried"
+986b9636c58e,67,Dec25 Jan26,2026-01-06 00:00:00,2026-01-06,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+73e321337316,68,Dec25 Jan26,2026-01-06 10:30:00,2026-01-06,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+73e321337316,68,Dec25 Jan26,2026-01-06 10:30:00,2026-01-06,fasting,3 slices of bacon,bacon,protein,3,slices,3.0,count,100.0,True,False,missing_grams_per_count,missing,172439,"Bacon, meatless"
+1827b19262bd,69,Dec25 Jan26,2026-01-06 14:30:00,2026-01-06,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+efc15fc9b408,72,Dec25 Jan26,2026-01-07 00:00:00,2026-01-07,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+f3703eaea826,73,Dec25 Jan26,2026-01-07 00:00:00,2026-01-07,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+f3703eaea826,73,Dec25 Jan26,2026-01-07 00:00:00,2026-01-07,fasting,3 slices of bacon,bacon,protein,3,slices,3.0,count,100.0,True,False,missing_grams_per_count,missing,172439,"Bacon, meatless"
+fb584a77e6ff,74,Dec25 Jan26,2026-01-07 00:00:00,2026-01-07,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
+fb584a77e6ff,74,Dec25 Jan26,2026-01-07 00:00:00,2026-01-07,meal,3 slice of beef,beef,protein,3,slice,3.0,count,100.0,True,False,missing_grams_per_count,missing,172012,"Bologna, beef"
+8e167c47301a,76,Dec25 Jan26,2026-01-08 00:00:00,2026-01-08,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+de4370235f31,77,Dec25 Jan26,2026-01-08 00:00:00,2026-01-08,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+3d6751f28e1b,78,Dec25 Jan26,2026-01-08 00:00:00,2026-01-08,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+3d6751f28e1b,78,Dec25 Jan26,2026-01-08 00:00:00,2026-01-08,meal,3 slices of bacon,bacon,protein,3,slices,3.0,count,100.0,True,False,missing_grams_per_count,missing,172439,"Bacon, meatless"
+485cea8f5553,80,Dec25 Jan26,2026-01-09 00:00:00,2026-01-09,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+b53170036933,81,Dec25 Jan26,2026-01-09 00:00:00,2026-01-09,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+3a73fac04dd4,82,Dec25 Jan26,2026-01-09 00:00:00,2026-01-09,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
+896883aecacf,84,Dec25 Jan26,2026-01-10 00:00:00,2026-01-10,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+3d639e953fb1,85,Dec25 Jan26,2026-01-10 11:00:00,2026-01-10,fasting,2 pretzels,pretzels,carb,2,,2.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
+3d639e953fb1,85,Dec25 Jan26,2026-01-10 11:00:00,2026-01-10,fasting,2 slice bacon,bacon,fat,2,slice,2.0,count,100.0,True,False,missing_grams_per_count,missing,172439,"Bacon, meatless"
+3d639e953fb1,85,Dec25 Jan26,2026-01-10 11:00:00,2026-01-10,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+fe804b6b1dac,86,Dec25 Jan26,2026-01-10 15:45:00,2026-01-10,meal,noodles,noodles,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,168914,"Rice noodles, cooked"
+fe804b6b1dac,86,Dec25 Jan26,2026-01-10 15:45:00,2026-01-10,meal,cake,cake,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,174943,"Cake, snack cakes, creme-filled, sponge"
+fe804b6b1dac,86,Dec25 Jan26,2026-01-10 15:45:00,2026-01-10,meal,Congee Queen,congee queen,other,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171969,"Crustaceans, crab, queen, raw"
+fe804b6b1dac,86,Dec25 Jan26,2026-01-10 15:45:00,2026-01-10,meal,beef brisket,beef brisket,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,170199,"Beef, cured, corned beef, brisket, raw"
+fe804b6b1dac,86,Dec25 Jan26,2026-01-10 15:45:00,2026-01-10,meal,tendon,tendon,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+fe804b6b1dac,86,Dec25 Jan26,2026-01-10 15:45:00,2026-01-10,meal,green beans,green beans,veggies,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,169965,"Beans, snap, green, microwaved"
+611fb5c8548d,87,Dec25 Jan26,2026-01-10 20:45:00,2026-01-10,meal,1/4 wonton noodles,noodles,carb,1/4,wonton,0.25,count,100.0,True,False,missing_grams_per_count,matched,168914,"Rice noodles, cooked"
+611fb5c8548d,87,Dec25 Jan26,2026-01-10 20:45:00,2026-01-10,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+32b464bfe1a1,88,Dec25 Jan26,2026-01-11 00:00:00,2026-01-11,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+de28f0eea4e1,90,Dec25 Jan26,2026-01-11 00:00:00,2026-01-11,meal,1/4 yogurt blueberries/flax/hemp/chia/kiwi,yogurt blueberries/flax seed/hempseed/chia seeds/kiwi,protein,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,missing,2346411|170554|2710819,"Composite: Blueberries, raw | Seeds, chia seeds, dried | Chia seeds, dry, raw"
+25bced6a10c1,91,Dec25 Jan26,2026-01-11 11:00:00,2026-01-11,fasting,3 pretzels,pretzels,carb,3,,3.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
+25bced6a10c1,91,Dec25 Jan26,2026-01-11 11:00:00,2026-01-11,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+bbbe44543550,92,Dec25 Jan26,2026-01-11 13:00:00,2026-01-11,meal,5 pretzels,pretzels,carb,5,,5.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
+bbbe44543550,92,Dec25 Jan26,2026-01-11 13:00:00,2026-01-11,meal,cashew nuts,cashew nuts,protein,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,2515374,"Nuts, cashew nuts, raw"
+32ba0633ac4d,93,Dec25 Jan26,2026-01-11 15:30:00,2026-01-11,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+038e7c4b8e1f,94,Dec25 Jan26,2026-01-12 00:00:00,2026-01-12,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+7955bb3e164e,95,Dec25 Jan26,2026-01-12 00:00:00,2026-01-12,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+584ac4d50044,96,Dec25 Jan26,2026-01-12 00:00:00,2026-01-12,meal,pretzels,pretzels,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171370,"Babyfood, pretzels"
+584ac4d50044,96,Dec25 Jan26,2026-01-12 00:00:00,2026-01-12,meal,1/4 yogurt blueberries/flax/hemp/chia/kiwi,yogurt blueberries/flax seed/hempseed/chia seeds/kiwi,protein,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,missing,2346411|170554|2710819,"Composite: Blueberries, raw | Seeds, chia seeds, dried | Chia seeds, dry, raw"
+cb9a44cc4b72,97,Dec25 Jan26,2026-01-12 00:00:00,2026-01-12,meal,pretzels,pretzels,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171370,"Babyfood, pretzels"
+cb9a44cc4b72,97,Dec25 Jan26,2026-01-12 00:00:00,2026-01-12,meal,1/4 yogurt blueberries/flax/hemp/chia/kiwi,yogurt blueberries/flax seed/hempseed/chia seeds/kiwi,protein,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,missing,2346411|170554|2710819,"Composite: Blueberries, raw | Seeds, chia seeds, dried | Chia seeds, dry, raw"
+39fa02d8c853,99,Dec25 Jan26,2026-01-13 00:00:00,2026-01-13,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+4b29dacb814f,100,Dec25 Jan26,2026-01-13 10:45:00,2026-01-13,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+7383352f852a,101,Dec25 Jan26,2026-01-13 13:30:00,2026-01-13,meal,pretzels,pretzels,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171370,"Babyfood, pretzels"
+e0c8a56f8283,102,Dec25 Jan26,2026-01-13 15:30:00,2026-01-13,meal,plantain chips,plantain chips,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,173142,"Snacks, plantain chips, salted"
+e0c8a56f8283,102,Dec25 Jan26,2026-01-13 15:30:00,2026-01-13,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
+0e4b7027a296,104,Dec25 Jan26,2026-01-13 21:30:00,2026-01-13,meal,pretzels,pretzels,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171370,"Babyfood, pretzels"
+4a69e82cd462,105,Dec25 Jan26,2026-01-14 00:00:00,2026-01-14,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+19490605502f,106,Dec25 Jan26,2026-01-14 10:45:00,2026-01-14,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+0fe1c93f4c50,107,Dec25 Jan26,2026-01-14 13:30:00,2026-01-14,meal,pretzels,pretzels,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171370,"Babyfood, pretzels"
+60f0679191f3,108,Dec25 Jan26,2026-01-14 16:15:00,2026-01-14,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
+52ba2c12bcb6,110,Dec25 Jan26,2026-01-14 21:30:00,2026-01-14,meal,pretzels,pretzels,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171370,"Babyfood, pretzels"
+52ba2c12bcb6,110,Dec25 Jan26,2026-01-14 21:30:00,2026-01-14,meal,1/4 yogurt blueberries/flax/hemp/chia/kiwi,yogurt blueberries/flax seed/hempseed/chia seeds/kiwi,protein,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,missing,2346411|170554|2710819,"Composite: Blueberries, raw | Seeds, chia seeds, dried | Chia seeds, dry, raw"
+0f10c1afd8ae,111,Dec25 Jan26,2026-01-15 00:00:00,2026-01-15,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
+5110cda15602,113,Dec25 Jan26,2026-01-15 10:30:00,2026-01-15,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+328018be4703,114,Dec25 Jan26,2026-01-15 13:30:00,2026-01-15,meal,pretzels,pretzels,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171370,"Babyfood, pretzels"
+134d71ae4773,115,Dec25 Jan26,2026-01-16 00:00:00,2026-01-16,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+d7d5620f4cd2,116,Dec25 Jan26,2026-01-16 00:00:00,2026-01-16,meal,pretzel,pretzel,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,171370,"Babyfood, pretzels"
+37f1cf8cd09b,117,Dec25 Jan26,2026-01-16 10:30:00,2026-01-16,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+36832093e59c,118,Dec25 Jan26,2026-01-16 15:45:00,2026-01-16,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
+4de09ecaf586,119,Dec25 Jan26,2026-01-16 19:05:00,2026-01-16,meal,pizza slice,pizza,carb,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+4de09ecaf586,119,Dec25 Jan26,2026-01-16 19:05:00,2026-01-16,meal,1/4 yogurt blueberries/flax/hemp/chia/kiwi,yogurt blueberries/flax seed/hempseed/chia seeds/kiwi,other,1/4,,0.25,cup,60.0,False,True,inferred_unit_cup_missing_unit,missing,2346411|170554|2710819,"Composite: Blueberries, raw | Seeds, chia seeds, dried | Chia seeds, dry, raw"
+0b44a31db2aa,120,Dec25 Jan26,2026-01-17 00:00:00,2026-01-17,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+ea927af931e3,121,Dec25 Jan26,2026-01-17 01:30:00,2026-01-17,meal,3 pretzels,pretzels,carb,3,,3.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
+3f8b465ffa55,122,Dec25 Jan26,2026-01-17 03:45:00,2026-01-17,meal,2 pretzels,pretzels,carb,2,,2.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
+3f8b465ffa55,122,Dec25 Jan26,2026-01-17 03:45:00,2026-01-17,meal,Sheep milk fat,sheep milk fat,fat,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,170882,"Milk, sheep, fluid"
+3f8b465ffa55,122,Dec25 Jan26,2026-01-17 03:45:00,2026-01-17,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
+9dd0cc4a1fd9,124,Dec25 Jan26,2026-01-17 10:30:00,2026-01-17,fasting,1 pop pan cracker,pop pan cracker,carb,1,,1.0,cup,240.0,False,True,inferred_unit_cup_missing_unit,missing,,
+9dd0cc4a1fd9,124,Dec25 Jan26,2026-01-17 10:30:00,2026-01-17,fasting,0.5 ground pork,ground pork,protein,0.5,,0.5,cup,120.0,False,True,inferred_unit_cup_missing_unit,missing,2514745,"Pork, ground, raw"
+9dd0cc4a1fd9,124,Dec25 Jan26,2026-01-17 10:30:00,2026-01-17,fasting,2 eggs and cheese,eggs and cheese,protein,2,,2.0,cup,480.0,False,True,inferred_unit_cup_missing_unit,missing,,
+6534f447b70f,125,Dec25 Jan26,2026-01-18 00:00:00,2026-01-18,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+a4f818cc5216,126,Dec25 Jan26,2026-01-18 10:30:00,2026-01-18,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+96f72cc8128a,128,Dec25 Jan26,2026-01-18 15:45:00,2026-01-18,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
+94b34a3e3d3f,130,Dec25 Jan26,2026-01-19 00:00:00,2026-01-19,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+aa65d7f85903,131,Dec25 Jan26,2026-01-19 10:30:00,2026-01-19,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+e366d9c6cd4f,133,Dec25 Jan26,2026-01-19 15:30:00,2026-01-19,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
+12ad0fe42a22,134,Dec25 Jan26,2026-01-19 18:00:00,2026-01-19,meal,cup of apple cider vinegar,apple cider vinegar,other,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,173469,"Vinegar, cider"
+973cbc93cc95,136,Dec25 Jan26,2026-01-20 00:00:00,2026-01-20,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+02fc2329e416,137,Dec25 Jan26,2026-01-20 10:30:00,2026-01-20,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+937ab0cfb712,138,Dec25 Jan26,2026-01-20 13:30:00,2026-01-20,meal,6 olives,olives,veggies,6,,6.0,count,30.0,False,True,inferred_unit_count_missing_unit,missing,172926,"Olive loaf, pork"
+5c8ffdc854fe,139,Dec25 Jan26,2026-01-20 15:30:00,2026-01-20,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
+c6338d16efc0,140,Dec25 Jan26,2026-01-20 20:00:00,2026-01-20,meal,2 spring rolls,spring,carb,2,,2.0,cup,480.0,False,True,inferred_unit_cup_missing_unit,missing,168889,"Wheat, hard red spring"
+c6338d16efc0,140,Dec25 Jan26,2026-01-20 20:00:00,2026-01-20,meal,Congee Queen Chinese Food,congee queen chinese food,other,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,169392,"Broccoli, chinese, cooked"
+a63acbdc1e34,141,Dec25 Jan26,2026-01-21 00:00:00,2026-01-21,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+ac840aa2e2d5,142,Dec25 Jan26,2026-01-21 10:30:00,2026-01-21,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+9b2b6d802931,144,Dec25 Jan26,2026-01-21 15:30:00,2026-01-21,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+ff72080a12a1,146,Dec25 Jan26,2026-01-21 18:30:00,2026-01-21,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+b339510a9522,147,Dec25 Jan26,2026-01-22 00:00:00,2026-01-22,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
+bf7af6880d7e,150,Dec25 Jan26,2026-01-22 11:00:00,2026-01-22,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+a4ecc45936df,151,Dec25 Jan26,2026-01-23 00:00:00,2026-01-23,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+333d10785571,152,Dec25 Jan26,2026-01-23 10:30:00,2026-01-23,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+7ac04083f741,153,Dec25 Jan26,2026-01-23 13:30:00,2026-01-23,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
+7ac04083f741,153,Dec25 Jan26,2026-01-23 13:30:00,2026-01-23,meal,sweet peas,sweet peas,veggies,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,2644284,"Blackeye pea, dry"
+7ac04083f741,153,Dec25 Jan26,2026-01-23 13:30:00,2026-01-23,meal,1.5 cooked mixed greens,cooked mixed greens,veggies,1.5,,1.5,cup,360.0,False,True,inferred_unit_cup_missing_unit,missing,169391,"Cauliflower, green, cooked, with salt"
+ac4b7a265701,156,Dec25 Jan26,2026-01-24 00:00:00,2026-01-24,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+efa072ab2fd3,157,Dec25 Jan26,2026-01-24 10:15:00,2026-01-24,fasting,2 pretzels,pretzels,carb,2,,2.0,count,100.0,True,True,inferred_unit_count_missing_unit,matched,171370,"Babyfood, pretzels"
+efa072ab2fd3,157,Dec25 Jan26,2026-01-24 10:15:00,2026-01-24,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+efa072ab2fd3,157,Dec25 Jan26,2026-01-24 10:15:00,2026-01-24,fasting,1/2 green beans,green beans,veggies,1/2,,0.5,cup,120.0,False,True,inferred_unit_cup_missing_unit,matched,169965,"Beans, snap, green, microwaved"
+1207bbf6a5f5,159,Dec25 Jan26,2026-01-24 15:30:00,2026-01-24,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+1207bbf6a5f5,159,Dec25 Jan26,2026-01-24 15:30:00,2026-01-24,meal,1/2 green beans,green beans,veggies,1/2,,0.5,cup,120.0,False,True,inferred_unit_cup_missing_unit,matched,169965,"Beans, snap, green, microwaved"
+49c5c7ea140b,160,Dec25 Jan26,2026-01-24 19:00:00,2026-01-24,meal,1/2 garlic mushrooms,garlic mushrooms,veggies,1/2,,0.5,cup,120.0,False,True,inferred_unit_cup_missing_unit,missing,1999627,"Mushroom, oyster"
+9a40c2292026,161,Dec25 Jan26,2026-01-25 00:00:00,2026-01-25,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+3bbf3ceb6c9b,162,Dec25 Jan26,2026-01-25 00:00:00,2026-01-25,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+3bbf3ceb6c9b,162,Dec25 Jan26,2026-01-25 00:00:00,2026-01-25,meal,1.5 mixed greens,mixed greens,veggies,1.5,,1.5,cup,360.0,False,True,inferred_unit_cup_missing_unit,missing,2747653,"Beet greens, raw"
+160fdd4fba39,164,Dec25 Jan26,2026-01-25 10:30:00,2026-01-25,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+160fdd4fba39,164,Dec25 Jan26,2026-01-25 10:30:00,2026-01-25,fasting,1.5 mixed greens,mixed greens,veggies,1.5,,1.5,cup,360.0,False,True,inferred_unit_cup_missing_unit,missing,2747653,"Beet greens, raw"
+31209151a582,165,Dec25 Jan26,2026-01-26 00:00:00,2026-01-26,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+4442f88cbdca,166,Dec25 Jan26,2026-01-26 10:30:00,2026-01-26,meal,at hospital,at hospital,other,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+4442f88cbdca,166,Dec25 Jan26,2026-01-26 10:30:00,2026-01-26,meal,6 olives,olives,veggies,6,,6.0,count,30.0,False,True,inferred_unit_count_missing_unit,missing,172926,"Olive loaf, pork"
+b4795a4acb91,167,Dec25 Jan26,2026-01-26 13:30:00,2026-01-26,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+ab139bbbfbe6,169,Dec25 Jan26,2026-01-26 21:00:00,2026-01-26,meal,3 pecans,pecans,fat,3,,3.0,cup,720.0,False,True,inferred_unit_cup_missing_unit,missing,170182,"Nuts, pecans"
+ab139bbbfbe6,169,Dec25 Jan26,2026-01-26 21:00:00,2026-01-26,meal,3 olives,olives,veggies,3,,3.0,count,15.0,False,True,inferred_unit_count_missing_unit,missing,172926,"Olive loaf, pork"
+b9b4f04097f0,170,Dec25 Jan26,2026-01-27 00:00:00,2026-01-27,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+98bc6aacfb75,171,Dec25 Jan26,2026-01-27 10:00:00,2026-01-27,fasting,Intralipids,intralipids,other,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+98bc6aacfb75,171,Dec25 Jan26,2026-01-27 10:00:00,2026-01-27,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+018aee552e8c,173,Dec25 Jan26,2026-01-27 14:15:00,2026-01-27,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+61687e732376,175,Dec25 Jan26,2026-01-27 18:15:00,2026-01-27,meal,2 pieces of duck,duck,fat,2,pieces,2.0,count,100.0,True,False,missing_grams_per_count,missing,171823,"Sauce, duck, ready-to-serve"
+61687e732376,175,Dec25 Jan26,2026-01-27 18:15:00,2026-01-27,meal,blueberries/1/2 kiwi,blueberries/1/2 kiwi,other,,,,g,100.0,False,True,default_missing_qty_unit_100g,missing,2346411,"Composite: Blueberries, raw"
+61687e732376,175,Dec25 Jan26,2026-01-27 18:15:00,2026-01-27,meal,1/2 green beans,green beans,veggies,1/2,,0.5,cup,120.0,False,True,inferred_unit_cup_missing_unit,matched,169965,"Beans, snap, green, microwaved"
+a96ce92f259e,176,Dec25 Jan26,2026-01-28 00:00:00,2026-01-28,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+8b3a8001ca51,177,Dec25 Jan26,2026-01-28 10:30:00,2026-01-28,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+09c86b560178,179,Dec25 Jan26,2026-01-29 00:00:00,2026-01-29,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+98db54c837ce,180,Dec25 Jan26,2026-01-29 00:00:00,2026-01-29,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+6861decd2c75,182,Dec25 Jan26,2026-01-29 00:00:00,2026-01-29,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
+9dc95a53145b,184,Dec25 Jan26,2026-01-30 00:00:00,2026-01-30,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+62c5a564b9c5,185,Dec25 Jan26,2026-01-30 10:30:00,2026-01-30,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+d8402864e907,187,Dec25 Jan26,2026-01-30 16:00:00,2026-01-30,meal,1 egg,egg,protein,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
+a4a1b4b219ea,189,Dec25 Jan26,2026-01-31 00:00:00,2026-01-31,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+7b1bdc267115,190,Dec25 Jan26,2026-01-31 11:00:00,2026-01-31,fasting,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+ed8f72f2cdef,191,Dec25 Jan26,2026-01-31 13:30:00,2026-01-31,meal,2 eggs,eggs,protein,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+edef9dded5d3,193,Feb2026,2026-02-01 00:00:00,2026-02-01,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+98e43c4d2604,194,Feb2026,2026-02-01 10:30:00,2026-02-01,fasting,2 eggs,eggs,unspecified,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+2631b6d81ef4,196,Feb2026,2026-02-01 15:30:00,2026-02-01,meal,2 eggs,eggs,unspecified,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+b56193c807a4,197,Feb2026,2026-02-01 19:00:00,2026-02-01,meal,tofu,tofu,unspecified,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,matched,167722,Tofu yogurt
+b56193c807a4,197,Feb2026,2026-02-01 19:00:00,2026-02-01,meal,pork patty,pork patty,unspecified,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,172934,"Pork sausage, link/patty, unprepared"
+c645a242d53b,198,Feb2026,2026-02-02 00:00:00,2026-02-02,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+5db452e25f23,199,Feb2026,2026-02-02 10:30:00,2026-02-02,fasting,2 eggs,eggs,unspecified,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+ba259040c75b,201,Feb2026,2026-02-02 16:00:00,2026-02-02,meal,1 egg,egg,unspecified,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"
+156da7c717dd,202,Feb2026,2026-02-02 18:30:00,2026-02-02,meal,1/3 apple,apple,unspecified,1/3,,0.3333333333333333,cup,36.333333333333336,False,True,inferred_unit_cup_missing_unit,missing,175032,"Strudel, apple"
+7690be5c9764,203,Feb2026,2026-02-03 00:00:00,2026-02-03,fasting,fasting,,fasting,,,100.0,g,100.0,False,True,default_missing_qty_unit_100g,missing,,
+a8f4060779ab,204,Feb2026,2026-02-03 10:30:00,2026-02-03,fasting,2 eggs,eggs,unspecified,2,,2.0,count,100.0,False,True,inferred_unit_count_missing_unit,missing,172673,"Bread, egg"
+c6b048da3318,205,Feb2026,2026-02-03 16:00:00,2026-02-03,meal,1 egg,egg,unspecified,1,,1.0,count,50.0,False,True,inferred_unit_count_missing_unit,matched,747997,"Eggs, Grade A, Large, egg white"

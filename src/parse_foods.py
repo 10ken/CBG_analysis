@@ -121,6 +121,7 @@ def explode_food_items(clean_events: pd.DataFrame) -> pd.DataFrame:
         base = {
             "event_id": row["event_id"],
             "meal_id": row["meal_id"],
+            "sheet_source": row.get("sheet_source"),
             "event_type": row["event_type"],
             "meal_type": row.get("meal_type"),
             "datetime": row["datetime"],
